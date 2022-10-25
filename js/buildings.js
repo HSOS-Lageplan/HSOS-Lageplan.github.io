@@ -52,7 +52,7 @@ function createPopUp(name){
             
         break;
 
-        case mensa:
+        case Mensa:
             result = "<h1>Mensa</h1>" + 
                     "<img src=https://www.arcguide.de/wp-content/uploads/2/8/28704.jpg' width='300' height='200'>" +
                    
