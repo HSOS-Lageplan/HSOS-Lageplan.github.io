@@ -377,7 +377,7 @@ var AA = L.polygon([
     [52.2825122,8.0250012],
     [52.2829817,8.0251383],
     [52.2832125,8.0252056]
-]).addTo(map).bindPopup(createPopUp(AA));
+]).addTo(map).bindPopup(createPopUp(AA)).setStyle({fillOpacity: 0.7});
 
 var AB = L.polygon([[
     [52.2820659,8.0242357],
@@ -403,7 +403,7 @@ var AB = L.polygon([[
     [52.2821229,8.0248825],
     [52.2821482,8.0246599],
     [52.2823213,8.0247123]]
-]).addTo(map).bindPopup(createPopUp(AB));
+]).addTo(map).bindPopup(createPopUp(AB)).setStyle({fillOpacity: 0.7});
 
 var AC = L.polygon([
     [52.2827138,8.0236655],
@@ -417,7 +417,7 @@ var AC = L.polygon([
     [52.282636,8.0244001],
     [52.2826894,8.0238939],
     [52.2827138,8.0236655]
-]).addTo(map).bindPopup(createPopUp(AC));
+]).addTo(map).bindPopup(createPopUp(AC)).setStyle({fillOpacity: 0.7});
 
 var AD = L.polygon([
     [52.2839031,8.0243637],
@@ -437,7 +437,7 @@ var AD = L.polygon([
     [52.2830927,8.0241946],
     [52.2831409,8.0242045],
     [52.2839031,8.0243637]
-]).addTo(map).bindPopup(createPopUp(AD));
+]).addTo(map).bindPopup(createPopUp(AD)).setStyle({fillOpacity: 0.7});
 
 var AE = L.polygon([
     [52.2842588,8.0239116],
@@ -445,7 +445,7 @@ var AE = L.polygon([
     [52.2841373,8.024218],
     [52.2842313,8.0242391],
     [52.2842588,8.0239116]
-]).addTo(map).bindPopup(createPopUp(AE));
+]).addTo(map).bindPopup(createPopUp(AE)).setStyle({fillOpacity: 0.7});
 
 var AF = L.polygon([
     [52.282051,8.0239956],
@@ -457,7 +457,7 @@ var AF = L.polygon([
     [52.2822093,8.0236915],
     [52.2820898,8.0236568],
     [52.282051,8.0239956]
-]).addTo(map).bindPopup(createPopUp(AF));
+]).addTo(map).bindPopup(createPopUp(AF)).setStyle({fillOpacity: 0.7});
 
 var BA = L.polygon([
     [52.2868186,8.024096],
@@ -465,7 +465,7 @@ var BA = L.polygon([
     [52.2867518,8.0238838],
     [52.2867279,8.0240639],
     [52.2868186,8.024096]
-]).addTo(map).bindPopup(createPopUp(BA));
+]).addTo(map).bindPopup(createPopUp(BA)).setStyle({fillOpacity: 0.7});
 
 var BB = L.polygon([
     [52.286879,8.0236347],
@@ -473,7 +473,7 @@ var BB = L.polygon([
     [52.286764,8.0237872],
     [52.2868533,8.0238203],
     [52.286879,8.0236347]
-]).addTo(map).bindPopup(createPopUp(BB));
+]).addTo(map).bindPopup(createPopUp(BB)).setStyle({fillOpacity: 0.7});
 
 var BC = L.polygon([
     [52.2869699,8.0241626],
@@ -481,7 +481,7 @@ var BC = L.polygon([
     [52.286897,8.0239397],
     [52.2868704,8.0241243],
     [52.2869699,8.0241626]
-]).addTo(map).bindPopup(createPopUp(BC));
+]).addTo(map).bindPopup(createPopUp(BC)).setStyle({fillOpacity: 0.7});
 
 var BIB = L.polygon([
     [[52.2863133,8.0220861],
@@ -501,7 +501,7 @@ var BIB = L.polygon([
       [52.2860777,8.022378],
       [52.2861667,8.0224024
     ]]
-]).addTo(map).bindPopup(createPopUp(BIB));
+]).addTo(map).bindPopup(createPopUp(BIB)).setStyle({fillOpacity: 0.7});
 
 var Mensa = L.polygon([
     [52.2847041,8.0218987],
@@ -510,7 +510,7 @@ var Mensa = L.polygon([
     [52.2843395,8.0229377],
     [52.2845889,8.023007],
     [52.2847041,8.0218987]
-]).addTo(map).bindPopup(createPopUp(Mensa));
+]).addTo(map).bindPopup(createPopUp(Mensa)).setStyle({fillOpacity: 0.7});
 
 var MA = L.polygon([
     [52.28699,8.01860],
@@ -523,7 +523,7 @@ var MA = L.polygon([
     [52.28690,8.01794],
     [52.28687,8.01829],
     [52.28702,8.01834],
-]).addTo(map).bindPopup(createPopUp(MA));
+]).addTo(map).bindPopup(createPopUp(MA)).setStyle({fillOpacity: 0.7});
 
 var SB = L.polygon([
     [52.2839968,8.0203125],
@@ -547,7 +547,7 @@ var SB = L.polygon([
     [52.2838914,8.0202478],
     [52.2838881,8.0202884],
     [52.2839968,8.0203125],
-]).addTo(map).bindPopup(createPopUp(SB));
+]).addTo(map).bindPopup(createPopUp(SB)).setStyle({fillOpacity: 0.7});
 
 var SC = L.polygon([
     [52.2843225,8.0199778],
@@ -558,7 +558,7 @@ var SC = L.polygon([
     [52.2841846,8.0201494],
     [52.2843055,8.020177],
     [52.2843225,8.0199778],
-]).addTo(map).bindPopup(createPopUp(SC));
+]).addTo(map).bindPopup(createPopUp(SC)).setStyle({fillOpacity: 0.7});
 
 var SD = L.polygon([
     [52.2841769,8.0212605],
@@ -568,7 +568,7 @@ var SD = L.polygon([
     [52.2840362,8.0212308],
     [52.2840744,8.0212389],
     [52.2841769,8.0212605],
-]).addTo(map).bindPopup(createPopUp(SD));
+]).addTo(map).bindPopup(createPopUp(SD)).setStyle({fillOpacity: 0.7});
 
 var SE = L.polygon([
     [52.2834572,8.0209071],
@@ -580,7 +580,7 @@ var SE = L.polygon([
     [52.2838101,8.0210698],
     [52.2838168,8.021001],
     [52.2834572,8.0209071],
-]).addTo(map).bindPopup(createPopUp(SE));
+]).addTo(map).bindPopup(createPopUp(SE)).setStyle({fillOpacity: 0.7});
 
 var SF = L.polygon([
     [52.2832804,8.0205648],
@@ -588,7 +588,7 @@ var SF = L.polygon([
     [52.2831637,8.020978],
     [52.2832441,8.0209961],
     [52.2832804,8.0205648],
-]).addTo(map).bindPopup(createPopUp(SF));
+]).addTo(map).bindPopup(createPopUp(SF)).setStyle({fillOpacity: 0.7});
 
 var SG = L.polygon([
     [52.2833081,8.0203253],
@@ -596,7 +596,7 @@ var SG = L.polygon([
     [52.2832136,8.020406],
     [52.2832975,8.020429],
     [52.2833081,8.0203253],
-]).addTo(map).bindPopup(createPopUp(SG));
+]).addTo(map).bindPopup(createPopUp(SG)).setStyle({fillOpacity: 0.7});
 
 var SH = L.polygon([
     [52.284678,8.020563],
@@ -614,7 +614,7 @@ var SH = L.polygon([
     [52.2846984,8.0210248],
     [52.2846402,8.0210117],
     [52.284678,8.020563],
-]).addTo(map).bindPopup(createPopUp(SH));
+]).addTo(map).bindPopup(createPopUp(SH)).setStyle({fillOpacity: 0.7});
 
 var SJ = L.polygon([
     [52.2847334,8.0208615],
@@ -622,7 +622,7 @@ var SJ = L.polygon([
     [52.2848259,8.0207393],
     [52.2847481,8.020718],
     [52.2847334,8.0208615],
-]).addTo(map).bindPopup(createPopUp(SJ));
+]).addTo(map).bindPopup(createPopUp(SJ)).setStyle({fillOpacity: 0.7});
 
 var SI = L.polygon([
     [52.2838809,8.0229338],
@@ -647,7 +647,7 @@ var SI = L.polygon([
     [52.2838956,8.0227883],
     [52.2838883,8.0228611],
     [52.2838809,8.0229338]
-]).addTo(map).bindPopup(createPopUp(SI));
+]).addTo(map).bindPopup(createPopUp(SI)).setStyle({fillOpacity: 0.7});
 
 var SK = L.polygon([
     [52.2845643,8.020086],
@@ -659,7 +659,7 @@ var SK = L.polygon([
     [52.2847199,8.0200998],
     [52.2847171,8.0201273],
     [52.2845643,8.020086],
-]).addTo(map).bindPopup(createPopUp(SK));
+]).addTo(map).bindPopup(createPopUp(SK)).setStyle({fillOpacity: 0.7});
 
 var SL = L.polygon([
     [
@@ -680,7 +680,7 @@ var SL = L.polygon([
       [52.2850013,8.0219743],
       [52.285057,8.0219899],
     ]
-  ]).addTo(map).bindPopup(createPopUp(SL));
+  ]).addTo(map).bindPopup(createPopUp(SL)).setStyle({fillOpacity: 0.7});
 
 var SN = L.polygon([
     [52.2859302,8.0213747],
@@ -690,7 +690,7 @@ var SN = L.polygon([
     [52.2853035,8.0216534],
     [52.2858948,8.0217886],
     [52.2859302,8.0213747],
-]).addTo(map).bindPopup(createPopUp(SN));
+]).addTo(map).bindPopup(createPopUp(SN)).setStyle({fillOpacity: 0.7});
 
 var SO = L.polygon([
     [52.2867901,8.021531],
@@ -698,7 +698,7 @@ var SO = L.polygon([
     [52.2866455,8.0206922],
     [52.2865665,8.0214628],
     [52.2867901,8.021531]
-]).addTo(map).bindPopup(createPopUp(SO));
+]).addTo(map).bindPopup(createPopUp(SO)).setStyle({fillOpacity: 0.7});
 
 var SP = L.polygon([
     [52.286748,8.0219065],
@@ -707,7 +707,7 @@ var SP = L.polygon([
     [52.2865553,8.021557],
     [52.2865209,8.0218478],
     [52.286748,8.0219065]
-]).addTo(map).bindPopup(createPopUp(SP));
+]).addTo(map).bindPopup(createPopUp(SP)).setStyle({fillOpacity: 0.7});
 
 var SQ = L.polygon([
     [52.286349,8.0217939],
@@ -716,7 +716,7 @@ var SQ = L.polygon([
     [52.2860892,8.0213275],
     [52.28605,8.0217105],
     [52.286349,8.0217939]
-]).addTo(map).bindPopup(createPopUp(SQ));
+]).addTo(map).bindPopup(createPopUp(SQ)).setStyle({fillOpacity: 0.7});
 
 var SR = L.polygon([
     [52.2854033,8.0209491],
@@ -725,7 +725,7 @@ var SR = L.polygon([
     [52.2854617,8.020333],
     [52.2854353,8.0206118],
     [52.2854033,8.0209491]
-]).addTo(map).bindPopup(createPopUp(SR));
+]).addTo(map).bindPopup(createPopUp(SR)).setStyle({fillOpacity: 0.7});
 
 
 var currentZoom = 17;
