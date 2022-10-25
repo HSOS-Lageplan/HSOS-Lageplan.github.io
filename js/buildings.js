@@ -9,44 +9,147 @@ function createPopUp(name){
     switch (name) {
         case AA:
 
+            result = "<h1>Gebäude-AA</h1>" + 
+            "<img src=https://www.arcguide.de/wp-content/uploads/2/8/28704.jpg' width='300' height='200'>" +
+                    
+                     "<h3> Fakultät IuI </h3>" +
+                    
+                    "<ul>" +
+                    "<li>Berichtswesen</li>"+
+                    "<li>Dekanat</li>"+
+                    "<li>Finanzen</li>"+
+                    "<li>Gebäude und Technik</li>"+
+                    "<li>International Faculty Office</li>"+
+                    "<li>IT Service Center</li>"+
+                    "<li>Personal</li>"+
+                    "</ul>" 
+            ;
             
             break;
 
         case AB:
+
+            result = "<h1>Gebäude-AB</h1>" + 
+            "<img src=https://www.arcguide.de/wp-content/uploads/2/8/28704.jpg' width='300' height='200'>" +
+                    
+            "<h3> Fakultät IuI </h3>" +
+                    
+            "<ul>" +
+            "<li>Aula</li>"+
+            "<li>Wilhelm-Müller-Hörsaal</li>"+
+            "</ul>" 
+            ;
             
         break;
 
         case AC:
+
+            result = "<h1>Gebäude-AC</h1>" + 
+            "<img src=https://www.arcguide.de/wp-content/uploads/2/8/28704.jpg' width='300' height='200'>" +
+                    
+            "<h3> Fakultät IuI </h3>" +
+                    
+            "<ul>" +
+            "<li>Labore und Hörsäle</li>"+
+            "</ul>" 
+            ;
             
             break;
 
         case AD:
+
+            result = "<h1>Gebäude-AD</h1>" + 
+            "<img src=https://www.arcguide.de/wp-content/uploads/2/8/28704.jpg' width='300' height='200'>" +
+           
+            "<h3> Fakultät IuI </h3>" +
+                    
+            "<ul>" +
+            "<li>Labore und Hörsäle</li>"+
+            "<li> Betriebswerkstatt</li>"+
+            "</ul>"
+            ;
             
         break;
 
         case AE:
             
+            result = "<h1>Gebäude-AE</h1>" + 
+            "<img src=https://www.arcguide.de/wp-content/uploads/2/8/28704.jpg' width='300' height='200'>" +
+           
+
+            "<h3> Fakultät IuI </h3>" +
+                    
+            "<ul>" +
+            "<li>AStA</li>"+
+            "<li>Fachschaft IuI</li>"+
+            "</ul>" 
+            ;
+
             break;
 
         case AF:
             
+            result = "<h1>Gebäude-AF</h1>" + 
+            "<img src=https://www.arcguide.de/wp-content/uploads/2/8/28704.jpg' width='300' height='200'>" +
+           
+
+            "<h3> Fakultät IuI </h3>" +
+                    
+            "<ul>" +
+            "<li>Beschaffung</li>"+
+            "<li>Gleichstellungsbüro</li>"+
+            "<li>Hochschulförderung</li>"+
+            "<li>Kommunikation</li>"+
+            "<li>LearningCenter</li>"+
+            "<li>Präsidium</li>"+
+            "<li>Prozessmanagement</li>"+
+            "<li>Recht</li>"+
+            "<li>Studium und Lehre</li>"+
+            "<li>Studierendensekretariat</li>" +
+            "</ul>" 
+            ;
+
         break;
 
         case BA:
             
+            result = "<h1>Gebäude-BA</h1>" + 
+            "<img src=https://www.arcguide.de/wp-content/uploads/2/8/28704.jpg' width='300' height='200'>" +
+           
+            "<h3>Fakultät WiSo</h3>" 
+            ;
+
             break;
 
         case BB:
             
+            result = "<h1>Gebäude-BB</h1>" + 
+            "<img src=https://www.arcguide.de/wp-content/uploads/2/8/28704.jpg' width='300' height='200'>" +
+           
+
+            "<h3>Fakultät IuI</h3>" +
+            "<h3>Science to Business GmbH</h3>"
+            ;
+
         break;
 
         case BC:
             
+            result = "<h1>Gebäude-BC</h1>" + 
+            "<img src=https://www.arcguide.de/wp-content/uploads/2/8/28704.jpg' width='300' height='200'>" +
+           
+
+            "<h3>Fakultät IuI</h3>" +
+            "<h3>Science to Business GmbH</h3>"
+            ;
+
             break;
 
         case BIB:
 
-           
+           result = "<h1>Bibliothek</h1>" + 
+            "<img src=https://www.arcguide.de/wp-content/uploads/2/8/28704.jpg' width='300' height='200'>"
+            ;
             
         break;
 
@@ -77,14 +180,28 @@ function createPopUp(name){
 
         case MA:
             
+            result = "<h1>Gebäude-MA</h1>" + 
+            "<img src=https://www.arcguide.de/wp-content/uploads/2/8/28704.jpg' width='300' height='200'>" +
+           
+
+            "<h3> Fakultät IuI </h3>" +
+                    
+            "<ul>" +
+            "<li>Seminarräume und Labore</li>"+
+            "</ul>" 
+            ;
+
         break;
 
         case SB:
             
+    
+
             break;
 
         case SC:
-            
+       
+
         break;
 
         case SD:
