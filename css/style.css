@@ -69,3 +69,7 @@ html, body {
 .textNebenIconPlatzierung{
     display: inline-block;
 }
+
+.leaflet-pane.leaflet-marker-pane img {
+    pointer-events: none;
+}
