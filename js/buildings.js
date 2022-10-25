@@ -74,7 +74,7 @@ function createPopUp(name){
 
         case Mensa:
             result = "<h1>Mensa</h1>" + 
-                    "<img src='res/images/Mensa.jpg' width='300' height='300'>"; +
+                    "<img src='res/images/Mensa.jpg' width='300' height='300'>" +
                    
                     "<table>" +
 
