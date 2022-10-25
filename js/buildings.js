@@ -194,97 +194,154 @@ function createPopUp(name){
 
         case SB:
             result = "<h1>Gebäude-SB</h1>" + 
-                    "<img src='res/images/SB.jpg' width='300' height='300'>";    
-
+                    "<img src='res/images/SB.jpg' width='300' height='300'>"+
+                    "<table>" +
+                    "<tr>" +
+                    "<th> <i class='fa fa-book'></i> </th>" +
+                    "<th> <div class='textNebenIconPlatzierung'>Selbstlernzone</div> </th>" +
+                    "</tr>" +
+                    "</table>" +
+                    "<hr>" +
+                    "<h4>Fakultät IuI</h4>"+
+                    "<ul> <li>Hörsäle und Seminarräume</li> </ul>";
             break;
 
         case SC:
             result = "<h1>Gebäude-SC</h1>" + 
-                    "<img src='res/images/SC.jpg' width='300' height='300'>";
+                    "<img src='res/images/SC.jpg' width='300' height='300'>"+
+                    "<h4>Allgemein</h4>"+
+                    "<ul> <li>Kindertagesstätte „Fingerhut“</li> </ul>";
             
         break;
 
         case SD:
             result = "<h1>Gebäude-SD</h1>" + 
-                    "<img src='res/images/SD.jpg' width='300' height='300'>";
+                    "<img src='res/images/SD.jpg' width='300' height='300'>"+
+                    "<table>" +
+                    "<tr>" +
+                    "<th> <i class='fa fa-book'></i> </th>" +
+                    "<th> <div class='textNebenIconPlatzierung'>Selbstlernzone</div> </th>" +
+                    "</tr>" +
+                    "</table>" +
+                    "<hr>" +
+                    "<h4>Fakultät IuI</h4>"+
+                    "<ul> <li>Hörsäle und Seminarräume</li> </ul>";
             
             break;
 
         case SE:
             result = "<h1>Gebäude-SE</h1>" + 
-                    "<img src='res/images/SE.jpg' width='300' height='300'>";
+                    "<img src='res/images/SE.jpg' width='300' height='300'>"+
+                    "<h4>Fakultät IuI</h4>"+
+                    "<ul> <li>Hörsäle und Seminarräume</li> </ul>";
             
         break;
 
         case SF:
             result = "<h1>Gebäude-SF</h1>" + 
-                    "<img src='res/images/SF.jpg' width='300' height='300'>";
+                    "<img src='res/images/SF.jpg' width='300' height='300'>"+
+                    "<h4>Fakultät IuI</h4>"+
+                    "<ul> <li>Hörsäle und Seminarräume</li> </ul>";
 
             break;
 
         case SG:
             result = "<h1>Gebäude-SG</h1>" + 
-                    "<img src='res/images/SG.jpg' width='300' height='300'>";
+                    "<img src='res/images/SG.jpg' width='300' height='300'>"+
+                    "<h4>Fakultät IuI</h4>"+
+                    "<ul> <li>Hörsäle und Seminarräume</li> </ul>";
             
         break;
 
         case SH:
             result = "<h1>Gebäude-SH</h1>" + 
-                    "<img src='res/images/SH.jpg' width='300' height='300'>";
+                    "<img src='res/images/SH.jpg' width='300' height='300'>"+
+                    "<h4>Fakultät IuI</h4>"+
+                    "<ul> <li>Hörsäle und Seminarräume</li> </ul>";
             
             break;
 
         case SJ:
             result = "<h1>Gebäude-SJ</h1>" + 
-                    "<img src='res/images/SJ.jpg' width='300' height='300'>";
+                    "<img src='res/images/SJ.jpg' width='300' height='300'>"+
+                    "<h4>Fakultät IuI</h4>"+
+                    "<ul> <li>Hörsäle und Seminarräume</li> </ul>";
             
         break;
 
         case SI:
             result = "<h1>Gebäude-SI</h1>" + 
-                    "<img src='res/images/SI.jpg' width='300' height='300'>";
+                    "<img src='res/images/SI.jpg' width='300' height='300'>"+           
+                    "<h4>Allgemein</h4>"+
+                    "<ul> <li>EVD-Schulungszentrum</li> </ul>"+
+                    "<h4>Fakultät IuI</h4>"+
+                    "<ul> <li>Hörsäle und Seminarräume</li>"+
+                    "<li>Medienlabor</li> </ul>";
             
             break;
 
         case SK:
             result = "<h1>Gebäude-SK</h1>" + 
-                    "<img src='res/images/SK.jpg' width='300' height='300'>";
+                    "<img src='res/images/SK.jpg' width='300' height='300'>"+        
+                    "<h4>Allgemein</h4>"+
+                    "<ul> <li>Science To Business GmbH</li> </ul>"+
+                    "<h4>Fakultät IuI</h4>"+
+                    "<ul> <li>Kompetenzzentrum für Leichtbau, Antriebstechnik und Betriebsfestigkeit (LAB)</li> </ul>";
             
         break;
 
         case SL:
             result = "<h1>Gebäude-SL</h1>" + 
-                    "<img src='res/images/SL.jpg' width='300' height='300'>";
+                    "<img src='res/images/SL.jpg' width='300' height='300'>"+
+                    "<table>" +
+                    "<tr>" +
+                    "<th> <i class='fa fa-book'></i> </th>" +
+                    "<th> <div class='textNebenIconPlatzierung'>Selbstlernzone</div> </th>" +
+                    "</tr>" +
+                    "</table>" +
+                    "<hr>" +
+                    "<h4>Allgemein</h4>"+
+                    "<ul> <li>Hörsäle und Seminarräume</li> </ul>";
             
             break;
 
         case SN:
             result = "<h1>Gebäude-SN</h1>" + 
-                    "<img src='res/images/SN.jpg' width='300' height='300'>";
+                    "<img src='res/images/SN.jpg' width='300' height='300'>"+      
+                    "<h4>Fakultät IuI</h4>"+
+                    "<ul> <li>Verschiedene Projekte</li> </ul>";
             
         break;
 
         case SO:
             result = "<h1>Gebäude-SO</h1>" + 
-                    "<img src='res/images/SO.jpg' width='300' height='300'>";
+                    "<img src='res/images/SO.jpg' width='300' height='300'>"+        
+                    "<h4>Fakultät IuI</h4>"+
+                    "<ul> <li>Agrotechnikum</li> </ul>";
             
             break;
 
         case SP:
             result = "<h1>Gebäude-SP</h1>" + 
-                    "<img src='res/images/SP.jpg' width='300' height='300'>";
+                    "<img src='res/images/SP.jpg' width='300' height='300'>"+       
+                    "<h4>Fakultät IuI</h4>"+
+                    "<ul> <li>Laborräume</li> </ul>";
             
         break;
 
         case SQ:
             result = "<h1>Gebäude-SQ</h1>" + 
-                    "<img src='res/images/SQ.jpg' width='300' height='300'>";
+                    "<img src='res/images/SQ.jpg' width='300' height='300'>"+
+                    "<h4>Fakultät IuI</h4>"+
+                    "<ul> <li>Mehrzweckhalle</li> </ul>";
             
             break;
 
         case SR:
             result = "<h1>Gebäude-SR</h1>" + 
-                    "<img src='res/images/SR.jpg' width='300' height='300'>";
+                    "<img src='res/images/SR.jpg' width='300' height='300'>"+
+                    "<h4>Fakultät IuI</h4>"+
+                    "<ul> <li>Verschiedene Projekte</li> </ul>";
             
         break;
     
