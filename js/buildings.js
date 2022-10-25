@@ -296,99 +296,163 @@ function createPopUp(name){
 
 var AA = L.polygon([
     [52.2832125,8.0252056],
-    [52.28233,8.02494],
-    [52.28235,8.02472],
-    [52.28266,8.02480],
-    [52.28269,8.02458],
-    [52.28277,8.02460],
-    [52.28279,8.02441],
-    [52.28298,8.02446],
-    [52.28297,8.02460],
-    [52.28281,8.02456],
-    [52.28281,8.02461],
-    [52.28304,8.02468],
-    [52.28305,8.02459],
-    [52.28314,8.02461],
-    [52.28313,8.02476],
-    [52.28308,8.02475],
-    [52.28307,8.02494],
-    [52.28324,8.02498]
+    [52.2832353,8.0249848],
+    [52.2830645,8.0249377],
+    [52.2830843,8.024746],
+    [52.2831298,8.0247586],
+    [52.2831447,8.0246148],
+    [52.2830563,8.0245904],
+    [52.2830478,8.0246731],
+    [52.2830242,8.0246666],
+    [52.282998,8.0246594],
+    [52.2828076,8.0246069],
+    [52.2828133,8.0245515],
+    [52.2829713,8.0245951],
+    [52.2829855,8.0244579],
+    [52.2827969,8.0244059],
+    [52.2827769,8.0245999],
+    [52.2826917,8.0245764],
+    [52.2826657,8.024805],
+    [52.2825276,8.0247678],
+    [52.2823563,8.0247214],
+    [52.2823453,8.0248201],
+    [52.2823312,8.0249463],
+    [52.2825122,8.0250012],
+    [52.2829817,8.0251383],
+    [52.2832125,8.0252056]
 ]).addTo(map).bindPopup(createPopUp(AA));
 
-var AB = L.polygon([
-    [52.28249,8.02515],
-    [52.28198,8.02501],
-    [52.28206,8.02424],
-    [52.28257,8.02438]
+var AB = L.polygon([[
+    [52.2820659,8.0242357],
+    [52.2819828,8.0250052],
+    [52.2824029,8.0251264],
+    [52.2824337,8.0251354],
+    [52.2824637,8.0251437],
+    [52.282497,8.0251532],
+    [52.2825122,8.0250012],
+    [52.2823312,8.0249463],
+    [52.2823453,8.0248201],
+    [52.2823563,8.0247214],
+    [52.2825276,8.0247678],
+    [52.282542,8.0246424],
+    [52.2825444,8.0246206],
+    [52.2825702,8.0243812],
+    [52.2824622,8.02435],
+    [52.2822104,8.0242773],
+    [52.2821897,8.0242714],
+    [52.2820659,8.0242357]],[
+    [52.2823213,8.0247123],
+    [52.282296,8.024935],
+    [52.2821229,8.0248825],
+    [52.2821482,8.0246599],
+    [52.2823213,8.0247123]]
 ]).addTo(map).bindPopup(createPopUp(AB));
 
 var AC = L.polygon([
-    [52.28263,8.02440],
-    [52.28246,8.02435],
-    [52.28255,8.02355],
-    [52.28272,8.02359]
+    [52.2827138,8.0236655],
+    [52.2827213,8.0235939],
+    [52.2826526,8.0235745],
+    [52.2826167,8.0235644],
+    [52.2825492,8.0235454],
+    [52.2824867,8.0241238],
+    [52.2824622,8.02435],
+    [52.2825702,8.0243812],
+    [52.282636,8.0244001],
+    [52.2826894,8.0238939],
+    [52.2827138,8.0236655]
 ]).addTo(map).bindPopup(createPopUp(AC));
 
 var AD = L.polygon([
-    [52.28277,8.02392],
-    [52.28279,8.02368],
-    [52.28299,8.02372],
-    [52.28300,8.02356],
-    [52.28378,8.02373],
-    [52.28375,8.02414],
-    [52.28392,8.02418],
-    [52.28390,8.02436],
-    [52.28295,8.02417],
-    [52.28297,8.02396]
+    [52.2839031,8.0243637],
+    [52.2839186,8.0241785],
+    [52.2837492,8.0241429],
+    [52.2837638,8.0239567],
+    [52.2837827,8.0237251],
+    [52.2830007,8.0235617],
+    [52.2829887,8.0237148],
+    [52.2827911,8.0236735],
+    [52.2827717,8.0239216],
+    [52.2829677,8.0239625],
+    [52.2829627,8.0240269],
+    [52.2829523,8.0241676],
+    [52.2829618,8.0241695],
+    [52.283056,8.0241874],
+    [52.2830927,8.0241946],
+    [52.2831409,8.0242045],
+    [52.2839031,8.0243637]
 ]).addTo(map).bindPopup(createPopUp(AD));
 
 var AE = L.polygon([
-    [52.28414,8.02422],
-    [52.28416,8.02389],
-    [52.28426,8.02391],
-    [52.28423,8.02424]
+    [52.2842588,8.0239116],
+    [52.2841648,8.0238905],
+    [52.2841373,8.024218],
+    [52.2842313,8.0242391],
+    [52.2842588,8.0239116]
 ]).addTo(map).bindPopup(createPopUp(AE));
 
 var AF = L.polygon([
-    [52.28230,8.02372],
-    [52.28226,8.02406],
-    [52.28205,8.02400],
-    [52.28209,8.02366]
+    [52.282051,8.0239956],
+    [52.2822163,8.0240459],
+    [52.2822369,8.0240519],
+    [52.2822593,8.0240584],
+    [52.2822901,8.0237755],
+    [52.2822966,8.0237177],
+    [52.2822093,8.0236915],
+    [52.2820898,8.0236568],
+    [52.282051,8.0239956]
 ]).addTo(map).bindPopup(createPopUp(AF));
 
 var BA = L.polygon([
-    [52.28673,8.02406],
-    [52.28675,8.02388],
-    [52.28684,8.02392],
-    [52.28682,8.02409]
+    [52.2868186,8.024096],
+    [52.2868425,8.0239159],
+    [52.2867518,8.0238838],
+    [52.2867279,8.0240639],
+    [52.2868186,8.024096]
 ]).addTo(map).bindPopup(createPopUp(BA));
 
 var BB = L.polygon([
-    [52.28676,8.02379],
-    [52.28679,8.02360],
-    [52.28688,8.02364],
-    [52.28685,8.02382]
+    [52.286879,8.0236347],
+    [52.2867897,8.0236016],
+    [52.286764,8.0237872],
+    [52.2868533,8.0238203],
+    [52.286879,8.0236347]
 ]).addTo(map).bindPopup(createPopUp(BB));
 
 var BC = L.polygon([
-    [52.28687,8.02413],
-    [52.28689,8.02394],
-    [52.28699,8.02398],
-    [52.28697,8.02416]
+    [52.2869699,8.0241626],
+    [52.2869965,8.023978],
+    [52.286897,8.0239397],
+    [52.2868704,8.0241243],
+    [52.2869699,8.0241626]
 ]).addTo(map).bindPopup(createPopUp(BC));
 
 var BIB = L.polygon([
-    [52.28581,8.02389],
-    [52.28601,8.02200],
-    [52.28631,8.02209],
-    [52.28611,8.02398],
+    [[52.2863133,8.0220861],
+      [52.2860126,8.0220014],
+      [52.2858133,8.0238932],
+      [52.286114,8.0239779],
+      [52.2863133,8.0220861]],
+    [[52.2860842,8.023138],
+      [52.2860359,8.0236087],
+      [52.2859478,8.0235846],
+      [52.2859961,8.0231139],
+      [52.2860842,8.023138]],
+    [
+      [52.2861667,8.0224024],
+      [52.2861183,8.0228747],
+      [52.2860293,8.0228503],
+      [52.2860777,8.022378],
+      [52.2861667,8.0224024
+    ]]
 ]).addTo(map).bindPopup(createPopUp(BIB));
 
 var Mensa = L.polygon([
-    [52.28470,8.02190],
-    [52.28458,8.02300],
-    [52.28413,8.02288],
-    [52.28425,8.02178]
+    [52.2847041,8.0218987],
+    [52.2842511,8.0217729],
+    [52.2841359,8.0228812],
+    [52.2843395,8.0229377],
+    [52.2845889,8.023007],
+    [52.2847041,8.0218987]
 ]).addTo(map).bindPopup(createPopUp(Mensa));
 
 var MA = L.polygon([
@@ -405,164 +469,205 @@ var MA = L.polygon([
 ]).addTo(map).bindPopup(createPopUp(MA));
 
 var SB = L.polygon([
-    [52.28324,8.01976],
-    [52.28334,8.01978],
-    [52.28333,8.01992],
-    [52.28347,8.01995],
-    [52.28348,8.01987],
-    [52.28373,8.01992],
-    [52.28372,8.02003],
-    [52.28391,8.02007],
-    [52.28392,8.01988],
-    [52.28402,8.01990],
-    [52.28399,8.02019],
-    [52.28401,8.02019],
-    [52.28400,8.02031],
-    [52.28389,8.02029],
-    [52.28389,8.02025],
-    [52.28331,8.02012],
-    [52.28331,8.02015],
-    [52.28320,8.02013],
+    [52.2839968,8.0203125],
+    [52.2840071,8.0201876],
+    [52.2839966,8.0201853],
+    [52.2840203,8.0198998],
+    [52.2839219,8.0198779],
+    [52.2839055,8.0200771],
+    [52.2837175,8.0200354],
+    [52.2837272,8.0199184],
+    [52.2834796,8.0198635],
+    [52.2834721,8.0199543],
+    [52.2833318,8.0199232],
+    [52.2833453,8.0197747],
+    [52.2832401,8.0197514],
+    [52.2832234,8.0199524],
+    [52.2832163,8.0199508],
+    [52.2832016,8.0201278],
+    [52.2833109,8.020152],
+    [52.2833138,8.0201196],
+    [52.2838914,8.0202478],
+    [52.2838881,8.0202884],
+    [52.2839968,8.0203125],
 ]).addTo(map).bindPopup(createPopUp(SB));
 
 var SC = L.polygon([
-    [52.28414,8.01993],
-    [52.28432,8.01998],
-    [52.28430,8.02018],
-    [52.28418,8.02014],
-    [52.28417,8.02026],
-    [52.28412,8.02024]
+    [52.2843225,8.0199778],
+    [52.2841415,8.0199364],
+    [52.2841283,8.0200904],
+    [52.2841149,8.0202471],
+    [52.284175,8.0202608],
+    [52.2841846,8.0201494],
+    [52.2843055,8.020177],
+    [52.2843225,8.0199778],
 ]).addTo(map).bindPopup(createPopUp(SC));
 
 var SD = L.polygon([
-    [52.28424,8.02045],
-    [52.28418,8.02126],
-    [52.28403,8.02123],
-    [52.28410,8.02042]
+    [52.2841769,8.0212605],
+    [52.284241,8.0204504],
+    [52.2841004,8.0204207],
+    [52.2840649,8.0208693],
+    [52.2840362,8.0212308],
+    [52.2840744,8.0212389],
+    [52.2841769,8.0212605],
 ]).addTo(map).bindPopup(createPopUp(SD));
 
-
-
-
 var SE = L.polygon([
-    [52.28389,8.02109],
-    [52.28387,8.02125],
-    [52.28380,8.02123],
-    [52.28379,8.02131],
-
-    [52.28343,8.02121],
-    [52.28346,8.02091],
-    [52.28382,8.02100],
-    [52.28381,8.02107],
-
+    [52.2834572,8.0209071],
+    [52.2834274,8.0212122],
+    [52.2837872,8.0213062],
+    [52.2837948,8.0212283],
+    [52.2838756,8.0212494],
+    [52.2838911,8.021091],
+    [52.2838101,8.0210698],
+    [52.2838168,8.021001],
+    [52.2834572,8.0209071],
 ]).addTo(map).bindPopup(createPopUp(SE));
 
 var SF = L.polygon([
-    [52.28324,8.02100],
-    [52.28316,8.02098],
-    [52.28320,8.02055],
-    [52.28328,8.02057]
+    [52.2832804,8.0205648],
+    [52.2831999,8.0205467],
+    [52.2831637,8.020978],
+    [52.2832441,8.0209961],
+    [52.2832804,8.0205648],
 ]).addTo(map).bindPopup(createPopUp(SF));
 
 var SG = L.polygon([
-    [52.28321,8.02041],
-    [52.28322,8.02030],
-    [52.28331,8.02033],
-    [52.28330,8.02043]
+    [52.2833081,8.0203253],
+    [52.2832242,8.0203023],
+    [52.2832136,8.020406],
+    [52.2832975,8.020429],
+    [52.2833081,8.0203253],
 ]).addTo(map).bindPopup(createPopUp(SG));
 
 var SH = L.polygon([
-    [52.28437,8.02049],
-    [52.28468,8.02056],
-    [52.28464,8.02101],
-    [52.28470,8.02102],
-    [52.28468,8.02117],
-    [52.28463,8.02116],
-    [52.28462,8.02125],
-    [52.28433,8.02118],
-    [52.28435,8.02091],
-    [52.28441,8.02092],
-    [52.28443,8.02067],
-    [52.28436,8.02066],
+    [52.284678,8.020563],
+    [52.2844474,8.0205112],
+    [52.2843709,8.020494],
+    [52.2843575,8.0206536],
+    [52.284434,8.0206708],
+    [52.2844124,8.0209274],
+    [52.2843477,8.0209129],
+    [52.2843249,8.021184],
+    [52.2843896,8.0211986],
+    [52.2846201,8.0212504],
+    [52.2846275,8.0211624],
+    [52.2846857,8.0211754],
+    [52.2846984,8.0210248],
+    [52.2846402,8.0210117],
+    [52.284678,8.020563],
 ]).addTo(map).bindPopup(createPopUp(SH));
 
 var SJ = L.polygon([
-    [52.28483,8.02074],
-    [52.28481,8.02088],
-    [52.28474,8.02086],
-    [52.28475,8.02072]
+    [52.2847334,8.0208615],
+    [52.2848112,8.0208827],
+    [52.2848259,8.0207393],
+    [52.2847481,8.020718],
+    [52.2847334,8.0208615],
 ]).addTo(map).bindPopup(createPopUp(SJ));
 
 var SI = L.polygon([
-    [52.28396,8.02356],
-    [52.28375,8.02350],
-    [52.28381,8.02291],
-    [52.28388,8.02293],
-    [52.28389,8.02279],
-    [52.28387,8.02278],
-    [52.28401,8.02145],
-    [52.28404,8.02146],
-    [52.28404,8.02140],
-    [52.28409,8.02141],
-    [52.28408,8.02148],
-    [52.28412,8.02148],
-    [52.28398,8.02281],
-    [52.28396,8.02281],
-    [52.28395,8.02294],
-    [52.28402,8.02296],
+    [52.2838809,8.0229338],
+    [52.2838104,8.0229148],
+    [52.2837514,8.0234999],
+    [52.283855,8.0235278],
+    [52.2839585,8.0235557],
+    [52.2840187,8.0229584],
+    [52.2839491,8.0229396],
+    [52.2839551,8.0228756],
+    [52.2839621,8.0228105],
+    [52.2839818,8.0228158],
+    [52.284064,8.022001],
+    [52.2841162,8.0214842],
+    [52.2840835,8.0214753],
+    [52.2840898,8.021413],
+    [52.2840442,8.0214007],
+    [52.2840382,8.0214598],
+    [52.284008,8.0214517],
+    [52.2839549,8.0219743],
+    [52.2838735,8.0227823],
+    [52.2838956,8.0227883],
+    [52.2838883,8.0228611],
+    [52.2838809,8.0229338]
 ]).addTo(map).bindPopup(createPopUp(SI));
 
 var SK = L.polygon([
-    [52.28478,8.02035],
-    [52.28470,8.02033],
-    [52.28470,8.02030],
-    [52.28455,8.02027],
-    [52.28456,8.02009],
-    [52.28472,8.02013],
-    [52.28472,8.02010],
-    [52.28480,8.02012],
+    [52.2845643,8.020086],
+    [52.2845463,8.0202638],
+    [52.284698,8.0203048],
+    [52.2846952,8.0203326],
+    [52.2847754,8.0203543],
+    [52.284799,8.0201212],
+    [52.2847199,8.0200998],
+    [52.2847171,8.0201273],
+    [52.2845643,8.020086],
 ]).addTo(map).bindPopup(createPopUp(SK));
 
 var SL = L.polygon([
-    [52.28475,8.02307],
-    [52.28489,8.02165],
-    [52.28521,8.02174],
-    [52.28507,8.02316]
-]).addTo(map).bindPopup(createPopUp(SL));
+    [
+      [52.2852156,8.0217401],
+      [52.2848936,8.0216507],
+      [52.2847736,8.022806],
+      [52.2847463,8.0230683],
+      [52.2849067,8.0231129],
+      [52.2850684,8.0231571],
+      [52.2850902,8.0229469],
+      [52.285119,8.02267],
+      [52.2852156,8.0217401]
+    ],
+    [
+      [52.285057,8.0219899],
+      [52.2850353,8.0221968],
+      [52.2849796,8.0221812],
+      [52.2850013,8.0219743],
+      [52.285057,8.0219899],
+    ]
+  ]).addTo(map).bindPopup(createPopUp(SL));
 
 var SN = L.polygon([
-    [52.28534,8.02124],
-    [52.28593,8.02137],
-    [52.28590,8.02179],
-    [52.28530,8.02165]
+    [52.2859302,8.0213747],
+    [52.28537,8.0212466],
+    [52.2853389,8.0212395],
+    [52.2853259,8.0213921],
+    [52.2853035,8.0216534],
+    [52.2858948,8.0217886],
+    [52.2859302,8.0213747],
 ]).addTo(map).bindPopup(createPopUp(SN));
 
 var SO = L.polygon([
-    [52.28679,8.02153],
-    [52.28657,8.02146],
-    [52.28665,8.02070],
-    [52.28687,8.02075]
+    [52.2867901,8.021531],
+    [52.2868687,8.0207512],
+    [52.2866455,8.0206922],
+    [52.2865665,8.0214628],
+    [52.2867901,8.021531]
 ]).addTo(map).bindPopup(createPopUp(SO));
 
 var SP = L.polygon([
-    [52.28679,8.02153],
-    [52.28657,8.02146],
-    [52.28652,8.02185],
-    [52.28675,8.02190]
+    [52.286748,8.0219065],
+    [52.2867901,8.021531],
+    [52.2865665,8.0214628],
+    [52.2865553,8.021557],
+    [52.2865209,8.0218478],
+    [52.286748,8.0219065]
 ]).addTo(map).bindPopup(createPopUp(SP));
 
 var SQ = L.polygon([
-    [52.28638,8.02142],
-    [52.28609,8.02133],
-    [52.28605,8.02171],
-    [52.28635,8.02179]
+    [52.286349,8.0217939],
+    [52.286376,8.0215102],
+    [52.2863832,8.0214216],
+    [52.2860892,8.0213275],
+    [52.28605,8.0217105],
+    [52.286349,8.0217939]
 ]).addTo(map).bindPopup(createPopUp(SQ));
 
 var SR = L.polygon([
-    [52.28554,8.02098],
-    [52.28540,8.02095],
-    [52.28546,8.02033],
-    [52.28559,8.02037]
+    [52.2854033,8.0209491],
+    [52.2855365,8.0209828],
+    [52.2855948,8.0203667],
+    [52.2854617,8.020333],
+    [52.2854353,8.0206118],
+    [52.2854033,8.0209491]
 ]).addTo(map).bindPopup(createPopUp(SR));
 
 
@@ -579,20 +684,95 @@ var circleImage = L.icon({
 //Initiale Setzung aller Marker
 var vAA = AA.getCenter();
 var markerAA = L.marker([vAA.lat, vAA.lng], {icon: circleImage});
-
 var vAB = AB.getCenter();
 var markerAB = L.marker([vAB.lat, vAB.lng], {icon: circleImage});
-
 var vAC = AC.getCenter();
 var markerAC = L.marker([vAC.lat, vAC.lng], {icon: circleImage});
-
 var vAD = AD.getCenter();
 var markerAD = L.marker([vAD.lat, vAD.lng], {icon: circleImage});
+var vAE = AE.getCenter();
+var markerAE = L.marker([vAE.lat, vAE.lng], {icon: circleImage});
+var vAF = AF.getCenter();
+var markerAF = L.marker([vAF.lat, vAF.lng], {icon: circleImage});
+
+var vBA = BA.getCenter();
+var markerBA = L.marker([vBA.lat, vBA.lng], {icon: circleImage});
+var vBB = BB.getCenter();
+var markerBB = L.marker([vBB.lat, vBB.lng], {icon: circleImage});
+var vBC = BC.getCenter();
+var markerBC = L.marker([vBC.lat, vBC.lng], {icon: circleImage});
+var vBIB = BIB.getCenter();
+var markerBIB = L.marker([vBIB.lat, vBIB.lng], {icon: circleImage});
+
+var vMA = MA.getCenter();
+var markerMA = L.marker([vMA.lat, vMA.lng], {icon: circleImage});
+var vMensa = Mensa.getCenter();
+var markerMensa = L.marker([vMensa.lat, vMensa.lng], {icon: circleImage});
+
+var vSB = SB.getCenter();
+var markerSB = L.marker([vSB.lat, vSB.lng], {icon: circleImage});
+var vSC = SC.getCenter();
+var markerSC = L.marker([vSC.lat, vSC.lng], {icon: circleImage});
+var vSD = SD.getCenter();
+var markerSD = L.marker([vSD.lat, vSD.lng], {icon: circleImage});
+var vSE = SE.getCenter();
+var markerSE = L.marker([vSE.lat, vSE.lng], {icon: circleImage});
+var vSF = SF.getCenter();
+var markerSF = L.marker([vSF.lat, vSF.lng], {icon: circleImage});
+var vSG = SG.getCenter();
+var markerSG = L.marker([vSG.lat, vSG.lng], {icon: circleImage});
+var vSH = SH.getCenter();
+var markerSH = L.marker([vSH.lat, vSH.lng], {icon: circleImage});
+var vSJ = SJ.getCenter();
+var markerSJ = L.marker([vSJ.lat, vSJ.lng], {icon: circleImage});
+var vSI = SI.getCenter();
+var markerSI = L.marker([vSI.lat, vSI.lng], {icon: circleImage});
+var vSK = SK.getCenter();
+var markerSK = L.marker([vSK.lat, vSK.lng], {icon: circleImage});
+var vSL = SL.getCenter();
+var markerSL = L.marker([vSL.lat, vSL.lng], {icon: circleImage});
+var vSN = SN.getCenter();
+var markerSN = L.marker([vSN.lat, vSN.lng], {icon: circleImage});
+var vSO = SO.getCenter();
+var markerSO = L.marker([vSO.lat, vSO.lng], {icon: circleImage});
+var vSP = SP.getCenter();
+var markerSP = L.marker([vSP.lat, vSP.lng], {icon: circleImage});
+var vSQ = SQ.getCenter();
+var markerSQ = L.marker([vSQ.lat, vSQ.lng], {icon: circleImage});
+var vSR = SR.getCenter();
+var markerSR = L.marker([vSR.lat, vSR.lng], {icon: circleImage});
 
 map.addLayer(markerAA);
 map.addLayer(markerAB);
 map.addLayer(markerAC);
 map.addLayer(markerAD);
+map.addLayer(markerAE);
+map.addLayer(markerAF);
+
+map.addLayer(markerBA);
+map.addLayer(markerBB);
+map.addLayer(markerBC);
+map.addLayer(markerBIB);
+
+map.addLayer(markerMA);
+map.addLayer(markerMensa);
+
+map.addLayer(markerSB);
+map.addLayer(markerSC);
+map.addLayer(markerSD);
+map.addLayer(markerSE);
+map.addLayer(markerSF);
+map.addLayer(markerSG);
+map.addLayer(markerSH);
+map.addLayer(markerSI);
+map.addLayer(markerSJ);
+map.addLayer(markerSK);
+map.addLayer(markerSL);
+map.addLayer(markerSN);
+map.addLayer(markerSO);
+map.addLayer(markerSP);
+map.addLayer(markerSQ);
+map.addLayer(markerSR);
 
 map.on('zoomend', function() {
 
@@ -601,6 +781,33 @@ map.on('zoomend', function() {
         map.removeLayer(markerAB);
         map.removeLayer(markerAC);
         map.removeLayer(markerAD);
+        map.removeLayer(markerAE);
+        map.removeLayer(markerAF);
+
+        map.removeLayer(markerBA);
+        map.removeLayer(markerBB);
+        map.removeLayer(markerBC);
+        map.removeLayer(markerBIB);
+
+        map.removeLayer(markerMA);
+        map.removeLayer(markerMensa);
+
+        map.removeLayer(markerSB);
+        map.removeLayer(markerSC);
+        map.removeLayer(markerSD);
+        map.removeLayer(markerSE);
+        map.removeLayer(markerSF);
+        map.removeLayer(markerSG);
+        map.removeLayer(markerSH);
+        map.removeLayer(markerSJ);
+        map.removeLayer(markerSI);
+        map.removeLayer(markerSK);
+        map.removeLayer(markerSL);
+        map.removeLayer(markerSN);
+        map.removeLayer(markerSO);
+        map.removeLayer(markerSP);
+        map.removeLayer(markerSQ);
+        map.removeLayer(markerSR);
     }
 
     currentZoom = map.getZoom();
@@ -631,10 +838,64 @@ map.on('zoomend', function() {
     markerAB = L.marker([vAB.lat, vAB.lng], {icon: circleImage});
     markerAC = L.marker([vAC.lat, vAC.lng], {icon: circleImage});
     markerAD = L.marker([vAD.lat, vAD.lng], {icon: circleImage});
+    markerAE = L.marker([vAE.lat, vAE.lng], {icon: circleImage});
+    markerAF = L.marker([vAF.lat, vAF.lng], {icon: circleImage});
     
+    markerBA = L.marker([vBA.lat, vBA.lng], {icon: circleImage});
+    markerBB = L.marker([vBB.lat, vBB.lng], {icon: circleImage});
+    markerBC = L.marker([vBC.lat, vBC.lng], {icon: circleImage});
+    markerBIB = L.marker([vBIB.lat, vBIB.lng], {icon: circleImage});
+
+    markerMA = L.marker([vMA.lat, vMA.lng], {icon: circleImage});
+    markerMensa = L.marker([vMensa.lat, vMensa.lng], {icon: circleImage});
+
+    markerSB = L.marker([vSB.lat, vSB.lng], {icon: circleImage});
+    markerSC = L.marker([vSC.lat, vSC.lng], {icon: circleImage});
+    markerSD = L.marker([vSD.lat, vSD.lng], {icon: circleImage});
+    markerSE = L.marker([vSE.lat, vSE.lng], {icon: circleImage});
+    markerSF = L.marker([vSF.lat, vSF.lng], {icon: circleImage});
+    markerSG = L.marker([vSG.lat, vSG.lng], {icon: circleImage});
+    markerSH = L.marker([vSH.lat, vSH.lng], {icon: circleImage});
+    markerSJ = L.marker([vSJ.lat, vSJ.lng], {icon: circleImage});
+    markerSI = L.marker([vSI.lat, vSI.lng], {icon: circleImage});
+    markerSK = L.marker([vSK.lat, vSK.lng], {icon: circleImage});
+    markerSL = L.marker([vSL.lat, vSL.lng], {icon: circleImage});
+    markerSN = L.marker([vSN.lat, vSN.lng], {icon: circleImage});
+    markerSO = L.marker([vSO.lat, vSO.lng], {icon: circleImage});
+    markerSP = L.marker([vSP.lat, vSP.lng], {icon: circleImage});
+    markerSQ = L.marker([vSQ.lat, vSQ.lng], {icon: circleImage});
+    markerSR = L.marker([vSR.lat, vSR.lng], {icon: circleImage});
+
+
     map.addLayer(markerAA);
     map.addLayer(markerAB);
     map.addLayer(markerAC);
     map.addLayer(markerAD);
+    map.addLayer(markerAE);
+    map.addLayer(markerAF);
 
+    map.addLayer(markerBA);
+    map.addLayer(markerBB);
+    map.addLayer(markerBC);
+    map.addLayer(markerBIB);
+
+    map.addLayer(markerMA);
+    map.addLayer(markerMensa);
+
+    map.addLayer(markerSB);
+    map.addLayer(markerSC);
+    map.addLayer(markerSD);
+    map.addLayer(markerSE);
+    map.addLayer(markerSF);
+    map.addLayer(markerSG);
+    map.addLayer(markerSH);
+    map.addLayer(markerSI);
+    map.addLayer(markerSJ);
+    map.addLayer(markerSK);
+    map.addLayer(markerSL);
+    map.addLayer(markerSN);
+    map.addLayer(markerSO);
+    map.addLayer(markerSP);
+    map.addLayer(markerSQ);
+    map.addLayer(markerSR);
 });
