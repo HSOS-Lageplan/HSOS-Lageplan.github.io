@@ -8,43 +8,62 @@ function createPopUp(name){
 
     switch (name) {
         case AA:
-
+            result = "<h1>AA</h1>" + 
+                    "<img src='res/images/AA.jpg' width='300' height='300'>";
             
             break;
 
         case AB:
+            result = "<h1>AB</h1>" + 
+                    "<img src='res/images/AB.jpg' width='300' height='300'>";
             
         break;
 
         case AC:
+            result = "<h1>AC</h1>" + 
+                    "<img src='res/images/AC.jpg' width='300' height='300'>";
             
             break;
 
         case AD:
-            
+            result = "<h1>AD</h1>" + 
+                    "<img src='res/images/AD.jpg' width='300' height='300'>";
+
         break;
 
         case AE:
+            result = "<h1>AE</h1>" + 
+                    "<img src='res/images/AE.jpg' width='300' height='300'>";
             
             break;
 
         case AF:
+            result = "<h1>AF</h1>" + 
+                    "<img src='res/images/AF.jpg' width='300' height='300'>";
             
         break;
 
         case BA:
+            result = "<h1>BA</h1>" + 
+                    "<img src='res/images/BA.jpg' width='300' height='300'>";
             
             break;
 
         case BB:
+            result = "<h1>BB</h1>" + 
+                    "<img src='res/images/BB.jpg' width='300' height='300'>";
             
         break;
 
         case BC:
+            result = "<h1>BC</h1>" + 
+                    "<img src='res/images/BC.jpg' width='300' height='300'>";
             
             break;
 
         case BIB:
+            result = "<h1>Bibliothek</h1>" + 
+                    "<img src='res/images/Bib.jpg' width='300' height='300'>";
 
            
             
@@ -52,7 +71,7 @@ function createPopUp(name){
 
         case Mensa:
             result = "<h1>Mensa</h1>" + 
-                    "<img src=https://www.arcguide.de/wp-content/uploads/2/8/28704.jpg' width='300' height='200'>" +
+                    "<img src='res/images/MA.jpg' width='300' height='300'>"; +
                    
                     "<table>" +
 
@@ -76,73 +95,105 @@ function createPopUp(name){
             break;
 
         case MA:
-            result = "<h1>Mensa</h1>" + 
-                    "<img src='../res/images/ma.jpg' width='300' height='300'>";
+            result = "<h1>MA</h1>" + 
+                    "<img src='res/images/MA.jpg' width='300' height='300'>";
                    
             
         break;
 
         case SB:
-            
+            result = "<h1>SB</h1>" + 
+                    "<img src='res/images/SB.jpg' width='300' height='300'>";    
+
             break;
 
         case SC:
+            result = "<h1>SC</h1>" + 
+                    "<img src='res/images/SC.jpg' width='300' height='300'>";
             
         break;
 
         case SD:
+            result = "<h1>SD</h1>" + 
+                    "<img src='res/images/SD.jpg' width='300' height='300'>";
             
             break;
 
         case SE:
+            result = "<h1>SE</h1>" + 
+                    "<img src='res/images/SE.jpg' width='300' height='300'>";
             
         break;
 
         case SF:
-            
+            result = "<h1>SF</h1>" + 
+                    "<img src='res/images/SF.jpg' width='300' height='300'>";
+
             break;
 
         case SG:
+            result = "<h1>SG</h1>" + 
+                    "<img src='res/images/SG.jpg' width='300' height='300'>";
             
         break;
 
         case SH:
+            result = "<h1>SH</h1>" + 
+                    "<img src='res/images/SH.jpg' width='300' height='300'>";
             
             break;
 
         case SJ:
+            result = "<h1>SJ</h1>" + 
+                    "<img src='res/images/SJ.jpg' width='300' height='300'>";
             
         break;
 
         case SI:
+            result = "<h1>SI</h1>" + 
+                    "<img src='res/images/SI.jpg' width='300' height='300'>";
             
             break;
 
         case SK:
+            result = "<h1>SK</h1>" + 
+                    "<img src='res/images/SK.jpg' width='300' height='300'>";
             
         break;
 
         case SL:
+            result = "<h1>SL</h1>" + 
+                    "<img src='res/images/SL.jpg' width='300' height='300'>";
             
             break;
 
         case SN:
+            result = "<h1>SN</h1>" + 
+                    "<img src='res/images/SN.jpg' width='300' height='300'>";
             
         break;
 
         case SO:
+            result = "<h1>SO</h1>" + 
+                    "<img src='res/images/SO.jpg' width='300' height='300'>";
             
             break;
 
         case SP:
+            result = "<h1>SP</h1>" + 
+                    "<img src='res/images/SP.jpg' width='300' height='300'>";
             
         break;
 
         case SQ:
+            result = "<h1>SQ</h1>" + 
+                    "<img src='res/images/SQ.jpg' width='300' height='300'>";
             
             break;
 
         case SR:
+            result = "<h1>SR</h1>" + 
+                    "<img src='res/images/SR.jpg' width='300' height='300'>";
             
         break;
     
