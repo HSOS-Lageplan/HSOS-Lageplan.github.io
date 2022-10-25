@@ -17,9 +17,17 @@
     <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
     integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
     crossorigin=""></script>
+
+    <!--Icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>Lageplan</title>
+    <!--Wird in translate.js geändert, ist richtig so. Muss "1" sein und muss vor translate script passieren.-->
+    <title>1</title>
+
+    <!--Translate Script-->
+    <script src="./js/translations/de.js"></script>
+    <script src="./js/translations/en.js"></script>
+    <script src="./js/translate.js"></script>
   </head>
   <body>
     <div id="map"></div>
@@ -45,7 +53,8 @@
       <a>SI</a>
       <a>SJ</a>
       <div id="button-wrapper">
-        <input id="toggle-view-button" type="button" value="Toggle View" onclick="toggleView()">
+        <span id="toggle-view-button" class="button" onclick="toggleView()"><script>translate(2)</script></span>
+        <span id="toggle-language" class="button" onclick="languageToggle()"><script>translate(0)</script></sp>
       </div>
     </div>
     <script src="./js/map.js"></script>
