@@ -27,7 +27,17 @@ function createPopUp(name){
 
             result = "<h1>Gebäude AB</h1>" + 
             "<img src='res/images/AB.jpg' class='popup-picture'>" +
-                    
+
+            "<table>" +
+
+            "<tr>" +
+            "<th> <i class='fa fa-credit-card-alt'></i> </th>" +
+            "<th> <div class='textNebenIconPlatzierung'>Validierungsautomat</div> </th>" +
+            "</tr>" + 
+
+            "</table>" +
+
+            "<hr></hr>" +
             "<h3> Fakultät IuI </h3>" +
                     
             "<ul>" +
@@ -140,7 +150,25 @@ function createPopUp(name){
 
         case BIB:
             result = "<h1>Bibliothek</h1>" + 
-                    "<img src='res/images/Bib.jpg' class='popup-picture'>"
+                    "<img src='res/images/Bib.jpg' class='popup-picture'>" +
+
+                    "<table>" +
+
+                    "<tr>" +
+                
+                    "<th> <i class='fa fa-cutlery'></i> </th>" +
+                    "<th> <div class='textNebenIconPlatzierung'>Selbstlernzone</div> </th>" +
+                   
+                    "</tr>" + 
+
+                    "<tr>" +
+                
+                    "<th> <i class='fa fa-credit-card-alt'></i> </th>" +
+                    "<th> <div class='textNebenIconPlatzierung'>Validierungsautomat</div> </th>" +
+                   
+                    "</tr>" + 
+                
+                    "</table>"
 
             ;
             
@@ -161,8 +189,8 @@ function createPopUp(name){
 
                     "<tr>" +
                 
-                    "<th> <i class='fa fa-credit-card-alt'></i> </th>" +
-                    "<th> <div class='textNebenIconPlatzierung'>Validierungsautomat</div> </th>" +
+                    "<th> <i class='fa fa-money'></i> </th>" +
+                    "<th> <div class='textNebenIconPlatzierung'>Aufwerter</div> </th>" +
                    
                     "</tr>" + 
                 
