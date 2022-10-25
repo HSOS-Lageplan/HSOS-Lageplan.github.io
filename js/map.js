@@ -9,9 +9,14 @@ var view = null; // don't set to campus explicitly until the view toggle is hit
 
 // set view to gps location if found
 map.locate({setView: true, maxZoom: 16, watch: true});
+locationMarker = null;
 function onLocationFound(e) {
     var radius = e.accuracy;
-    L.marker(e.latlng).addTo(map).bindPopup("You are within " + radius + " meters from this point");
+    if(locationMarker == null){
+        locationMarker = L.marker(e.latlng).addTo(map).bindPopup("You are within " + radius + " meters from this point");
+    }else{
+        locationMarker.setLatLng(e.latlng).setPopupContent("You are within " + radius + " meters from this point");
+    }
     view = Views.Gps;
 }
 if (view != Views.Campus) {
