@@ -12,7 +12,7 @@ function createPopUp(name){
     switch (name) {
         case AA:
 
-            result = "<h1>Gebäude-AA</h1>" + 
+            result = "<h1>Gebäude AA</h1>" + 
             "<img src='res/images/AA.jpg' width='300' height='300'>" +
                     
                      "<h3> Fakultät IuI </h3>" +
@@ -32,7 +32,7 @@ function createPopUp(name){
 
         case AB:
 
-            result = "<h1>Gebäude-AB</h1>" + 
+            result = "<h1>Gebäude AB</h1>" + 
             "<img src='res/images/AB.jpg' width='300' height='300'>" +
                     
             "<h3> Fakultät IuI </h3>" +
@@ -47,7 +47,7 @@ function createPopUp(name){
 
         case AC:
 
-            result = "<h1>Gebäude-AC</h1>" + 
+            result = "<h1>Gebäude AC</h1>" + 
             "<img src='res/images/AC.jpg' width='300' height='300'>" +
                     
             "<h3> Fakultät IuI </h3>" +
@@ -61,7 +61,7 @@ function createPopUp(name){
 
         case AD:
 
-            result = "<h1>Gebäude-AD</h1>" + 
+            result = "<h1>Gebäude AD</h1>" + 
             "<img src='res/images/AD.jpg' width='300' height='300'>" +
            
             "<h3> Fakultät IuI </h3>" +
@@ -76,7 +76,7 @@ function createPopUp(name){
 
         case AE:
             
-            result = "<h1>Gebäude-AE</h1>" + 
+            result = "<h1>Gebäude AE</h1>" + 
             "<img src='res/images/AE.jpg' width='300' height='300'>" +
            
 
@@ -91,7 +91,7 @@ function createPopUp(name){
             break;
 
         case AF:
-            result = "<h1>Gebäude-AF</h1>" + 
+            result = "<h1>Gebäude AF</h1>" + 
                     "<img src='res/images/AF.jpg' width='300' height='300'>" +
            
 
@@ -114,7 +114,7 @@ function createPopUp(name){
         break;
 
         case BA:
-            result = "<h1>Gebäude-BA</h1>" + 
+            result = "<h1>Gebäude BA</h1>" + 
                     "<img src='res/images/BA.jpg' width='300' height='300'>" +
 
            
@@ -124,7 +124,7 @@ function createPopUp(name){
             break;
 
         case BB:
-            result = "<h1>Gebäude-BB</h1>" + 
+            result = "<h1>Gebäude BB</h1>" + 
                     "<img src='res/images/BB.jpg' width='300' height='300'>" +
             
 
@@ -135,7 +135,7 @@ function createPopUp(name){
         break;
 
         case BC:
-            result = "<h1>Gebäude-BC</h1>" + 
+            result = "<h1>Gebäude BC</h1>" + 
                     "<img src='res/images/BC.jpg' width='300' height='300'>" +
             
 
@@ -179,7 +179,7 @@ function createPopUp(name){
             break;
 
         case MA:
-            result = "<h1>Gebäude-MA</h1>" + 
+            result = "<h1>Gebäude MA</h1>" + 
                     "<img src='res/images/MA.jpg' width='300' height='300'>" +
            
 
@@ -193,7 +193,7 @@ function createPopUp(name){
         break;
 
         case SB:
-            result = "<h1>Gebäude-SB</h1>" + 
+            result = "<h1>Gebäude SB</h1>" + 
                     "<img src='res/images/SB.jpg' width='300' height='300'>"+
                     "<table>" +
                     "<tr>" +
@@ -207,7 +207,7 @@ function createPopUp(name){
             break;
 
         case SC:
-            result = "<h1>Gebäude-SC</h1>" + 
+            result = "<h1>Gebäude SC</h1>" + 
                     "<img src='res/images/SC.jpg' width='300' height='300'>"+
                     "<h4>Allgemein</h4>"+
                     "<ul> <li>Kindertagesstätte „Fingerhut“</li> </ul>";
@@ -215,7 +215,7 @@ function createPopUp(name){
         break;
 
         case SD:
-            result = "<h1>Gebäude-SD</h1>" + 
+            result = "<h1>Gebäude SD</h1>" + 
                     "<img src='res/images/SD.jpg' width='300' height='300'>"+
                     "<table>" +
                     "<tr>" +
@@ -230,7 +230,7 @@ function createPopUp(name){
             break;
 
         case SE:
-            result = "<h1>Gebäude-SE</h1>" + 
+            result = "<h1>Gebäude SE</h1>" + 
                     "<img src='res/images/SE.jpg' width='300' height='300'>"+
                     "<h4>Fakultät IuI</h4>"+
                     "<ul> <li>Hörsäle und Seminarräume</li> </ul>";
@@ -238,7 +238,7 @@ function createPopUp(name){
         break;
 
         case SF:
-            result = "<h1>Gebäude-SF</h1>" + 
+            result = "<h1>Gebäude SF</h1>" + 
                     "<img src='res/images/SF.jpg' width='300' height='300'>"+
                     "<h4>Fakultät IuI</h4>"+
                     "<ul> <li>Hörsäle und Seminarräume</li> </ul>";
@@ -246,7 +246,7 @@ function createPopUp(name){
             break;
 
         case SG:
-            result = "<h1>Gebäude-SG</h1>" + 
+            result = "<h1>Gebäude SG</h1>" + 
                     "<img src='res/images/SG.jpg' width='300' height='300'>"+
                     "<h4>Fakultät IuI</h4>"+
                     "<ul> <li>Hörsäle und Seminarräume</li> </ul>";
@@ -254,7 +254,7 @@ function createPopUp(name){
         break;
 
         case SH:
-            result = "<h1>Gebäude-SH</h1>" + 
+            result = "<h1>Gebäude SH</h1>" + 
                     "<img src='res/images/SH.jpg' width='300' height='300'>"+
                     "<h4>Fakultät IuI</h4>"+
                     "<ul> <li>Hörsäle und Seminarräume</li> </ul>";
@@ -262,7 +262,7 @@ function createPopUp(name){
             break;
 
         case SJ:
-            result = "<h1>Gebäude-SJ</h1>" + 
+            result = "<h1>Gebäude SJ</h1>" + 
                     "<img src='res/images/SJ.jpg' width='300' height='300'>"+
                     "<h4>Fakultät IuI</h4>"+
                     "<ul> <li>Hörsäle und Seminarräume</li> </ul>";
@@ -270,7 +270,7 @@ function createPopUp(name){
         break;
 
         case SI:
-            result = "<h1>Gebäude-SI</h1>" + 
+            result = "<h1>Gebäude SI</h1>" + 
                     "<img src='res/images/SI.jpg' width='300' height='300'>"+           
                     "<h4>Allgemein</h4>"+
                     "<ul> <li>EVD-Schulungszentrum</li> </ul>"+
@@ -281,7 +281,7 @@ function createPopUp(name){
             break;
 
         case SK:
-            result = "<h1>Gebäude-SK</h1>" + 
+            result = "<h1>Gebäude SK</h1>" + 
                     "<img src='res/images/SK.jpg' width='300' height='300'>"+        
                     "<h4>Allgemein</h4>"+
                     "<ul> <li>Science To Business GmbH</li> </ul>"+
@@ -291,7 +291,7 @@ function createPopUp(name){
         break;
 
         case SL:
-            result = "<h1>Gebäude-SL</h1>" + 
+            result = "<h1>Gebäude SL</h1>" + 
                     "<img src='res/images/SL.jpg' width='300' height='300'>"+
                     "<table>" +
                     "<tr>" +
@@ -306,7 +306,7 @@ function createPopUp(name){
             break;
 
         case SN:
-            result = "<h1>Gebäude-SN</h1>" + 
+            result = "<h1>Gebäude SN</h1>" + 
                     "<img src='res/images/SN.jpg' width='300' height='300'>"+      
                     "<h4>Fakultät IuI</h4>"+
                     "<ul> <li>Verschiedene Projekte</li> </ul>";
@@ -314,7 +314,7 @@ function createPopUp(name){
         break;
 
         case SO:
-            result = "<h1>Gebäude-SO</h1>" + 
+            result = "<h1>Gebäude SO</h1>" + 
                     "<img src='res/images/SO.jpg' width='300' height='300'>"+        
                     "<h4>Fakultät IuI</h4>"+
                     "<ul> <li>Agrotechnikum</li> </ul>";
@@ -322,7 +322,7 @@ function createPopUp(name){
             break;
 
         case SP:
-            result = "<h1>Gebäude-SP</h1>" + 
+            result = "<h1>Gebäude SP</h1>" + 
                     "<img src='res/images/SP.jpg' width='300' height='300'>"+       
                     "<h4>Fakultät IuI</h4>"+
                     "<ul> <li>Laborräume</li> </ul>";
@@ -330,7 +330,7 @@ function createPopUp(name){
         break;
 
         case SQ:
-            result = "<h1>Gebäude-SQ</h1>" + 
+            result = "<h1>Gebäude SQ</h1>" + 
                     "<img src='res/images/SQ.jpg' width='300' height='300'>"+
                     "<h4>Fakultät IuI</h4>"+
                     "<ul> <li>Mehrzweckhalle</li> </ul>";
@@ -338,7 +338,7 @@ function createPopUp(name){
             break;
 
         case SR:
-            result = "<h1>Gebäude-SR</h1>" + 
+            result = "<h1>Gebäude SR</h1>" + 
                     "<img src='res/images/SR.jpg' width='300' height='300'>"+
                     "<h4>Fakultät IuI</h4>"+
                     "<ul> <li>Verschiedene Projekte</li> </ul>";
