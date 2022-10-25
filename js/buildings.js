@@ -2,6 +2,9 @@
 
 //import {createPopUp} from './popUpInformation.js';
 
+//Hinweis: Die Funktion kommt eig. in die "popUpInformation.js". 
+//... hier trifft aber ein Fehler auf, weil vermutlich der Server noch nicht live ist.
+
 function createPopUp(name){
 
     var result;
@@ -203,7 +206,6 @@ function createPopUp(name){
     return result;
 }
 
-
 var AA = L.polygon([
     [52.2832125,8.0252056],
     [52.28233,8.02494],
@@ -351,6 +353,9 @@ var SD = L.polygon([
     [52.28410,8.02042]
 ]).addTo(map).bindPopup(createPopUp(SD));
 
+
+
+
 var SE = L.polygon([
     [52.28389,8.02109],
     [52.28387,8.02125],
@@ -471,3 +476,77 @@ var SR = L.polygon([
     [52.28546,8.02033],
     [52.28559,8.02037]
 ]).addTo(map).bindPopup(createPopUp(SR));
+
+
+var currentZoom = 17;
+var iconSize = 20;
+
+var circleImage = L.icon({
+    iconUrl: 'image/circle.png',
+
+    iconSize:       [iconSize ,iconSize]
+
+});
+
+//Initiale Setzung aller Marker
+var vAA = AA.getCenter();
+var markerAA = L.marker([vAA.lat, vAA.lng], {icon: circleImage});
+
+var vAB = AB.getCenter();
+var markerAB = L.marker([vAB.lat, vAB.lng], {icon: circleImage});
+
+var vAC = AC.getCenter();
+var markerAC = L.marker([vAC.lat, vAC.lng], {icon: circleImage});
+
+var vAD = AD.getCenter();
+var markerAD = L.marker([vAD.lat, vAD.lng], {icon: circleImage});
+
+map.addLayer(markerAA);
+map.addLayer(markerAB);
+map.addLayer(markerAC);
+map.addLayer(markerAD);
+
+map.on('zoomend', function() {
+
+    if(markerAA != null){
+        map.removeLayer(markerAA);
+        map.removeLayer(markerAB);
+        map.removeLayer(markerAC);
+        map.removeLayer(markerAD);
+    }
+
+    currentZoom = map.getZoom();
+    if(currentZoom == 19){
+        iconSize = 80;
+    }
+
+    if(currentZoom == 18){
+        iconSize = 40;
+    }
+
+    if(currentZoom == 17){
+        iconSize = 20;
+    }
+
+    if(currentZoom <= 16){
+        iconSize = 00;
+    }
+
+    var circleImage = L.icon({
+        iconUrl: 'image/circle.png',
+    
+        iconSize:       [iconSize ,iconSize]
+
+    });
+    
+    markerAA = L.marker([vAA.lat, vAA.lng], {icon: circleImage});
+    markerAB = L.marker([vAB.lat, vAB.lng], {icon: circleImage});
+    markerAC = L.marker([vAC.lat, vAC.lng], {icon: circleImage});
+    markerAD = L.marker([vAD.lat, vAD.lng], {icon: circleImage});
+    
+    map.addLayer(markerAA);
+    map.addLayer(markerAB);
+    map.addLayer(markerAC);
+    map.addLayer(markerAD);
+
+});
