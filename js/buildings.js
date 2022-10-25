@@ -1,9 +1,7 @@
 //Campusgebaeude Alphabetisch sortiert
 
-//import { createPopUp } from './popUpInformation';
+//import {createPopUp} from './popUpInformation.js';
 
-//Hinweis: Die Funktion kommt eig. in die "popUpInformation.js". 
-//... hier trifft aber ein Fehler auf, weil vermutlich der Server noch nicht live ist.
 function createPopUp(name){
 
     var result;
@@ -52,7 +50,7 @@ function createPopUp(name){
             
         break;
 
-        case mensa:
+        case Mensa:
             result = "<h1>Mensa</h1>" + 
                     "<img src=https://www.arcguide.de/wp-content/uploads/2/8/28704.jpg' width='300' height='200'>" +
                    
@@ -153,6 +151,7 @@ function createPopUp(name){
 
     return result;
 }
+
 
 var AA = L.polygon([
     [52.2832125,8.0252056],
