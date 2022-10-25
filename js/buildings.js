@@ -1,11 +1,10 @@
 //Campusgebaeude Alphabetisch sortiert
 
-//import { createPopUp } from './popUpInformation';
-
-//Was macht diese? Popups?
+//import {createPopUp} from './popUpInformation.js';
 
 //Hinweis: Die Funktion kommt eig. in die "popUpInformation.js". 
 //... hier trifft aber ein Fehler auf, weil vermutlich der Server noch nicht live ist.
+
 function createPopUp(name){
 
     var result;
@@ -54,7 +53,7 @@ function createPopUp(name){
             
         break;
 
-        case mensa:
+        case Mensa:
             result = "<h1>Mensa</h1>" + 
                     "<img src=https://www.arcguide.de/wp-content/uploads/2/8/28704.jpg' width='300' height='200'>" +
                    
@@ -80,6 +79,9 @@ function createPopUp(name){
             break;
 
         case MA:
+            result = "<h1>Mensa</h1>" + 
+                    "<img src='../res/images/ma.jpg' width='300' height='300'>";
+                   
             
         break;
 
@@ -153,8 +155,6 @@ function createPopUp(name){
     return result;
 }
 
-
-//Gebaudeoutline
 var AA = L.polygon([
     [52.2832125,8.0252056],
     [52.28233,8.02494],
@@ -245,12 +245,12 @@ var BIB = L.polygon([
     [52.28611,8.02398],
 ]).addTo(map).bindPopup(createPopUp(BIB));
 
-var mensa = L.polygon([
+var Mensa = L.polygon([
     [52.28470,8.02190],
     [52.28458,8.02300],
     [52.28413,8.02288],
     [52.28425,8.02178]
-]).addTo(map).bindPopup(createPopUp(mensa));
+]).addTo(map).bindPopup(createPopUp(Mensa));
 
 var MA = L.polygon([
     [52.28699,8.01860],

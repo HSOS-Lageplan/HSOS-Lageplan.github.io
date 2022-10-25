@@ -8,10 +8,15 @@ var map = L.map('map').setView([52.28443766233468, 8.023298309527929], 17);
 var view = null; // don't set to campus explicitly until the view toggle is hit
 
 // set view to gps location if found
-map.locate({setView: true, maxZoom: 16, enableHighAccuracy: true, watch: true});
+map.locate({setView: true, maxZoom: 16, watch: true});
+locationMarker = null;
 function onLocationFound(e) {
     var radius = e.accuracy;
-    L.marker(e.latlng).addTo(map).bindPopup("You are within " + radius + " meters from this point");
+    if(locationMarker == null){
+        locationMarker = L.marker(e.latlng).addTo(map).bindPopup("You are within " + radius + " meters from this point");
+    }else{
+        locationMarker.setLatLng(e.latlng).setPopupContent("You are within " + radius + " meters from this point");
+    }
     view = Views.Gps;
 }
 if (view != Views.Campus) {
@@ -26,11 +31,12 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r
 
 function toggleView() {
     if (view == Views.Gps) {
+        map.stopLocate();
         map.setView([52.28443766233468, 8.023298309527929], 17);
         view = Views.Campus;
     }
     else if (view == Views.Campus) {
-        map.locate({setView: true, maxZoom: 17, enableHighAccuracy: true, watch: true});
+        map.locate({setView: true, maxZoom: 17, watch: true});
         view = Views.Gps;
     }
 }
