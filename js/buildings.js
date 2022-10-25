@@ -241,7 +241,7 @@ var BIB = L.polygon([
     [52.28611,8.02398],
 ]).addTo(map).bindPopup(createPopUp(BIB));
 
-var mensa = L.polygon([
+var Mensa = L.polygon([
     [52.28470,8.02190],
     [52.28458,8.02300],
     [52.28413,8.02288],
