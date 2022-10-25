@@ -30,7 +30,7 @@ function toggleView() {
         view = Views.Campus;
     }
     else if (view == Views.Campus) {
-        map.locate();
+        map.locate({setView: true, maxZoom: 17, enableHighAccuracy: true});
         view = Views.Gps;
     }
 }
