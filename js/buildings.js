@@ -246,7 +246,7 @@ var Mensa = L.polygon([
     [52.28458,8.02300],
     [52.28413,8.02288],
     [52.28425,8.02178]
-]).addTo(map).bindPopup(createPopUp(mensa));
+]).addTo(map).bindPopup(createPopUp(Mensa));
 
 var MA = L.polygon([
     [52.28699,8.01860],
