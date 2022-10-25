@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <!--Standard-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Our Styles-->
+    <link rel="stylesheet" href="./css/style.css"/>
+
+    <!--Leaflet Styles-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+    integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+    crossorigin=""/>
+    <!--Leaflet Scripts-->
+    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+    integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+    crossorigin=""></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Lageplan</title>
+  </head>
+  <body>
+    <div id="map"></div>
+    <div id="input-wrapper">
+      <input type="text" id="search" name="search" placeholder="Suche..." onkeyup="filterFunction()">
+      <a>AA</a>
+      <a>AB</a>
+      <a>AC</a>
+      <a>AD</a>
+      <a>AE</a>
+      <a>AF</a>
+      <a>BA</a>
+      <a>BB</a>
+      <a>BC</a>
+      <a>MA</a>
+      <a>Mensa</a>
+      <a>SB</a>
+      <a>SC</a>
+      <a>SD</a>
+      <a>SE</a>
+      <a>SF</a>
+      <a>SH</a>
+      <a>SI</a>
+      <a>SJ</a>
+      <div id="button-wrapper">
+        <input id="toggle-view-button" type="button" value="Toggle View" onclick="toggleView()">
+      </div>
+    </div>
+    <script src="./js/map.js"></script>
+    <script src="./js/buildings.js"></script>
+    <script src="./js/search.js"></script>
+  </body>
+</html>
