@@ -8,7 +8,7 @@ var map = L.map('map').setView([52.28443766233468, 8.023298309527929], 17);
 var view = null; // don't set to campus explicitly until the view toggle is hit
 
 // set view to gps location if found
-map.locate({setView: true, maxZoom: 16, enableHighAccuracy: true});
+map.locate({setView: true, maxZoom: 16, enableHighAccuracy: true, watch: true});
 function onLocationFound(e) {
     var radius = e.accuracy;
     L.marker(e.latlng).addTo(map).bindPopup("You are within " + radius + " meters from this point");
@@ -30,7 +30,7 @@ function toggleView() {
         view = Views.Campus;
     }
     else if (view == Views.Campus) {
-        map.locate({setView: true, maxZoom: 17, enableHighAccuracy: true});
+        map.locate({setView: true, maxZoom: 17, enableHighAccuracy: true, watch: true});
         view = Views.Gps;
     }
 }
