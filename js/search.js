@@ -9,6 +9,8 @@ function filterFunction() {
         if (txtValue.toUpperCase().indexOf(filter) > -1 && filter.length > 0) {
             a[i].style.display = "block";
             input.className = "active";
+            
+            //console.log(map.getZoom());
         } 
         else {
             a[i].style.display = "none";
