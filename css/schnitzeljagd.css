@@ -48,3 +48,21 @@
 #question-window #questions .question-answer .answer.correct {
     background-color: green;
 }
+
+#welcome-message {
+    display: none;
+}
+
+#welcome-message.active {
+    display: block;
+    background-color: white;
+    border: solid black 3px;
+    border-radius: 5px;
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
