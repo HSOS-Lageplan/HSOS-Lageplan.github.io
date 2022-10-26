@@ -43,8 +43,11 @@ function toggleView() {
 
 document.querySelectorAll("#input-wrapper a").forEach(function(a){
     a.addEventListener("click", function(element){
-        zoomToBuilding(element.target.textContent);
-        highlightBuilding(element.target.textContent);
+        zoomToBuilding(element.target.dataset.name);
+        highlightBuilding(element.target.dataset.name);
+        //Alle Suchergebenisse ausblenden
+        document.getElementById("search").value = "";
+        filterFunction();
     });
 });
 

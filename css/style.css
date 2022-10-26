@@ -36,9 +36,14 @@ html, body {
 #input-wrapper a {
     display: block;
     background-color: #FFFFFF;
-    width: calc(100% - 12px);
+    width: calc(100% - 25px);
     display: none;
     padding: 7px;
+}
+
+#input-wrapper a span{
+    float:right;
+    margin-left: 8px;
 }
 
 #input-wrapper a:hover {
@@ -94,6 +99,10 @@ html, body {
 }
 
 .leaflet-pane.leaflet-marker-pane img {
+    pointer-events: none;
+}
+
+img.leaflet-image-layer.leaflet-zoom-animated.leaflet-interactive{
     pointer-events: none;
 }
 
