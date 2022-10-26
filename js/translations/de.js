@@ -65,30 +65,31 @@ function getDeTranslation(id) {
         case 31:
             return "Personal";
         case 32:
-            return "International Faculty Office"
+            return "International Faculty Office";
         case 33:
-            return "IT Service Center"
+            return "IT Service Center";
         case 34:
-            return "Beschaffung"
+            return "Beschaffung";
         case 35:
-            return "Gleichstellungsbüro"
+            return "Gleichstellungsbüro";
         case 36:
-            return "Hochschulförderung"
+            return "Hochschulförderung";
         case 37:
-            return "Kommunikation"
+            return "Kommunikation";
         case 38:
-            return "Learning Center"
+            return "Learning Center";
         case 39:
-            return "Präsidium"
+            return "Präsidium";
         case 40:
-            return "Prozessmanagement"
+            return "Prozessmanagement";
         case 41:
-            return "Recht"
+            return "Recht";
         case 42:
-            return "Studium und Lehre"
+            return "Studium und Lehre";
         case 43:
-            return "Studierendensekretariat"
+            return "Studierendensekretariat";
         case 44:
+<<<<<<< HEAD
             return "Schnitzeljagd"
         case 45:
             return "Kehrst Du der Mensa den Rücken zu, findest du ein kleines Gebäude, zwischen Hecken versteckt. Dort zu finden ist eine kleine Werkstatt für Zweiräder. Wie heißt sie?"
@@ -130,6 +131,13 @@ function getDeTranslation(id) {
             return "All diese Rätsel haben hungrig gemacht, oder nicht? Wo kriegt man hier in der Nähe denn wohl was zu essen..."
 
 
+=======
+            return "Schnitzeljagd";
+        case 45:
+            return "Bibliothek";
+        case 46:
+            return "Essen";
+>>>>>>> 5d9ee6c650e91c5ea7cb3678e3206e2677f7042c
         default:
             break;
     }

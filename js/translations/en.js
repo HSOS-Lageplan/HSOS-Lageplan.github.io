@@ -65,31 +65,31 @@ function getEnTranslation(id) {
         case 31:
             return "human resource";
         case 32:
-            return "international faculty office"
+            return "international faculty office";
         case 33:
-            return "IT service center"
+            return "IT service center";
         case 34:
-            return "sourcing"
+            return "sourcing";
         case 35:
-            return "equality office"
+            return "equality office";
         case 36:
-            return "university funding"
+            return "university funding";
         case 37:
-            return "communication"
+            return "communication";
         case 38:
-            return "learning center"
+            return "learning center";
         case 39:
-            return "committee"
+            return "committee";
         case 40:
-            return "process management"
+            return "process management";
         case 41:
-            return "law"
+            return "law";
         case 42:
-            return "study and teaching"
+            return "study and teaching";
         case 43:
-            return "registrar's office"
-        case 44:
-            return "Scavenger Hunt"
+            return "registrar's office";
+        case 44:            
+            return "Scavenger Hunt";
         case 45:
             return "If you turn your back to the cafeteria you will see a little house in between the bushes. There you will find a workshop for bicycles. What is the name of the building?"
         case 46:
@@ -130,6 +130,11 @@ function getEnTranslation(id) {
             return "We turn our back towards the girafe and will now find the frog. In its front yard there are three friends sitting in the gras. What are they made out of?"
         case 64:
             return "All of there riddles have made you hungry, didn't they? Where do you think could you grab something to eat?"
+        case 65:
+            return "Library";
+        case 66:
+            return "food";
+
         default:
             break;
     }

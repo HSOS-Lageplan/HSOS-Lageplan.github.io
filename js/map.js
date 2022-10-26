@@ -3,12 +3,14 @@ const Views = {
     Campus: "Campus"
 };
 
+var located = false;
+
 // set view to campus
 var map = L.map('map').setView([52.28443766233468, 8.023298309527929], 17);
-var view = null; // don't set to campus explicitly until the view toggle is hit
+var view = view = Views.Gps; // don't set to campus explicitly until the view toggle is hit
 
 // set view to gps location if found
-map.locate({setView: true, maxZoom: 16, watch: true});
+map.locate({setView: false, maxZoom: 16, watch: true});
 locationMarker = null;
 function onLocationFound(e) {
     var radius = e.accuracy;
@@ -17,11 +19,17 @@ function onLocationFound(e) {
     }else{
         locationMarker.setLatLng(e.latlng).setPopupContent("You are within " + radius + " meters from this point");
     }
-    view = Views.Gps;
+    if(located == false) {
+        map.setView(e.latlng, 17);
+        located = true;
+    }
 }
-if (view != Views.Campus) {
+if (view == Views.Gps) {
     map.on('locationfound', onLocationFound);
+    map.on('locationerror', function(){view = View.Campus});
 }
+
+
 
 // add openstreetmaps map
 L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
@@ -31,12 +39,13 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r
 
 function toggleView() {
     if (view == Views.Gps) {
-        map.stopLocate();
+        //map.stopLocate();
         map.setView([52.28443766233468, 8.023298309527929], 17);
         view = Views.Campus;
     }
     else if (view == Views.Campus) {
-        map.locate({setView: true, maxZoom: 17, watch: true});
+        //map.locate({setView: true, maxZoom: 17, watch: false});
+        located = false;
         view = Views.Gps;
     }
 }
@@ -59,7 +68,7 @@ var vorherigeAuswahl = null;
 function highlightBuilding(t){
     if(vorherigeAuswahl != null) window[vorherigeAuswahl].setStyle({fillColor: '#3388ff', color: '#3388ff'});
 
-    window[t].setStyle({fillColor: '#ff6363', color: 'FF0000'});
+    window[t].setStyle({fillColor: '#ff6363', color: '#ff0000'});
     setTimeout( function(){ 
         window[t].setStyle({fillColor: '#3388ff', color: '#3388ff'}); //Back to Default after 3 seconds
     }, 3000);

@@ -153,7 +153,7 @@ function createPopUp(name){
             break;
 
         case BIB:
-            result = "<h1>Bibliothek</h1>" + 
+            result = "<h1>" + translateWithoutScriptHack(45) + "</h1>" + 
                     "<img src='res/images/Bib.jpg' class='popup-picture'>" +
 
                     "<table>" +
