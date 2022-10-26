@@ -97,6 +97,10 @@ html, body {
     pointer-events: none;
 }
 
+img.leaflet-image-layer.leaflet-zoom-animated.leaflet-interactive{
+    pointer-events: none;
+}
+
 .popUpHeaderConfiguration{
     padding-top: 5px;
     padding-bottom: 0;
