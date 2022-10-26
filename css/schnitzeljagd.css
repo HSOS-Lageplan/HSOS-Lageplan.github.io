@@ -1,4 +1,9 @@
 #question-window {
+    display: none;
+}
+
+#question-window.active {
+    display: block;
     position: absolute;
     background-color: white;
     z-index: 5;
@@ -11,7 +16,7 @@
 
 #question-window #header {
     position: fixed;
-    width: 100%;
+    width: 390px;
     background-color: white;
 }
 
@@ -26,4 +31,8 @@
 #question-window #questions .answer {
     margin-bottom: 10px;
     padding: 5px;
+}
+
+#question-window #questions .answer.correct {
+    background-color: green;
 }
