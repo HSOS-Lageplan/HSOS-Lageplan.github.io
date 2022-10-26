@@ -1,9 +1,4 @@
 #question-window {
-    display: none;
-}
-
-#question-window.active {
-    display: block;
     position: absolute;
     background-color: white;
     z-index: 5;
@@ -12,6 +7,19 @@
     width: 400px;
     padding: 0 20px;
     overflow-y: auto;
+    margin-right: -500px;
+    transition: margin-right 1s;
+}
+
+#question-window.active {
+    margin-right: 0;
+    transition: margin-right 1s;
+}
+
+@media only screen and (max-width: 500px) {
+    #question-window.active {
+        width: 80%;
+    }
 }
 
 #question-window #header {
