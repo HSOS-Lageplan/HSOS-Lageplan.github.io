@@ -8,6 +8,8 @@ function getEnTranslation(id) {
             return "Switch View";
         case 3:
             return "Search...";
+        case 4:
+            return "Faculty";
         default:
             break;
     }

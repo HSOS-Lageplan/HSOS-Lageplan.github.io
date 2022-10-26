@@ -8,6 +8,8 @@ function getDeTranslation(id) {
             return "Ändere View";
         case 3:
             return "Suche...";
+        case 4:
+            return "Fakultät";
         default:
             break;
     }
