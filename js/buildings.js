@@ -374,232 +374,242 @@ var SR = L.polygon([
     [52.2854033,8.0209491]
 ]).addTo(map).bindPopup(createPopUp(SR)).setStyle({fillOpacity: 0.7});
 
+var imageUrlAA = 'image/circle.png';
+var imageUrlAB = 'image/circle.png';
+var imageUrlAC = 'image/circle.png';
+var imageUrlAD = 'image/circle.png';
+var imageUrlAE = 'image/circle.png';
+var imageUrlAF = 'image/circle.png';
 
-var currentZoom = 17;
-var iconSize = 20;
+var imageUrlBA = 'image/circle.png';
+var imageUrlBB = 'image/circle.png';
+var imageUrlBC = 'image/circle.png';
+var imageUrlBIB = 'image/circle.png';
 
-var circleImage = L.icon({
-    iconUrl: 'image/circle.png',
+var imageUrlMA = 'image/circle.png';
+var imageUrlMensa = 'image/circle.png';
 
-    iconSize:       [iconSize ,iconSize]
+var imageUrlSB = 'image/circle.png';
+var imageUrlSC = 'image/circle.png';
+var imageUrlSD = 'image/circle.png';
+var imageUrlSE = 'image/circle.png';
+var imageUrlSF = 'image/circle.png';
+var imageUrlSG = 'image/circle.png';
+var imageUrlSH = 'image/circle.png';
+var imageUrlSI = 'image/circle.png';
+var imageUrlSJ = 'image/circle.png';
+var imageUrlSK = 'image/circle.png';
+var imageUrlSL = 'image/circle.png';
+var imageUrlSN = 'image/circle.png';
+var imageUrlSO = 'image/circle.png';
+var imageUrlSP = 'image/circle.png';
+var imageUrlSQ = 'image/circle.png';
+var imageUrlSR = 'image/circle.png';
 
-});
-
-//Initiale Setzung aller Marker
 var vAA = AA.getCenter();
-var markerAA = L.marker([vAA.lat, vAA.lng], {icon: circleImage});
 var vAB = AB.getCenter();
-var markerAB = L.marker([vAB.lat, vAB.lng], {icon: circleImage});
 var vAC = AC.getCenter();
-var markerAC = L.marker([vAC.lat, vAC.lng], {icon: circleImage});
 var vAD = AD.getCenter();
-var markerAD = L.marker([vAD.lat, vAD.lng], {icon: circleImage});
 var vAE = AE.getCenter();
-var markerAE = L.marker([vAE.lat, vAE.lng], {icon: circleImage});
 var vAF = AF.getCenter();
-var markerAF = L.marker([vAF.lat, vAF.lng], {icon: circleImage});
 
 var vBA = BA.getCenter();
-var markerBA = L.marker([vBA.lat, vBA.lng], {icon: circleImage});
 var vBB = BB.getCenter();
-var markerBB = L.marker([vBB.lat, vBB.lng], {icon: circleImage});
 var vBC = BC.getCenter();
-var markerBC = L.marker([vBC.lat, vBC.lng], {icon: circleImage});
 var vBIB = BIB.getCenter();
-var markerBIB = L.marker([vBIB.lat, vBIB.lng], {icon: circleImage});
 
 var vMA = MA.getCenter();
-var markerMA = L.marker([vMA.lat, vMA.lng], {icon: circleImage});
 var vMensa = Mensa.getCenter();
-var markerMensa = L.marker([vMensa.lat, vMensa.lng], {icon: circleImage});
 
 var vSB = SB.getCenter();
-var markerSB = L.marker([vSB.lat, vSB.lng], {icon: circleImage});
 var vSC = SC.getCenter();
-var markerSC = L.marker([vSC.lat, vSC.lng], {icon: circleImage});
 var vSD = SD.getCenter();
-var markerSD = L.marker([vSD.lat, vSD.lng], {icon: circleImage});
 var vSE = SE.getCenter();
-var markerSE = L.marker([vSE.lat, vSE.lng], {icon: circleImage});
 var vSF = SF.getCenter();
-var markerSF = L.marker([vSF.lat, vSF.lng], {icon: circleImage});
 var vSG = SG.getCenter();
-var markerSG = L.marker([vSG.lat, vSG.lng], {icon: circleImage});
 var vSH = SH.getCenter();
-var markerSH = L.marker([vSH.lat, vSH.lng], {icon: circleImage});
 var vSJ = SJ.getCenter();
-var markerSJ = L.marker([vSJ.lat, vSJ.lng], {icon: circleImage});
 var vSI = SI.getCenter();
-var markerSI = L.marker([vSI.lat, vSI.lng], {icon: circleImage});
 var vSK = SK.getCenter();
-var markerSK = L.marker([vSK.lat, vSK.lng], {icon: circleImage});
 var vSL = SL.getCenter();
-var markerSL = L.marker([vSL.lat, vSL.lng], {icon: circleImage});
 var vSN = SN.getCenter();
-var markerSN = L.marker([vSN.lat, vSN.lng], {icon: circleImage});
 var vSO = SO.getCenter();
-var markerSO = L.marker([vSO.lat, vSO.lng], {icon: circleImage});
 var vSP = SP.getCenter();
-var markerSP = L.marker([vSP.lat, vSP.lng], {icon: circleImage});
 var vSQ = SQ.getCenter();
-var markerSQ = L.marker([vSQ.lat, vSQ.lng], {icon: circleImage});
 var vSR = SR.getCenter();
-var markerSR = L.marker([vSR.lat, vSR.lng], {icon: circleImage});
 
-map.addLayer(markerAA);
-map.addLayer(markerAB);
-map.addLayer(markerAC);
-map.addLayer(markerAD);
-map.addLayer(markerAE);
-map.addLayer(markerAF);
+var latLngBoundsAA = L.latLngBounds([vAA.lat - 0.000055, vAA.lng - 0.0001], [vAA.lat + 0.000055, vAA.lng + 0.0001]);
+var latLngBoundsAB = L.latLngBounds([vAB.lat - 0.000055, vAB.lng - 0.0001], [vAB.lat + 0.000055, vAB.lng + 0.0001]);
+var latLngBoundsAC = L.latLngBounds([vAC.lat - 0.000055, vAC.lng - 0.0001], [vAC.lat + 0.000055, vAC.lng + 0.0001]);
+var latLngBoundsAD = L.latLngBounds([vAD.lat - 0.000055, vAD.lng - 0.0001], [vAD.lat + 0.000055, vAD.lng + 0.0001]);
+var latLngBoundsAE = L.latLngBounds([vAE.lat - 0.000055, vAE.lng - 0.0001], [vAE.lat + 0.000055, vAE.lng + 0.0001]);
+var latLngBoundsAF = L.latLngBounds([vAF.lat - 0.000055, vAF.lng - 0.0001], [vAF.lat + 0.000055, vAF.lng + 0.0001]);
 
-map.addLayer(markerBA);
-map.addLayer(markerBB);
-map.addLayer(markerBC);
-map.addLayer(markerBIB);
+var latLngBoundsBA = L.latLngBounds([vBA.lat - 0.000055, vBA.lng - 0.0001], [vBA.lat + 0.000055, vBA.lng + 0.0001]);
+var latLngBoundsBB = L.latLngBounds([vBB.lat - 0.000055, vBB.lng - 0.0001], [vBB.lat + 0.000055, vBB.lng + 0.0001]);
+var latLngBoundsBC = L.latLngBounds([vBC.lat - 0.000055, vBC.lng - 0.0001], [vBC.lat + 0.000055, vBC.lng + 0.0001]);
+var latLngBoundsBIB = L.latLngBounds([vBIB.lat - 0.000055, vBIB.lng - 0.0001], [vBIB.lat + 0.000055, vBIB.lng + 0.0001]);
 
-map.addLayer(markerMA);
-map.addLayer(markerMensa);
+var latLngBoundsMA = L.latLngBounds([vMA.lat - 0.000055, vMA.lng - 0.0001], [vMA.lat + 0.000055, vMA.lng + 0.0001]);
+var latLngBoundsMensa = L.latLngBounds([vMensa.lat - 0.000055, vMensa.lng - 0.0001], [vMensa.lat + 0.000055, vMensa.lng + 0.0001]);
 
-map.addLayer(markerSB);
-map.addLayer(markerSC);
-map.addLayer(markerSD);
-map.addLayer(markerSE);
-map.addLayer(markerSF);
-map.addLayer(markerSG);
-map.addLayer(markerSH);
-map.addLayer(markerSI);
-map.addLayer(markerSJ);
-map.addLayer(markerSK);
-map.addLayer(markerSL);
-map.addLayer(markerSN);
-map.addLayer(markerSO);
-map.addLayer(markerSP);
-map.addLayer(markerSQ);
-map.addLayer(markerSR);
+var latLngBoundsSB = L.latLngBounds([vSB.lat - 0.000055, vSB.lng - 0.0001], [vSB.lat + 0.000055, vSB.lng + 0.0001]);
+var latLngBoundsSC = L.latLngBounds([vSC.lat - 0.000055, vSC.lng - 0.0001], [vSC.lat + 0.000055, vSC.lng + 0.0001]);
+var latLngBoundsSD = L.latLngBounds([vSD.lat - 0.000055, vSD.lng - 0.0001], [vSD.lat + 0.000055, vSD.lng + 0.0001]);
+var latLngBoundsSE = L.latLngBounds([vSE.lat - 0.000055, vSE.lng - 0.0001], [vSE.lat + 0.000055, vSE.lng + 0.0001]);
+var latLngBoundsSF = L.latLngBounds([vSF.lat - 0.000055, vSF.lng - 0.0001], [vSF.lat + 0.000055, vSF.lng + 0.0001]);
+var latLngBoundsSG = L.latLngBounds([vSG.lat - 0.000055, vSG.lng - 0.0001], [vSG.lat + 0.000055, vSG.lng + 0.0001]);
+var latLngBoundsSH = L.latLngBounds([vSH.lat - 0.000055, vSH.lng - 0.0001], [vSH.lat + 0.000055, vSH.lng + 0.0001]);
+var latLngBoundsSI = L.latLngBounds([vSI.lat - 0.000055, vSI.lng - 0.0001], [vSI.lat + 0.000055, vSI.lng + 0.0001]);
+var latLngBoundsSJ = L.latLngBounds([vSJ.lat - 0.000055, vSJ.lng - 0.0001], [vSJ.lat + 0.000055, vSJ.lng + 0.0001]);
+var latLngBoundsSK = L.latLngBounds([vSK.lat - 0.000055, vSK.lng - 0.0001], [vSK.lat + 0.000055, vSK.lng + 0.0001]);
+var latLngBoundsSL = L.latLngBounds([vSL.lat - 0.000055, vSL.lng - 0.0001], [vSL.lat + 0.000055, vSL.lng + 0.0001]);
+var latLngBoundsSN = L.latLngBounds([vSN.lat - 0.000055, vSN.lng - 0.0001], [vSN.lat + 0.000055, vSN.lng + 0.0001]);
+var latLngBoundsSO = L.latLngBounds([vSO.lat - 0.000055, vSO.lng - 0.0001], [vSO.lat + 0.000055, vSO.lng + 0.0001]);
+var latLngBoundsSP = L.latLngBounds([vSP.lat - 0.000055, vSP.lng - 0.0001], [vSP.lat + 0.000055, vSP.lng + 0.0001]);
+var latLngBoundsSQ = L.latLngBounds([vSQ.lat - 0.000055, vSQ.lng - 0.0001], [vSQ.lat + 0.000055, vSQ.lng + 0.0001]);
+var latLngBoundsSR = L.latLngBounds([vSR.lat - 0.000055, vSR.lng - 0.0001], [vSR.lat + 0.000055, vSR.lng + 0.0001]);
 
-map.on('zoomend', function() {
+var imageOverlayAA = L.imageOverlay(imageUrlAA, latLngBoundsAA, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
+var imageOverlayAB = L.imageOverlay(imageUrlAB, latLngBoundsAB, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
+var imageOverlayAC = L.imageOverlay(imageUrlAC, latLngBoundsAC, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
+var imageOverlayAD = L.imageOverlay(imageUrlAD, latLngBoundsAD, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
+var imageOverlayAE = L.imageOverlay(imageUrlAE, latLngBoundsAE, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
+var imageOverlayAF = L.imageOverlay(imageUrlAF, latLngBoundsAF, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
 
-    if(markerAA != null){
-        map.removeLayer(markerAA);
-        map.removeLayer(markerAB);
-        map.removeLayer(markerAC);
-        map.removeLayer(markerAD);
-        map.removeLayer(markerAE);
-        map.removeLayer(markerAF);
+var imageOverlayBA = L.imageOverlay(imageUrlBA, latLngBoundsBA, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
+var imageOverlayBB = L.imageOverlay(imageUrlBB, latLngBoundsBB, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
+var imageOverlayBC = L.imageOverlay(imageUrlBC, latLngBoundsBC, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
+var imageOverlayBIB = L.imageOverlay(imageUrlBIB, latLngBoundsBIB, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
 
-        map.removeLayer(markerBA);
-        map.removeLayer(markerBB);
-        map.removeLayer(markerBC);
-        map.removeLayer(markerBIB);
+var imageOverlayMA = L.imageOverlay(imageUrlMA, latLngBoundsMA, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
+var imageOverlayMensa = L.imageOverlay(imageUrlMensa, latLngBoundsMensa, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
 
-        map.removeLayer(markerMA);
-        map.removeLayer(markerMensa);
-
-        map.removeLayer(markerSB);
-        map.removeLayer(markerSC);
-        map.removeLayer(markerSD);
-        map.removeLayer(markerSE);
-        map.removeLayer(markerSF);
-        map.removeLayer(markerSG);
-        map.removeLayer(markerSH);
-        map.removeLayer(markerSJ);
-        map.removeLayer(markerSI);
-        map.removeLayer(markerSK);
-        map.removeLayer(markerSL);
-        map.removeLayer(markerSN);
-        map.removeLayer(markerSO);
-        map.removeLayer(markerSP);
-        map.removeLayer(markerSQ);
-        map.removeLayer(markerSR);
-    }
-
-    currentZoom = map.getZoom();
-    if(currentZoom == 19){
-        iconSize = 80;
-    }
-
-    if(currentZoom == 18){
-        iconSize = 40;
-    }
-
-    if(currentZoom == 17){
-        iconSize = 20;
-    }
-
-    if(currentZoom <= 16){
-        iconSize = 00;
-    }
-
-    var circleImage = L.icon({
-        iconUrl: 'image/circle.png',
-    
-        iconSize:       [iconSize ,iconSize]
-
-    });
-    
-    markerAA = L.marker([vAA.lat, vAA.lng], {icon: circleImage});
-    markerAB = L.marker([vAB.lat, vAB.lng], {icon: circleImage});
-    markerAC = L.marker([vAC.lat, vAC.lng], {icon: circleImage});
-    markerAD = L.marker([vAD.lat, vAD.lng], {icon: circleImage});
-    markerAE = L.marker([vAE.lat, vAE.lng], {icon: circleImage});
-    markerAF = L.marker([vAF.lat, vAF.lng], {icon: circleImage});
-    
-    markerBA = L.marker([vBA.lat, vBA.lng], {icon: circleImage});
-    markerBB = L.marker([vBB.lat, vBB.lng], {icon: circleImage});
-    markerBC = L.marker([vBC.lat, vBC.lng], {icon: circleImage});
-    markerBIB = L.marker([vBIB.lat, vBIB.lng], {icon: circleImage});
-
-    markerMA = L.marker([vMA.lat, vMA.lng], {icon: circleImage});
-    markerMensa = L.marker([vMensa.lat, vMensa.lng], {icon: circleImage});
-
-    markerSB = L.marker([vSB.lat, vSB.lng], {icon: circleImage});
-    markerSC = L.marker([vSC.lat, vSC.lng], {icon: circleImage});
-    markerSD = L.marker([vSD.lat, vSD.lng], {icon: circleImage});
-    markerSE = L.marker([vSE.lat, vSE.lng], {icon: circleImage});
-    markerSF = L.marker([vSF.lat, vSF.lng], {icon: circleImage});
-    markerSG = L.marker([vSG.lat, vSG.lng], {icon: circleImage});
-    markerSH = L.marker([vSH.lat, vSH.lng], {icon: circleImage});
-    markerSJ = L.marker([vSJ.lat, vSJ.lng], {icon: circleImage});
-    markerSI = L.marker([vSI.lat, vSI.lng], {icon: circleImage});
-    markerSK = L.marker([vSK.lat, vSK.lng], {icon: circleImage});
-    markerSL = L.marker([vSL.lat, vSL.lng], {icon: circleImage});
-    markerSN = L.marker([vSN.lat, vSN.lng], {icon: circleImage});
-    markerSO = L.marker([vSO.lat, vSO.lng], {icon: circleImage});
-    markerSP = L.marker([vSP.lat, vSP.lng], {icon: circleImage});
-    markerSQ = L.marker([vSQ.lat, vSQ.lng], {icon: circleImage});
-    markerSR = L.marker([vSR.lat, vSR.lng], {icon: circleImage});
-
-
-    map.addLayer(markerAA);
-    map.addLayer(markerAB);
-    map.addLayer(markerAC);
-    map.addLayer(markerAD);
-    map.addLayer(markerAE);
-    map.addLayer(markerAF);
-
-    map.addLayer(markerBA);
-    map.addLayer(markerBB);
-    map.addLayer(markerBC);
-    map.addLayer(markerBIB);
-
-    map.addLayer(markerMA);
-    map.addLayer(markerMensa);
-
-    map.addLayer(markerSB);
-    map.addLayer(markerSC);
-    map.addLayer(markerSD);
-    map.addLayer(markerSE);
-    map.addLayer(markerSF);
-    map.addLayer(markerSG);
-    map.addLayer(markerSH);
-    map.addLayer(markerSI);
-    map.addLayer(markerSJ);
-    map.addLayer(markerSK);
-    map.addLayer(markerSL);
-    map.addLayer(markerSN);
-    map.addLayer(markerSO);
-    map.addLayer(markerSP);
-    map.addLayer(markerSQ);
-    map.addLayer(markerSR);
-});
+var imageOverlaySB = L.imageOverlay(imageUrlSB, latLngBoundsSB, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
+var imageOverlaySC = L.imageOverlay(imageUrlSC, latLngBoundsSC, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
+var imageOverlaySD = L.imageOverlay(imageUrlSD, latLngBoundsSD, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
+var imageOverlaySE = L.imageOverlay(imageUrlSE, latLngBoundsSE, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
+var imageOverlaySF = L.imageOverlay(imageUrlSF, latLngBoundsSF, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
+var imageOverlaySG = L.imageOverlay(imageUrlSG, latLngBoundsSG, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
+var imageOverlaySH = L.imageOverlay(imageUrlSH, latLngBoundsSH, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
+var imageOverlaySJ = L.imageOverlay(imageUrlSJ, latLngBoundsSJ, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
+var imageOverlaySI = L.imageOverlay(imageUrlSI, latLngBoundsSI, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
+var imageOverlaySK = L.imageOverlay(imageUrlSK, latLngBoundsSK, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
+var imageOverlaySL = L.imageOverlay(imageUrlSL, latLngBoundsSL, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
+var imageOverlaySN = L.imageOverlay(imageUrlSN, latLngBoundsSN, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
+var imageOverlaySO = L.imageOverlay(imageUrlSO, latLngBoundsSO, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
+var imageOverlaySP = L.imageOverlay(imageUrlSP, latLngBoundsSP, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
+var imageOverlaySQ = L.imageOverlay(imageUrlSQ, latLngBoundsSQ, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
+var imageOverlaySR = L.imageOverlay(imageUrlSR, latLngBoundsSR, {
+    zIndex: 10000,
+    opacity: 0.9,
+    interactive: true
+}).addTo(map);
