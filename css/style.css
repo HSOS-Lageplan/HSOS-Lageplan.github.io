@@ -41,6 +41,11 @@ html, body {
     padding: 7px;
 }
 
+#input-wrapper a span{
+    float:right;
+    margin-left: 8px;
+}
+
 #input-wrapper a:hover {
     background-color: #009ce1;
     color: white;
