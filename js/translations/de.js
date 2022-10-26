@@ -89,7 +89,6 @@ function getDeTranslation(id) {
         case 43:
             return "Studierendensekretariat";
         case 44:
-<<<<<<< HEAD
             return "Schnitzeljagd"
         case 45:
             return "Kehrst Du der Mensa den Rücken zu, findest du ein kleines Gebäude, zwischen Hecken versteckt. Dort zu finden ist eine kleine Werkstatt für Zweiräder. Wie heißt sie?"
@@ -129,15 +128,10 @@ function getDeTranslation(id) {
             return "Von der Giraffe geht es nun zum Frosch! Sie dir den Innenhof im Frosch an. Dort sitzen drei Freunde beisammen, fern von allen Pflanzen. Aus welchem Material sind sie?"
         case 64:
             return "All diese Rätsel haben hungrig gemacht, oder nicht? Wo kriegt man hier in der Nähe denn wohl was zu essen..."
-
-
-=======
-            return "Schnitzeljagd";
-        case 45:
+        case 65:
             return "Bibliothek";
-        case 46:
+        case 66:
             return "Essen";
->>>>>>> 5d9ee6c650e91c5ea7cb3678e3206e2677f7042c
         default:
             break;
     }
