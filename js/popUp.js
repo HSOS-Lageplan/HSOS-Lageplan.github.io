@@ -7,10 +7,12 @@ function createPopUp(name){
 
             result = "<h1>Gebäude AA</h1>" + 
             "<img src='res/images/AA.jpg' class='popup-picture'>" +
+            
+            
                     
-                     "<h3> Fakultät IuI </h3>" +
+                    "<h3 class='popUpHeaderConfiguration' class='popUpHeaderConfiguration' class='popUpHeaderConfiguration'> Fakultät IuI </h3>" +
                     
-                    "<ul>" +
+                    "<ul class='popUpListConfiguration'>" +
                     "<li>Berichtswesen</li>"+
                     "<li>Dekanat</li>"+
                     "<li>Finanzen</li>"+
@@ -19,6 +21,8 @@ function createPopUp(name){
                     "<li>IT Service Center</li>"+
                     "<li>Personal</li>"+
                     "</ul>" 
+
+                   
             ;
             
             break;
@@ -38,9 +42,9 @@ function createPopUp(name){
             "</table>" +
 
             "<hr></hr>" +
-            "<h3> Fakultät IuI </h3>" +
+            "<h3 class='popUpHeaderConfiguration'> Fakultät IuI </h3>" +
                     
-            "<ul>" +
+            "<ul class='popUpListConfiguration'>" +
             "<li>Aula</li>"+
             "<li>Wilhelm-Müller-Hörsaal</li>"+
             "</ul>" 
@@ -53,9 +57,9 @@ function createPopUp(name){
             result = "<h1>Gebäude AC</h1>" + 
             "<img src='res/images/AC.jpg' class='popup-picture'>" +
                     
-            "<h3> Fakultät IuI </h3>" +
+            "<h3 class='popUpHeaderConfiguration'> Fakultät IuI </h3>" +
                     
-            "<ul>" +
+            "<ul class='popUpListConfiguration'>" +
             "<li>Labore und Hörsäle</li>"+
             "</ul>" 
             ;
@@ -67,9 +71,9 @@ function createPopUp(name){
             result = "<h1>Gebäude AD</h1>" + 
             "<img src='res/images/AD.jpg' class='popup-picture'>" +
            
-            "<h3> Fakultät IuI </h3>" +
+            "<h3 class='popUpHeaderConfiguration'> Fakultät IuI </h3>" +
                     
-            "<ul>" +
+            "<ul class='popUpListConfiguration'>" +
             "<li>Labore und Hörsäle</li>"+
             "<li> Betriebswerkstatt</li>"+
             "</ul>"
@@ -83,9 +87,9 @@ function createPopUp(name){
             "<img src='res/images/AE.jpg' class='popup-picture'>" +
            
 
-            "<h3> Fakultät IuI </h3>" +
+            "<h3 class='popUpHeaderConfiguration'> Fakultät IuI </h3>" +
                     
-            "<ul>" +
+            "<ul class='popUpListConfiguration'>" +
             "<li>AStA</li>"+
             "<li>Fachschaft IuI</li>"+
             "</ul>" 
@@ -98,9 +102,9 @@ function createPopUp(name){
                     "<img src='res/images/AF.jpg' class='popup-picture'>" +
            
 
-            "<h3> Fakultät IuI </h3>" +
+            "<h3 class='popUpHeaderConfiguration'> Fakultät IuI </h3>" +
                     
-            "<ul>" +
+            "<ul class='popUpListConfiguration'>" +
             "<li>Beschaffung</li>"+
             "<li>Gleichstellungsbüro</li>"+
             "<li>Hochschulförderung</li>"+
@@ -121,7 +125,7 @@ function createPopUp(name){
                     "<img src='res/images/BA.jpg' class='popup-picture'>" +
 
            
-            "<h3>Fakultät WiSo</h3>" 
+            "<h3 class='popUpHeaderConfiguration'>Fakultät WiSo</h3>" 
             ;
 
             break;
@@ -131,8 +135,8 @@ function createPopUp(name){
                     "<img src='res/images/BB.jpg' class='popup-picture'>" +
             
 
-            "<h3>Fakultät IuI</h3>" +
-            "<h3>Science to Business GmbH</h3>"
+            "<h3 class='popUpHeaderConfiguration'>Fakultät IuI</h3>" +
+            "<h3 class='popUpHeaderConfiguration'>Science to Business GmbH</h3>"
             ;
 
         break;
@@ -142,8 +146,8 @@ function createPopUp(name){
                     "<img src='res/images/BC.jpg' class='popup-picture'>" +
             
 
-            "<h3>Fakultät IuI</h3>" +
-            "<h3>Science to Business GmbH</h3>"
+            "<h3 class='popUpHeaderConfiguration'>Fakultät IuI</h3>" +
+            "<h3 class='popUpHeaderConfiguration'>Science to Business GmbH</h3>"
             ;
 
             break;
@@ -204,9 +208,9 @@ function createPopUp(name){
                     "<img src='res/images/MA.jpg' class='popup-picture'>" +
            
 
-            "<h3> Fakultät IuI </h3>" +
+            "<h3 class='popUpHeaderConfiguration'> Fakultät IuI </h3>" +
                     
-            "<ul>" +
+            "<ul class='popUpListConfiguration'>" +
             "<li>Seminarräume und Labore</li>"+
             "</ul>" 
             ;
@@ -223,15 +227,15 @@ function createPopUp(name){
                     "</tr>" +
                     "</table>" +
                     "<hr>" +
-                    "<h4>Fakultät IuI</h4>"+
-                    "<ul> <li>Hörsäle und Seminarräume</li> </ul>";
+                    "<h3 class='popUpHeaderConfiguration'>Fakultät IuI</h3>"+
+                    "<ul class='popUpListConfiguration'> <li>Hörsäle und Seminarräume</li> </ul>";
             break;
 
         case SC:
             result = "<h1>Gebäude SC</h1>" + 
                     "<img src='res/images/SC.jpg' class='popup-picture'>"+
-                    "<h4>Allgemein</h4>"+
-                    "<ul> <li>Kindertagesstätte „Fingerhut“</li> </ul>";
+                    "<h3 class='popUpHeaderConfiguration'>Allgemein</h3>"+
+                    "<ul class='popUpListConfiguration'> <li>Kindertagesstätte „Fingerhut“</li> </ul>";
             
         break;
 
@@ -245,58 +249,58 @@ function createPopUp(name){
                     "</tr>" +
                     "</table>" +
                     "<hr>" +
-                    "<h4>Fakultät IuI</h4>"+
-                    "<ul> <li>Hörsäle und Seminarräume</li> </ul>";
+                    "<h3 class='popUpHeaderConfiguration'>Fakultät IuI</h3>"+
+                    "<ul class='popUpListConfiguration'> <li>Hörsäle und Seminarräume</li> </ul>";
             
             break;
 
         case SE:
             result = "<h1>Gebäude SE</h1>" + 
                     "<img src='res/images/SE.jpg' class='popup-picture'>"+
-                    "<h4>Fakultät IuI</h4>"+
-                    "<ul> <li>Hörsäle und Seminarräume</li> </ul>";
+                    "<h3 class='popUpHeaderConfiguration'>Fakultät IuI</h3>"+
+                    "<ul class='popUpListConfiguration'> <li>Hörsäle und Seminarräume</li> </ul>";
             
         break;
 
         case SF:
             result = "<h1>Gebäude SF</h1>" + 
                     "<img src='res/images/SF.jpg' class='popup-picture'>"+
-                    "<h4>Fakultät IuI</h4>"+
-                    "<ul> <li>Hörsäle und Seminarräume</li> </ul>";
+                    "<h3 class='popUpHeaderConfiguration'>Fakultät IuI</h3>"+
+                    "<ul class='popUpListConfiguration'> <li>Hörsäle und Seminarräume</li> </ul>";
 
             break;
 
         case SG:
             result = "<h1>Gebäude SG</h1>" + 
                     "<img src='res/images/SG.jpg' class='popup-picture'>"+
-                    "<h4>Fakultät IuI</h4>"+
-                    "<ul> <li>Hörsäle und Seminarräume</li> </ul>";
+                    "<h3 class='popUpHeaderConfiguration'>Fakultät IuI</h3>"+
+                    "<ul class='popUpListConfiguration'> <li>Hörsäle und Seminarräume</li> </ul>";
             
         break;
 
         case SH:
             result = "<h1>Gebäude SH</h1>" + 
                     "<img src='res/images/SH.jpg' class='popup-picture'>"+
-                    "<h4>Fakultät IuI</h4>"+
-                    "<ul> <li>Hörsäle und Seminarräume</li> </ul>";
+                    "<h3 class='popUpHeaderConfiguration'>Fakultät IuI</h3>"+
+                    "<ul class='popUpListConfiguration'> <li>Hörsäle und Seminarräume</li> </ul>";
             
             break;
 
         case SJ:
             result = "<h1>Gebäude SJ</h1>" + 
                     "<img src='res/images/SJ.jpg' class='popup-picture'>"+
-                    "<h4>Fakultät IuI</h4>"+
-                    "<ul> <li>Hörsäle und Seminarräume</li> </ul>";
+                    "<h3 class='popUpHeaderConfiguration'>Fakultät IuI</h3>"+
+                    "<ul class='popUpListConfiguration'> <li>Hörsäle und Seminarräume</li> </ul>";
             
         break;
 
         case SI:
             result = "<h1>Gebäude SI</h1>" + 
                     "<img src='res/images/SI.jpg' class='popup-picture'>"+           
-                    "<h4>Allgemein</h4>"+
-                    "<ul> <li>EVD-Schulungszentrum</li> </ul>"+
-                    "<h4>Fakultät IuI</h4>"+
-                    "<ul> <li>Hörsäle und Seminarräume</li>"+
+                    "<h3 class='popUpHeaderConfiguration'>Allgemein</h3>"+
+                    "<ul class='popUpListConfiguration'> <li>EDV-Schulungszentrum</li> </ul>"+
+                    "<h3 class='popUpHeaderConfiguration'>Fakultät IuI</h3>"+
+                    "<ul class='popUpListConfiguration'> <li>Hörsäle und Seminarräume</li>"+
                     "<li>Medienlabor</li> </ul>";
             
             break;
@@ -304,10 +308,10 @@ function createPopUp(name){
         case SK:
             result = "<h1>Gebäude SK</h1>" + 
                     "<img src='res/images/SK.jpg' class='popup-picture'>"+        
-                    "<h4>Allgemein</h4>"+
-                    "<ul> <li>Science To Business GmbH</li> </ul>"+
-                    "<h4>Fakultät IuI</h4>"+
-                    "<ul> <li>Kompetenzzentrum für Leichtbau, Antriebstechnik und Betriebsfestigkeit (LAB)</li> </ul>";
+                    "<h3 class='popUpHeaderConfiguration'>Allgemein</h3>"+
+                    "<ul class='popUpListConfiguration'> <li>Science To Business GmbH</li> </ul>"+
+                    "<h3 class='popUpHeaderConfiguration'>Fakultät IuI</h3>"+
+                    "<ul class='popUpListConfiguration'> <li>Kompetenzzentrum für Leichtbau, Antriebstechnik und Betriebsfestigkeit (LAB)</li> </ul>";
             
         break;
 
@@ -321,48 +325,48 @@ function createPopUp(name){
                     "</tr>" +
                     "</table>" +
                     "<hr>" +
-                    "<h4>Allgemein</h4>"+
-                    "<ul> <li>Hörsäle und Seminarräume</li> </ul>";
+                    "<h3 class='popUpHeaderConfiguration'>Allgemein</h3>"+
+                    "<ul class='popUpListConfiguration'> <li>Hörsäle und Seminarräume</li> </ul>";
             
             break;
 
         case SN:
             result = "<h1>Gebäude SN</h1>" + 
                     "<img src='res/images/SN.jpg' class='popup-picture'>"+      
-                    "<h4>Fakultät IuI</h4>"+
-                    "<ul> <li>Verschiedene Projekte</li> </ul>";
+                    "<h3 class='popUpHeaderConfiguration'>Fakultät IuI</h3>"+
+                    "<ul class='popUpListConfiguration'> <li>Verschiedene Projekte</li> </ul>";
             
         break;
 
         case SO:
             result = "<h1>Gebäude SO</h1>" + 
                     "<img src='res/images/SO.jpg' class='popup-picture'>"+        
-                    "<h4>Fakultät IuI</h4>"+
-                    "<ul> <li>Agrotechnikum</li> </ul>";
+                    "<h3 class='popUpHeaderConfiguration'>Fakultät IuI</h3>"+
+                    "<ul class='popUpListConfiguration'> <li>Agrotechnikum</li> </ul>";
             
             break;
 
         case SP:
             result = "<h1>Gebäude SP</h1>" + 
                     "<img src='res/images/SP.jpg' class='popup-picture'>"+       
-                    "<h4>Fakultät IuI</h4>"+
-                    "<ul> <li>Laborräume</li> </ul>";
+                    "<h3 class='popUpHeaderConfiguration'>Fakultät IuI</h3>"+
+                    "<ul class='popUpListConfiguration'> <li>Laborräume</li> </ul>";
             
         break;
 
         case SQ:
             result = "<h1>Gebäude SQ</h1>" + 
                     "<img src='res/images/SQ.jpg' class='popup-picture'>"+
-                    "<h4>Fakultät IuI</h4>"+
-                    "<ul> <li>Mehrzweckhalle</li> </ul>";
+                    "<h3 class='popUpHeaderConfiguration'>Fakultät IuI</h3>"+
+                    "<ul class='popUpListConfiguration'> <li>Mehrzweckhalle</li> </ul>";
             
             break;
 
         case SR:
             result = "<h1>Gebäude SR</h1>" + 
                     "<img src='res/images/SR.jpg' class='popup-picture'>"+
-                    "<h4>Fakultät IuI</h4>"+
-                    "<ul> <li>Verschiedene Projekte</li> </ul>";
+                    "<h3 class='popUpHeaderConfiguration'>Fakultät IuI</h3>"+
+                    "<ul class='popUpListConfiguration'> <li>Verschiedene Projekte</li> </ul>";
             
         break;
     

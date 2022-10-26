@@ -30,6 +30,20 @@ html, body {
     width: calc(100% - 24px);
     padding: 5px;
     border: 2px solid rgba(0,0,0,0.2);
+    outline: 0;
+}
+
+#input-wrapper a {
+    display: block;
+    background-color: #FFFFFF;
+    width: calc(100% - 12px);
+    display: none;
+    padding: 7px;
+}
+
+#input-wrapper a:hover {
+    background-color: #009ce1;
+    color: white;
 }
 
 #input-wrapper #search.active {
@@ -46,18 +60,17 @@ html, body {
         width: 220px;
     }
 
+    #input-wrapper a {
+        width: 220px;
+    }
+
     .popup-picture {
         width: 300px;
         height: 300px;
     }
 }
 
-#input-wrapper a {
-    display: block;
-    background-color: grey;
-    width: calc(100% - 12px);
-    display: none;
-}
+
 
 #button-wrapper {
     position: absolute;
@@ -84,3 +97,16 @@ html, body {
     pointer-events: none;
 }
 
+.popUpHeaderConfiguration{
+    padding-top: 5px;
+    padding-bottom: 0;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.popUpListConfiguration{
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
