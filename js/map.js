@@ -45,6 +45,9 @@ document.querySelectorAll("#input-wrapper a").forEach(function(a){
     a.addEventListener("click", function(element){
         zoomToBuilding(element.target.textContent);
         highlightBuilding(element.target.textContent);
+        //Alle Suchergebenisse ausblenden
+        document.getElementById("search").value = "";
+        filterFunction();
     });
 });
 
