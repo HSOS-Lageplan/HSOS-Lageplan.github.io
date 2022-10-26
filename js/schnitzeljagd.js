@@ -46,7 +46,7 @@ function applyProgress(progress) {
     for (let i = 0; i < progress; i++) {
         a[i].className = a[i].className + " correct";
         a[i].readOnly = true;
-        a[i].value = getAnswers(i)[0];
+        a[i].value = getAnswers(i)[0]; // muss noch für übersetzungen funktionieren!!!
     }
 }
 
