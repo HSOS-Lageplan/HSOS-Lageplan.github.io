@@ -374,37 +374,37 @@ var SR = L.polygon([
     [52.2854033,8.0209491]
 ]).addTo(map).bindPopup(createPopUp(SR)).setStyle({fillOpacity: 0.7});
 
-var imageUrlAA = 'image/circle.png';
-var imageUrlAB = 'image/circle.png';
-var imageUrlAC = 'image/circle.png';
-var imageUrlAD = 'image/circle.png';
-var imageUrlAE = 'image/circle.png';
-var imageUrlAF = 'image/circle.png';
+var imageUrlAA = 'res/icons/AA.png';
+var imageUrlAB = 'res/icons/AB.png';
+var imageUrlAC = 'res/icons/AC.png';
+var imageUrlAD = 'res/icons/AD.png';
+var imageUrlAE = 'res/icons/AE.png';
+var imageUrlAF = 'res/icons/AF.png';
 
-var imageUrlBA = 'image/circle.png';
-var imageUrlBB = 'image/circle.png';
-var imageUrlBC = 'image/circle.png';
-var imageUrlBIB = 'image/circle.png';
+var imageUrlBA = 'res/icons/BA.png';
+var imageUrlBB = 'res/icons/BB.png';
+var imageUrlBC = 'res/icons/BC.png';
+var imageUrlBIB = 'res/icons/BIB.png';
 
-var imageUrlMA = 'image/circle.png';
-var imageUrlMensa = 'image/circle.png';
+var imageUrlMA = 'res/icons/MA.png';
+var imageUrlMensa = 'res/icons/MENSA.png';
 
-var imageUrlSB = 'image/circle.png';
-var imageUrlSC = 'image/circle.png';
-var imageUrlSD = 'image/circle.png';
-var imageUrlSE = 'image/circle.png';
-var imageUrlSF = 'image/circle.png';
-var imageUrlSG = 'image/circle.png';
-var imageUrlSH = 'image/circle.png';
-var imageUrlSI = 'image/circle.png';
-var imageUrlSJ = 'image/circle.png';
-var imageUrlSK = 'image/circle.png';
-var imageUrlSL = 'image/circle.png';
-var imageUrlSN = 'image/circle.png';
-var imageUrlSO = 'image/circle.png';
-var imageUrlSP = 'image/circle.png';
-var imageUrlSQ = 'image/circle.png';
-var imageUrlSR = 'image/circle.png';
+var imageUrlSB = 'res/icons/SB.png';
+var imageUrlSC = 'res/icons/SC.png';
+var imageUrlSD = 'res/icons/SD.png';
+var imageUrlSE = 'res/icons/SE.png';
+var imageUrlSF = 'res/icons/SF.png';
+var imageUrlSG = 'res/icons/SG.png';
+var imageUrlSH = 'res/icons/SG.png';
+var imageUrlSI = 'res/icons/SI.png';
+var imageUrlSJ = 'res/icons/SJ.png';
+var imageUrlSK = 'res/icons/SK.png';
+var imageUrlSL = 'res/icons/SL.png';
+var imageUrlSN = 'res/icons/SN.png';
+var imageUrlSO = 'res/icons/SO.png';
+var imageUrlSP = 'res/icons/SP.png';
+var imageUrlSQ = 'res/icons/SQ.png';
+var imageUrlSR = 'res/icons/SR.png';
 
 var vAA = AA.getCenter();
 var vAB = AB.getCenter();
@@ -472,144 +472,144 @@ var latLngBoundsSR = L.latLngBounds([vSR.lat - 0.000055, vSR.lng - 0.0001], [vSR
 
 var imageOverlayAA = L.imageOverlay(imageUrlAA, latLngBoundsAA, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 var imageOverlayAB = L.imageOverlay(imageUrlAB, latLngBoundsAB, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 var imageOverlayAC = L.imageOverlay(imageUrlAC, latLngBoundsAC, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 var imageOverlayAD = L.imageOverlay(imageUrlAD, latLngBoundsAD, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 var imageOverlayAE = L.imageOverlay(imageUrlAE, latLngBoundsAE, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 var imageOverlayAF = L.imageOverlay(imageUrlAF, latLngBoundsAF, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 
 var imageOverlayBA = L.imageOverlay(imageUrlBA, latLngBoundsBA, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 var imageOverlayBB = L.imageOverlay(imageUrlBB, latLngBoundsBB, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 var imageOverlayBC = L.imageOverlay(imageUrlBC, latLngBoundsBC, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 var imageOverlayBIB = L.imageOverlay(imageUrlBIB, latLngBoundsBIB, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 
 var imageOverlayMA = L.imageOverlay(imageUrlMA, latLngBoundsMA, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 var imageOverlayMensa = L.imageOverlay(imageUrlMensa, latLngBoundsMensa, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 
 var imageOverlaySB = L.imageOverlay(imageUrlSB, latLngBoundsSB, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 var imageOverlaySC = L.imageOverlay(imageUrlSC, latLngBoundsSC, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 var imageOverlaySD = L.imageOverlay(imageUrlSD, latLngBoundsSD, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 var imageOverlaySE = L.imageOverlay(imageUrlSE, latLngBoundsSE, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 var imageOverlaySF = L.imageOverlay(imageUrlSF, latLngBoundsSF, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 var imageOverlaySG = L.imageOverlay(imageUrlSG, latLngBoundsSG, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 var imageOverlaySH = L.imageOverlay(imageUrlSH, latLngBoundsSH, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 var imageOverlaySJ = L.imageOverlay(imageUrlSJ, latLngBoundsSJ, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 var imageOverlaySI = L.imageOverlay(imageUrlSI, latLngBoundsSI, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 var imageOverlaySK = L.imageOverlay(imageUrlSK, latLngBoundsSK, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 var imageOverlaySL = L.imageOverlay(imageUrlSL, latLngBoundsSL, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 var imageOverlaySN = L.imageOverlay(imageUrlSN, latLngBoundsSN, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 var imageOverlaySO = L.imageOverlay(imageUrlSO, latLngBoundsSO, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 var imageOverlaySP = L.imageOverlay(imageUrlSP, latLngBoundsSP, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 var imageOverlaySQ = L.imageOverlay(imageUrlSQ, latLngBoundsSQ, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
 var imageOverlaySR = L.imageOverlay(imageUrlSR, latLngBoundsSR, {
     zIndex: 10000,
-    opacity: 0.9,
+    opacity: 1,
     interactive: true
 }).addTo(map);
