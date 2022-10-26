@@ -88,6 +88,8 @@ function getEnTranslation(id) {
             return "study and teaching"
         case 43:
             return "registrar's office"
+        case 44:
+            return "Scavenger Hunt"
         default:
             break;
     }

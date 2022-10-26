@@ -38,6 +38,9 @@ switch (document.title) {
     case "1":
         document.title = translateWithoutScriptHack(1);
         break;
+    case "2":
+        document.title = translateWithoutScriptHack(44);
+        break;
     default:
         console.log("Could not find translation for title: " + document.title);
 }

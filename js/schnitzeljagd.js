@@ -1,6 +1,10 @@
 // set game progress to start if new
-if(sessionStorage.getItem("progress" == null)) {
-    sessionStorage.setItem("progress", "0");
+if(localStorage.getItem("progress" == null)) {
+    localStorage.setItem("progress", "0");
+}
+else {
+    var progress = localStorage.getItem("progress");
+    applyProgress(progress);
 }
 
 function toggleSidebar() {
@@ -24,8 +28,25 @@ function checkAnswer(id) {
         if(answers[i].toUpperCase() === ele.value.toUpperCase()) {
             ele.className = ele.className + " correct";
             ele.readOnly = true;
-            sessionStorage.setItem("progress", id + 1);
-        }     
+            localStorage.setItem("progress", id + 1);
+            applyProgress(localStorage.getItem("progress"));
+        }
+    }
+}
+
+function applyProgress(progress) {
+    var qa = document.getElementsByClassName("question-answer");
+
+    for (let i = 0; i <= progress; i++) {
+        qa[i].className = qa[i].className + " active";
+    }
+
+    var a = document.getElementsByClassName("answer");
+
+    for (let i = 0; i < progress; i++) {
+        a[i].className = a[i].className + " correct";
+        a[i].readOnly = true;
+        a[i].value = getAnswers(i)[0];
     }
 }
 

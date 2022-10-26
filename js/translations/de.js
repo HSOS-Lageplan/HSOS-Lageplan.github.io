@@ -88,6 +88,8 @@ function getDeTranslation(id) {
             return "Studium und Lehre"
         case 43:
             return "Studierendensekretariat"
+        case 44:
+            return "Schnitzeljagd"
         default:
             break;
     }
