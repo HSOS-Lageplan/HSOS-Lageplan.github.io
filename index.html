@@ -35,27 +35,28 @@
   <body>
     <div id="map"></div>
     <div id="input-wrapper">
+      <!-- name = variablenname -->
       <input type="text" id="search" name="search" placeholder="" onkeyup="filterFunction()"><script>document.getElementById("search").placeholder = translateWithoutScriptHack(3)</script>
-      <a data-searchKeywords="Dekanat">AA</a>
-      <a data-searchKeywords="">AB</a>
-      <a data-searchKeywords="">AC</a>
-      <a data-searchKeywords="">AD</a>
-      <a data-searchKeywords="">AE</a>
-      <a data-searchKeywords="">AF</a>
-      <a data-searchKeywords="">BA</a>
-      <a data-searchKeywords="">BB</a>
-      <a data-searchKeywords="">BC</a>
-      <a data-searchKeywords="">BIB</a>
-      <a data-searchKeywords="">MA</a>
-      <a data-searchKeywords="Aufwerter Essen">Mensa</a>
-      <a data-searchKeywords="">SB</a>
-      <a data-searchKeywords="">SC</a>
-      <a data-searchKeywords="">SD</a>
-      <a data-searchKeywords="">SE</a>
-      <a data-searchKeywords="">SF</a>
-      <a data-searchKeywords="">SH</a>
-      <a data-searchKeywords="">SI</a>
-      <a data-searchKeywords="">SJ</a>
+      <a data-name="AA" data-searchKeywords="AA Dekanat">AA</a>
+      <a data-name="AB" data-searchKeywords="AB">AB</a>
+      <a data-name="AC" data-searchKeywords="AC">AC</a>
+      <a data-name="AD" data-searchKeywords="AD">AD</a>
+      <a data-name="AE" data-searchKeywords="AE">AE</a>
+      <a data-name="AF" data-searchKeywords="AF">AF</a>
+      <a data-name="BA" data-searchKeywords="BA">BA</a>
+      <a data-name="BB" data-searchKeywords="BB">BB</a>
+      <a data-name="BC" data-searchKeywords="BC">BC</a>
+      <a data-name="BIB" data-searchKeywords="BIB Bibliothek">BIB</a>
+      <a data-name="MA" data-searchKeywords="MA">MA</a>
+      <a data-name="Mensa" data-searchKeywords="Mensa Aufwerter Essen">Mensa <span class='fa fa-cutlery'></span>&nbsp;<span class='fa fa-money'></span></a>
+      <a data-name="SB" data-searchKeywords="SB">SB</a>
+      <a data-name="SC" data-searchKeywords="SC">SC</a>
+      <a data-name="SD" data-searchKeywords="SD">SD</a>
+      <a data-name="SE" data-searchKeywords="SE">SE</a>
+      <a data-name="SF" data-searchKeywords="SF">SF</a>
+      <a data-name="SH" data-searchKeywords="SH">SH</a>
+      <a data-name="SI" data-searchKeywords="SI">SI</a>
+      <a data-name="SJ" data-searchKeywords="SJ">SJ</a>
       <div id="button-wrapper">
         <span id="toggle-view-button" class="button" onclick="toggleView()"><script>translate(2)</script></span>
         <span id="toggle-language" class="button" onclick="languageToggle()"><script>translate(0)</script></span>
