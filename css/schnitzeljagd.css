@@ -1,0 +1,29 @@
+#question-window {
+    position: absolute;
+    background-color: white;
+    z-index: 5;
+    right: 0;
+    height: 100%;
+    width: 400px;
+    padding: 0 20px;
+    overflow-y: auto;
+}
+
+#question-window #header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+#question-window #header h2 {
+    display: inline-block;
+}
+
+#question-window #questions {
+    margin-top: 70px;
+}
+
+#question-window #questions .answer {
+    margin-bottom: 10px;
+    padding: 5px;
+}

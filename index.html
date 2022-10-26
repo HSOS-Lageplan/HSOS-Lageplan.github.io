@@ -35,30 +35,30 @@
   <body>
     <div id="map"></div>
     <div id="input-wrapper">
-      <input type="text" id="search" name="search" placeholder="Suche..." onkeyup="filterFunction()">
-      <a>AA</a>
-      <a>AB</a>
-      <a>AC</a>
-      <a>AD</a>
-      <a>AE</a>
-      <a>AF</a>
-      <a>BA</a>
-      <a>BB</a>
-      <a>BC</a>
-      <a>BIB</a>
-      <a>MA</a>
-      <a>Mensa</a>
-      <a>SB</a>
-      <a>SC</a>
-      <a>SD</a>
-      <a>SE</a>
-      <a>SF</a>
-      <a>SH</a>
-      <a>SI</a>
-      <a>SJ</a>
+      <input type="text" id="search" name="search" placeholder="" onkeyup="filterFunction()"><script>document.getElementById("search").placeholder = translateWithoutScriptHack(3)</script>
+      <a data-searchKeywords="Dekanat">AA</a>
+      <a data-searchKeywords="">AB</a>
+      <a data-searchKeywords="">AC</a>
+      <a data-searchKeywords="">AD</a>
+      <a data-searchKeywords="">AE</a>
+      <a data-searchKeywords="">AF</a>
+      <a data-searchKeywords="">BA</a>
+      <a data-searchKeywords="">BB</a>
+      <a data-searchKeywords="">BC</a>
+      <a data-searchKeywords="">BIB</a>
+      <a data-searchKeywords="">MA</a>
+      <a data-searchKeywords="Aufwerter Essen">Mensa</a>
+      <a data-searchKeywords="">SB</a>
+      <a data-searchKeywords="">SC</a>
+      <a data-searchKeywords="">SD</a>
+      <a data-searchKeywords="">SE</a>
+      <a data-searchKeywords="">SF</a>
+      <a data-searchKeywords="">SH</a>
+      <a data-searchKeywords="">SI</a>
+      <a data-searchKeywords="">SJ</a>
       <div id="button-wrapper">
         <span id="toggle-view-button" class="button" onclick="toggleView()"><script>translate(2)</script></span>
-        <span id="toggle-language" class="button" onclick="languageToggle()"><script>translate(0)</script></sp>
+        <span id="toggle-language" class="button" onclick="languageToggle()"><script>translate(0)</script></span>
       </div>
     </div>
     <script src="./js/map.js"></script>

@@ -44,9 +44,21 @@ function toggleView() {
 document.querySelectorAll("#input-wrapper a").forEach(function(a){
     a.addEventListener("click", function(element){
         zoomToBuilding(element.target.textContent);
+        highlightBuilding(element.target.textContent);
     });
 });
 
 function zoomToBuilding(t){
     map.setView(window[t].getCenter());
+}
+
+var vorherigeAuswahl = null;
+function highlightBuilding(t){
+    if(vorherigeAuswahl != null) window[vorherigeAuswahl].setStyle({fillColor: '#3388ff', color: '#3388ff'});
+
+    window[t].setStyle({fillColor: '#ff6363', color: 'FF0000'});
+    setTimeout( function(){ 
+        window[t].setStyle({fillColor: '#3388ff', color: '#3388ff'}); //Back to Default after 3 seconds
+    }, 3000);
+    vorherigeAuswahl = t;
 }
