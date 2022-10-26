@@ -6,11 +6,11 @@ function filterFunction() {
     a = div.getElementsByTagName("a");
     for (i = 0; i < a.length; i++) {
         txtValue = a[i].textContent || a[i].innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1 && filter.length > 0) {
+        searchKeywords = a[i].dataset.searchkeywords || "";
+        console.log(a[i].dataset);
+        if ((txtValue.toUpperCase().indexOf(filter) > -1 || searchKeywords.toUpperCase().indexOf(filter) > -1) && filter.length > 0) {
             a[i].style.display = "block";
             input.className = "active";
-            
-            //console.log(map.getZoom());
         } 
         else {
             a[i].style.display = "none";

@@ -44,9 +44,17 @@ function toggleView() {
 document.querySelectorAll("#input-wrapper a").forEach(function(a){
     a.addEventListener("click", function(element){
         zoomToBuilding(element.target.textContent);
+        highlightBuilding(element.target.textContent);
     });
 });
 
 function zoomToBuilding(t){
     map.setView(window[t].getCenter());
+}
+
+function highlightBuilding(t){
+    window[t].setStyle({fillColor: '#ff6363', color: 'FF0000'});
+    setTimeout( function(){ 
+        window[t].setStyle({fillColor: '#3388ff', color: '#3388ff'}); //Back to Default after 3 seconds
+    }, 3000);
 }
