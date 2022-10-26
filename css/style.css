@@ -36,7 +36,7 @@ html, body {
 #input-wrapper a {
     display: block;
     background-color: #FFFFFF;
-    width: calc(100% - 12px);
+    width: calc(100% - 25px);
     display: none;
     padding: 7px;
 }
