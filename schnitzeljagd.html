@@ -1,0 +1,125 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Our Styles-->
+        <link rel="stylesheet" href="./css/style.css"/>
+        <link rel="stylesheet" href="./css/schnitzeljagd.css"/>
+
+        <!--Leaflet Styles-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+        integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+        crossorigin=""/>
+        <!--Leaflet Scripts-->
+        <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+        integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+        crossorigin=""></script>
+
+        <title>2</title>
+
+        <!--Translate Script-->
+        <script src="./js/translations/de.js"></script>
+        <script src="./js/translations/en.js"></script>
+        <script src="./js/translate.js"></script>
+
+        <!--favicon-->
+        <link rel="icon" type="image/png" href="./res/favicon/favicon-32x32.png"/>
+    </head>
+    <body>
+        <div id="map"></div>
+        <div id="input-wrapper">
+          <div id="button-wrapper">
+            <span id="toggle-view-button" class="button" onclick="toggleView()"><script>translate(2)</script></span>
+            <span id="toggle-language" class="button" onclick="languageToggle()"><script>translate(0)</script></span>
+          </div>
+        </div>
+
+        <div id="question-window">
+            <span id="header">
+                <span onclick="toggleSidebar()">-></span>
+                <h2>Schnitzeljagd</h2>
+            </span>
+            <div id="questions">
+                <div class="question">
+                    Frage 1
+                </div>
+                <input class="answer" type="text" id="question-1" name="question-1" onkeyup="checkAnswer()">
+                <hr>
+                <div class="question">
+                    Frage 2
+                </div>
+                <input class="answer" type="text" id="question-2" name="question-2" onkeyup="checkAnswer()">
+                <hr>
+                <div class="question">
+                    Frage 1
+                </div>
+                <input class="answer" type="text" id="question-3" name="question-3" onkeyup="checkAnswer()">
+                <hr>
+                <div class="question">
+                    Frage 2
+                </div>
+                <input class="answer" type="text" id="question-4" name="question-4" onkeyup="checkAnswer()">
+                <hr>
+                <div class="question">
+                    Frage 1
+                </div>
+                <input class="answer" type="text" id="question-5" name="question-5" onkeyup="checkAnswer()">
+                <hr>
+                <div class="question">
+                    Frage 2
+                </div>
+                <input class="answer" type="text" id="question-6" name="question-6" onkeyup="checkAnswer()">
+                <hr>
+                <div class="question">
+                    Frage 1
+                </div>
+                <input class="answer" type="text" id="question-7" name="question-7" onkeyup="checkAnswer()">
+                <hr>
+                <div class="question">
+                    Frage 2
+                </div>
+                <input class="answer" type="text" id="question-8" name="question-8" onkeyup="checkAnswer()">
+                <hr>
+                <div class="question">
+                    Frage 1
+                </div>
+                <input class="answer" type="text" id="question-9" name="question-9" onkeyup="checkAnswer()">
+                <hr>
+                <div class="question">
+                    Frage 2
+                </div>
+                <input class="answer" type="text" id="question-10" name="question-10" onkeyup="checkAnswer()">
+                <hr>
+                <div class="question">
+                    Frage 2
+                </div>
+                <input class="answer" type="text" id="question-11" name="question-11" onkeyup="checkAnswer()">
+                <hr>
+                <div class="question">
+                    Frage 1
+                </div>
+                <input class="answer" type="text" id="question-12" name="question-12" onkeyup="checkAnswer()">
+                <hr>
+                <div class="question">
+                    Frage 2
+                </div>
+                <input class="answer" type="text" id="question-13" name="question-13" onkeyup="checkAnswer()">
+                <hr>
+                <div class="question">
+                    Frage 1
+                </div>
+                <input class="answer" type="text" id="question-14" name="question-14" onkeyup="checkAnswer()">
+                <hr>
+                <div class="question">
+                    Frage 2
+                </div>
+                <input class="answer" type="text" id="question-15" name="question-15" onkeyup="checkAnswer()">
+            </div>
+        </div>
+        <script src="./js/map.js"></script>
+        <script src="./js/popUp.js"></script>
+        <script src="./js/buildings.js"></script>
+    </body>
+</html>
