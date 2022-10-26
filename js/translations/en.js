@@ -1,7 +1,7 @@
 function getEnTranslation(id) {
     switch (id) {
         case 0:
-            return "Toggle Language";
+            return "<span class='fi fi-de'></span>DE";
         case 1:
             return "Site plan";
         case 2:

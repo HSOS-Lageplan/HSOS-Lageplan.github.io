@@ -7,7 +7,7 @@ var located = false;
 
 // set view to campus
 var map = L.map('map').setView([52.28443766233468, 8.023298309527929], 17);
-var view = view = Views.Gps; // don't set to campus explicitly until the view toggle is hit
+var view = view = Views.Gps; //start with gps when no location found set to campus
 
 // set view to gps location if found
 map.locate({setView: false, maxZoom: 16, watch: true});
@@ -30,7 +30,6 @@ if (view == Views.Gps) {
 }
 
 
-
 // add openstreetmaps map
 L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
     maxZoom: 19,
@@ -39,14 +38,15 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r
 
 function toggleView() {
     if (view == Views.Gps) {
-        //map.stopLocate();
         map.setView([52.28443766233468, 8.023298309527929], 17);
         view = Views.Campus;
+        document.getElementById("toggle-view-button").innerText = "GPS";
     }
     else if (view == Views.Campus) {
-        //map.locate({setView: true, maxZoom: 17, watch: false});
+        map.locate({setView: false, maxZoom: 17, watch: true});
         located = false;
         view = Views.Gps;
+        document.getElementById("toggle-view-button").innerText = "Campus";
     }
 }
 
