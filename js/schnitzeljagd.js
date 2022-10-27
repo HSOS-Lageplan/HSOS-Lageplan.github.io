@@ -15,6 +15,8 @@ if(localStorage.getItem("progress") == null) {
     deactivateCongratulations();
     deactivateBuildings();
     applyProgress(localStorage.getItem("progress"));
+} else if (localStorage.getItem("progress") == 16){
+    activateCongratulations();
 }
 else {
     applyProgress(localStorage.getItem("progress"));
@@ -66,7 +68,7 @@ function applyProgress(progress) {
 
     for (let i = 0; i <= progress; i++) {
       if(i < 16){
-        qa[i].className = qa[i].className + " active";
+        qa[i].className = "question-answer" + " active";
       }
     }
 
@@ -74,7 +76,8 @@ function applyProgress(progress) {
     var icon = document.getElementsByClassName("fa-check");
 
     for (let i = 0; i < progress; i++) {
-        a[i].className = a[i].className + " correct";
+
+        a[i].className = "answer" + " correct";
         icon[i].className = icon[i].className + " visible";
         a[i].readOnly = true;
         a[i].value = getAnswers(i)[0]; // muss noch für übersetzungen funktionieren!!!
@@ -122,7 +125,7 @@ function reset() {
         localStorage.clear();
         var a = document.getElementsByClassName("answer");
         for(i = 0; i < a.length; i++) {
-            a[i].value = "";    
+            a[i].value = "";
         }
         location.reload();
     }
