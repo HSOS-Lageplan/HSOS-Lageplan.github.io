@@ -109,7 +109,7 @@ function getDeTranslation(id) {
         case 53:
             return "So weit draußen wollen wir nicht bleiben. Mache dich auf den Weg zurück. Das Abenteuer führt dich zu dem Gebäude, das man SB nennt. Erreiche das oberste Stockwerk über die Haupttreppe oder den Fahrstuhl. Gehe nun nach links. Welche Nummer hat der 7. Raum auf der rechten Seite?"
         case 54:
-            return ""
+            return "" //Das muss so
         case 55:
             return "Verlasse das Gebäude und gehe bis zur Mitte der Rasenfläche. Von dort kannst du das folgende Rätsel lösen und weißt somit, in welches Gebäude du als nächstes gehen musst: 'Muss Tag und Nacht auf Wache stehen, hat keine Füße und muss doch gehen, hat keine Hände und muss doch schlagen.'"
         case 56:
@@ -129,11 +129,35 @@ function getDeTranslation(id) {
         case 63:
             return "Von der Giraffe geht es nun zum Frosch! Sie dir den Innenhof im Frosch an. Dort sitzen drei Freunde beisammen, fern von allen Pflanzen. Aus welchem Material sind sie?"
         case 64:
-            return "All diese Rätsel haben hungrig gemacht, oder nicht? Wo kriegt man hier in der Nähe denn wohl was zu essen..."
+            return "All diese Rätsel haben hungrig gemacht, oder nicht? Wo kriegt man hier in der Nähe denn wohl was zu essen... Zähle dort alle Schließfächer und teile die Anzahl durch 6."
         case 65:
             return "Bibliothek";
-        case 66:
-            return "Essen";
+        case 67:
+            return "Fragen";
+
+        case 68:
+            return "Willkommen, Abenteurer!";
+        case 69:
+            return "Bist du bereit, auf die große Westerberg-Schnitzeljagd zu gehen?";
+        case 70:
+            return "Glaubst du, du hast das Zeug dazu, alle Rätsel zu lösen?";
+        case 71:
+            return "So geht's:"
+        case 72:
+            return "Alle Gebäude, deren Rätsel du noch nicht gelöst hast, erscheinen rot. Knackst du ihren Code, färben sie sich grün. Die Fragen findest du, indem du den Button antippst. Meistens musst du zur Lösung einen Code/ ein Wort/ eine Zahl eingeben. Ist deine Antwort korrekt, geht es automatisch zum nächsten Rätsel!"
+        case 73:
+            return "Viel Spaß!"
+        case 74:
+            return "LOS GEHT'S!"
+
+        case 75:
+            return "Herzlichen Glückwunsch!";
+        case 76:
+            return "Du hast dich allen kniffligen Herausforderungen rund um den Campus gestellt und diese mit Bravour gemeistert. Ohne Zweifel kannst du dich jetzt als wahres Genie bezeichnen.";
+        case 77:
+            return "Natürlich bleibt ein solcher Ehrgeiz nicht unbelohnt. Gebe in das folgende Feld deinen Abenteurer-Namen oder den Namen deines Teams eine und erhalte deinen Preis!";
+        case 78:
+            return "Fertig!"
         default:
             break;
     }
