@@ -19,11 +19,11 @@ function getEnTranslation(id) {
         case 8:
             return "media lab";
         case 9:
-            return "Universal";
+            return "General";
         case 10:
             return "seminar rooms and laboratories";
         case 11:
-            return "several projects";
+            return "projects";
         case 12:
             return "lecture halls and seminar rooms";
         case 13:
@@ -37,7 +37,7 @@ function getEnTranslation(id) {
         case 17:
             return "validation machine";
         case 18:
-            return "card charger";
+            return "revaluator";
         case 19:
             return "IT training center";
         case 20:
