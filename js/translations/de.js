@@ -158,6 +158,12 @@ function getDeTranslation(id) {
             return "Natürlich bleibt ein solcher Ehrgeiz nicht unbelohnt. Gebe in das folgende Feld deinen Abenteurer-Namen oder den Namen deines Teams eine und erhalte deinen Preis!";
         case 78:
             return "Fertig!"
+        case 79:
+            return "Sind Sie sicher, dass wie all Ihren Fortschritt zurück setzen wollen?"
+        case 80:
+            return "Frage überspringen"
+        case 81:
+            return "Antworten zurücksetzen"
         default:
             break;
     }
