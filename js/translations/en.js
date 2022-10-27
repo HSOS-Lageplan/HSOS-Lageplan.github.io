@@ -19,7 +19,7 @@ function getEnTranslation(id) {
         case 8:
             return "media lab";
         case 9:
-            return "universal";
+            return "Universal";
         case 10:
             return "seminar rooms and laboratories";  
         case 11:
@@ -176,6 +176,12 @@ function getEnTranslation(id) {
             return "post office";
         case 106:
             return "staff council";
+        case 107:
+            return "room of silence";
+        case 108:
+            return "PrinDi";
+        case 109:
+            return "Administration";
         default:
             break;
     }

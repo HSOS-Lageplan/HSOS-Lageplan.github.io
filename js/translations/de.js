@@ -176,6 +176,12 @@ function getDeTranslation(id) {
             return "Poststelle";
         case 106:
             return "Personalrat";
+        case 107:
+            return "Raum der Stille";
+        case 108:
+            return "PrinDi";
+        case 109:
+            return  "Verwaltung";
         default:
             break;
     }
