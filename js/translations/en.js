@@ -93,7 +93,7 @@ function getEnTranslation(id) {
         case 45:
             return "If you turn your back to the cafeteria you will see a little house in between the bushes. There you will find a workshop for bicycles. What is the name of the building?"
         case 46:
-            return "What am I? "
+            return "I have no voice and yet I speak to you, I tell of all things in the world that people do. I have leaves, but I am not a tree, I have pages, but I am not a bride or royalty. What am I?"
         case 47:
             return "Where can you find me? Go to the fitting building and enter the lockerroom. Turn to the right and look at the wall. Which number does the fifth locker from the left and third from the bottom have? "
         case 48:
@@ -111,7 +111,7 @@ function getEnTranslation(id) {
         case 54:
             return "" //Das muss so
         case 55:
-            return "Leave the building and enter middle of the lawn. Here you can answer the next riddle which will tell you where to go next: Does not matter if day or night im always on duty. Do not have legs but have to walk. Got neither hands but still have to "
+            return "Leave the building and enter middle of the lawn. Here you can answer the next riddle which will tell you where to go next: Without fists I strike, without fingers I point, without legs I run, what am I? "
         case 56:
             return "Enter the building and go to the bottom floor. Somewhere here is a room with this symbol on its door. Which kind of room is it?"
         case 57:
