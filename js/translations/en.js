@@ -117,7 +117,7 @@ function getEnTranslation(id) {
         case 57:
             return "Leave the building towards the blue doors/ gate. They belong to the building you will want to visit next. Find an entry and search for a mailbox belonging to the 'Hauspost'. Which number does this mailbox have?"
         case 58:
-            return "In the building with an auditorium Willhelm Mueller goes out of the room named after him. He decides he wants to visit the closest mens restroom. Standing infront of the door he decides to take the staircase to the right of him. He reaches the second floor, passes the glass door and takes the path to the left. After another glass door he finds a blue circle with an arrow on the wall. What's written inside the circle?"
+            return "In the building with an auditorium Wilhelm Mueller goes out of the room named after him. He decides he wants to visit the closest mens restroom. Standing infront of the door he decides to take the staircase to the right of him. He reaches the second floor, passes the glass door and takes the path to the left. After another glass door he finds a blue circle with an arrow on the wall. What's written inside the circle?"
         case 59:
             return "Next go to the building which looks like a dinosaur facing north. On the first floor you will find a room which is used for 3D- Printing. Build the checksum out of the numbers of this room."
         case 60:
