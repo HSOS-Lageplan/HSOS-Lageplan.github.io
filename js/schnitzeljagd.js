@@ -81,7 +81,7 @@ function applyProgress(progress) {
         a[i].className = "answer" + " correct";
         icon[i].className = icon[i].className + " visible";
         a[i].readOnly = true;
-        checkAnswerTranslation(a,i,currentLanguage);
+        checkAnswerTranslation(a,i,currentLanguage); // Bei Frage 2,7 und 15 guckt die Funktion nach, in welcher Sprache wir uns befinden, dem entsprechend wird es für DE/EN translatet.
         setBuildingColor(i, true);
     }
 }
@@ -95,19 +95,19 @@ function checkAnswerTranslation(a,i,currentLanguage){
     }else if(i==1 && currentLanguage === Languages.EN){
         a[i].value = getAnswers(i)[2];
     }
-
-    if(i==6 && (currentLanguage === Languages.DE || currentLanguage == undefined)){
+    else if(i==6 && (currentLanguage === Languages.DE || currentLanguage == undefined)){
         a[i].value = getAnswers(i)[0];
     }else if(i==6 && currentLanguage === Languages.EN){
         a[i].value = getAnswers(i)[2];
     }
-
-    if(i==14 && (currentLanguage === Languages.DE || currentLanguage == undefined)){
+    else if(i==14 && (currentLanguage === Languages.DE || currentLanguage == undefined)){
         a[i].value = getAnswers(i)[0];
     }else if(i==14 && currentLanguage === Languages.EN){
         a[i].value = getAnswers(i)[2];
     }
-
+    else{
+        a[i].value = getAnswers(i)[0];
+    }
 }
 
 function activateWelcomeMessage() {
