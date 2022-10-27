@@ -18,7 +18,7 @@
     #question-window.active {
         width: 80%;
     }
-    
+
     #welcome-message.active{
         height: 75%;
         width: 75%;
@@ -92,3 +92,15 @@
     padding-right: 10px;
 }
 
+#price {
+  display: none;
+  background-color: white;
+  border-radius: 5px;
+  z-index: 5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}

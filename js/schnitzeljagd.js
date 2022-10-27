@@ -1,6 +1,5 @@
 // set game progress to start if new
 if(localStorage.getItem("progress") == null) {
-    localStorage.setItem("progress", "0");
     activateWelcomeMessage();
     deactivateCongratulations();
     applyProgress(localStorage.getItem("progress"));
@@ -77,6 +76,7 @@ function activateWelcomeMessage() {
 }
 
 function deactivateWelcomeMessage() {
+    localStorage.setItem("progress", "0");
     var ele = document.getElementById("welcome-message");
     ele.className = "";
 }
@@ -92,8 +92,9 @@ function deactivateCongratulations() {
 
 function getPrice(username) {
   deactivateCongratulations();
-    //hier gibt es den Preis
-    console.log(username);
+  var x = document.getElementById("price");
+  x.style.display = "block";
+  document.getElementById("usernamePrice").innerText = username;
 }
 
 function getUserName() {
