@@ -206,6 +206,13 @@ function createPopUp(name){
                     "<th> <div class='textNebenIconPlatzierung'>" + translateWithoutScriptHack(17)+ "</div> </th>" +
                    
                     "</tr>" + 
+
+                    "<tr>" +
+                
+                    "<th> <i class='fa fa-money'></i> </th>" +
+                    "<th> <div class='textNebenIconPlatzierung'>" + translateWithoutScriptHack(18) + "</div> </th>" +
+                   
+                    "</tr>" + 
                 
                     "</table>"
 
