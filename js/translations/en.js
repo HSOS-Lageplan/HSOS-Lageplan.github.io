@@ -143,7 +143,7 @@ function getEnTranslation(id) {
         case 71:
             return "This is how you play:"
         case 72:
-            return "Every building which is tinted red has uncompleted riddles. If you crack their code they appear green. You can find the questions by clicking on the according button. Most of the time you have got to enter a word, number or code in order to solve the riddle. The next question will apeear automaticly after your answer ist right."
+            return "Every building which is tinted blue has uncompleted riddles. If you crack their code they appear green. You can find the questions by clicking on the according button. Most of the time you have got to enter a word, number or code in order to solve the riddle. The next question will apeear automaticly after your answer ist right."
         case 73:
             return "Have fun!"
         case 74:

@@ -143,7 +143,7 @@ function getDeTranslation(id) {
         case 71:
             return "So geht's:"
         case 72:
-            return "Alle Gebäude, deren Rätsel du noch nicht gelöst hast, erscheinen rot. Knackst du ihren Code, färben sie sich grün. Die Fragen findest du, indem du den Button antippst. Meistens musst du zur Lösung einen Code/ ein Wort/ eine Zahl eingeben. Ist deine Antwort korrekt, geht es automatisch zum nächsten Rätsel!"
+            return "Alle Gebäude, deren Rätsel du noch nicht gelöst hast, erscheinen blau. Knackst du ihren Code, färben sie sich grün. Die Fragen findest du, indem du den Button antippst. Meistens musst du zur Lösung einen Code/ ein Wort/ eine Zahl eingeben. Ist deine Antwort korrekt, geht es automatisch zum nächsten Rätsel!"
         case 73:
             return "Viel Spaß!"
         case 74:
