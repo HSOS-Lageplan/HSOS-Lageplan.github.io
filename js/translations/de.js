@@ -157,7 +157,7 @@ function getDeTranslation(id) {
         case 78:
             return "Fertig!"
         case 79:
-            return "Sind Sie sicher, dass wie all Ihren Fortschritt zurück setzen wollen?"
+            return "Sind Sie sicher, dass Sie all Ihren Fortschritt zurück setzen wollen?"
         case 80:
             return "Frage lösen"
         case 81:
