@@ -147,3 +147,9 @@ function deactivateBuildings(){
     SC.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
     AF.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
 }
+
+document.querySelector("#map").addEventListener("click", function() {
+    if(document.getElementById("question-window").className == "active") {
+        toggleSidebar();
+    }
+});
