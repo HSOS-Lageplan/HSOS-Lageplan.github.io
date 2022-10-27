@@ -45,7 +45,7 @@ function getEnTranslation(id) {
         case 21:
             return "Student Council";
         case 22:
-            return "day care center";
+            return "day care";
         case 23:
             return "laboratories and lecture halls";
         case 24:
@@ -83,9 +83,9 @@ function getEnTranslation(id) {
         case 40:
             return "process management";
         case 41:
-            return "law";
+            return "legals";
         case 42:
-            return "study and teaching";
+            return "studying and teaching";
         case 43:
             return "registrar's office";
         case 44:
