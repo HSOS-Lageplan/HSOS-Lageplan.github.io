@@ -101,7 +101,7 @@ function getDeTranslation(id) {
         case 49:
             return "Gegenüber der Herrentoilette befindet sich eine Tür. Wie ist dieser Raum bezeichnet?"
         case 50:
-            return "Es gibt einen Raum, der von drei Seiten aus erreichbar ist. Eine Seite ist ganz aus Glas. Von seiner Decke hängen graue Scheiben. Wie viele hängen dort (Lampen ausgenommen)?"
+            return "Es gibt einen Raum, der von drei Seiten aus erreichbar ist. Eine Seite ist ganz aus Glas. Von seiner Decke hängen graue Scheiben. Wie viele Lampen hängen dort?"
         case 51:
             return "Wie viele große Rolltore lassen sich hier zählen?"
         case 52:
@@ -123,9 +123,9 @@ function getDeTranslation(id) {
         case 60:
             return "Vor dem AA-Gebäude steht ein Basketballkorb. Werfe ein paar Körbe, wenn du magst. Gehe dann zu dem Gebäude, das in Blickrichtung des Korbes liegt. Welche Raumnummer hat die Garage, auf die du hinunterblicken kannst?"
         case 61:
-            return "Da du dich bis hier hervorragend geschlagen hast, erhältst du für das nächste Rätsel einen Tipp: Suche in der Nähe von SE, SF und SG! Finde den Ort, an dem das beigefügte Bild gemacht wurde.An welchem Gebäude befindest du dich jetzt?"
+            return "Da du dich bis hier hervorragend geschlagen hast, erhältst du für das nächste Rätsel einen Tipp: Suche in der Nähe von SE, SF und SG! Finde den Ort, an dem das beigefügte Bild gemacht wurde. Welche Hausnummer hat das Gebäude, an dem du dich nun befindest?"
         case 62:
-            return "Östlich von hier ist noch ein Gebäude, das du nicht besucht hast. Gehe zur westlichen Treppe. Wenn du unter der Treppe den Blick nach oben richtest, kannst du ein Codewort entdecken."
+            return "Östlich von hier ist noch ein Gebäude, das du nicht besucht hast. Gehe zur westlichen Treppe. Wenn du unter der Treppe den Blick nach oben richtest, kannst du ein Codewort entdecken. Achtung: Es ist sehr klein geschrieben!"
         case 63:
             return "Von der Giraffe geht es nun zum Frosch! Sie dir den Innenhof im Frosch an. Dort sitzen drei Freunde beisammen, fern von allen Pflanzen. Aus welchem Material sind sie?"
         case 64:
