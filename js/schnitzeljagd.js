@@ -74,16 +74,40 @@ function applyProgress(progress) {
 
     var a = document.getElementsByClassName("answer");
     var icon = document.getElementsByClassName("fa-check");
+    var currentLanguage = sessionStorage.getItem("currentLanguage");
 
     for (let i = 0; i < progress; i++) {
 
         a[i].className = "answer" + " correct";
         icon[i].className = icon[i].className + " visible";
         a[i].readOnly = true;
-        a[i].value = getAnswers(i)[0]; // muss noch für übersetzungen funktionieren!!!
-
+        checkAnswerTranslation(a,i,currentLanguage);
         setBuildingColor(i, true);
     }
+}
+
+function checkAnswerTranslation(a,i,currentLanguage){
+
+    var currentLanguage = sessionStorage.getItem("currentLanguage");
+
+    if(i==1 && (currentLanguage === Languages.DE || currentLanguage == undefined)){
+        a[i].value = getAnswers(i)[0];
+    }else if(i==1 && currentLanguage === Languages.EN){
+        a[i].value = getAnswers(i)[2];
+    }
+
+    if(i==6 && (currentLanguage === Languages.DE || currentLanguage == undefined)){
+        a[i].value = getAnswers(i)[0];
+    }else if(i==6 && currentLanguage === Languages.EN){
+        a[i].value = getAnswers(i)[2];
+    }
+
+    if(i==14 && (currentLanguage === Languages.DE || currentLanguage == undefined)){
+        a[i].value = getAnswers(i)[0];
+    }else if(i==14 && currentLanguage === Languages.EN){
+        a[i].value = getAnswers(i)[2];
+    }
+
 }
 
 function activateWelcomeMessage() {
