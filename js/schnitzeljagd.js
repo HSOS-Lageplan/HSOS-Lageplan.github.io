@@ -99,6 +99,7 @@ function getPrice(username) {
   if (username != null){
     document.getElementById("usernamePrice").innerText = username;
   }
+  document.getElementsById("skipCounter").innerText = localStorage.getItem("skipCounter");
 }
 
 function getUserName() {
