@@ -133,6 +133,9 @@ function skip() {
     localStorage.setItem("skipCounter", parseInt(localStorage.getItem("skipCounter")) + 1);
     applyProgress(parseInt(localStorage.getItem("progress")) + 1);
     localStorage.setItem("progress", parseInt(localStorage.getItem("progress")) + 1)
+    if(localStorage.getItem("progress") == 16) {
+        activateCongratulations();
+    }
 }
 
 function deactivateBuildings(){
@@ -147,3 +150,9 @@ function deactivateBuildings(){
     SC.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
     AF.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
 }
+
+document.querySelector("#map").addEventListener("click", function() {
+    if(document.getElementById("question-window").className == "active") {
+        toggleSidebar();
+    }
+});

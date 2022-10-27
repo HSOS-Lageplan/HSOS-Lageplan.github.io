@@ -159,9 +159,9 @@ function getEnTranslation(id) {
         case 79:
             return "Are you sure that you want to reset all your progress?"
         case 80:
-            return "Frage überspringen"
+            return "Skip Question"
         case 81:
-            return "Antworten zurücksetzen"
+            return "Reset"
         case 100:
             return "deanship IuI";
         case 101:
