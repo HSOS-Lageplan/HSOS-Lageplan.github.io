@@ -175,7 +175,7 @@ function getEnTranslation(id) {
         case 105:
             return "post office";
         case 106:
-            return "Personalrat";
+            return "staff council";
         default:
             break;
     }
