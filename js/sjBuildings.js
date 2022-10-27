@@ -59,6 +59,6 @@ function setColor(building, done) {
         building.setStyle({fillColor: '#63ff63', color: '#00ff00'});
     }
     else {
-        building.setStyle({fillColor: '#ff6363', color: '#ff0000'});
+        building.setStyle({fillColor: '#3388ff', color: '#3388ff'});
     }
 }
