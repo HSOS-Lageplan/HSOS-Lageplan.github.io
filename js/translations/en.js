@@ -167,7 +167,7 @@ function getEnTranslation(id) {
         case 101:
             return "VDE";
         case 102:
-            return "Servicedesk";
+            return "ServiceDesk";
         case 103:
             return "Center for International Students";
         case 104:
