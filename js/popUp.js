@@ -59,11 +59,11 @@ function createPopUp(name){
             "<h3 class='popUpHeaderConfiguration'> " + translateWithoutScriptHack(4) + " IuI </h3>" +
                     
             "<ul class='popUpListConfiguration'>" +
-            "<li>" + translateWithoutScriptHack(70) + "</li>"+
-            "<li>" + translateWithoutScriptHack(71) + "</li>"+
-            "<li>" + translateWithoutScriptHack(72) + "</li>"+
-            "<li>" + translateWithoutScriptHack(73) + "</li>"+
-            "<li>" + translateWithoutScriptHack(26) + "</li>"+
+            "<li>" + translateWithoutScriptHack(102) + "</li>"+
+            "<li>" + translateWithoutScriptHack(103) + "</li>"+
+            "<li>" + translateWithoutScriptHack(104) + "</li>"+
+            "<li>" + translateWithoutScriptHack(105) + "</li>"+
+            "<li>" + translateWithoutScriptHack(106) + "</li>"+
             "</ul>"
             ;
             
@@ -177,7 +177,7 @@ function createPopUp(name){
 
                     "<tr>" +
                 
-                    "<th> <i class='fa fa-cutlery'></i> </th>" +
+                    "<th> <i class='fa fa-book'></i> </th>" +
                     "<th> <div class='textNebenIconPlatzierung'>" + translateWithoutScriptHack(14) + "</div> </th>" +
                    
                     "</tr>" + 

@@ -1,10 +1,17 @@
-// set game progress to start if new
+var inputs = document.getElementsByClassName("answer");
+
+for (let i = 0; i < inputs.length; i++) {
+    inputs[i].addEventListener("keypress", function(event) {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            inputs[i].className = "answer incorrect";
+        }
+    });
+}
+
 if(localStorage.getItem("progress") == null) {
-<<<<<<< HEAD
-=======
     localStorage.setItem("progress", "0");
     localStorage.setItem("skipCounter", "0");
->>>>>>> 3dbfddb3566c66cd69c477b3c303e78c398845f3
     activateWelcomeMessage();
     deactivateCongratulations();
     applyProgress(localStorage.getItem("progress"));
@@ -35,7 +42,7 @@ function checkAnswer(id) {
 
     for (let i = 0; i < answers.length; i++) {
         if(answers[i].toUpperCase() === ele.value.toUpperCase()) {
-            ele.className = ele.className + " correct";
+            ele.className = "answer correct";
             icon.className = icon.className + " visible";
             ele.readOnly = true;
             localStorage.setItem("progress", id + 1);
