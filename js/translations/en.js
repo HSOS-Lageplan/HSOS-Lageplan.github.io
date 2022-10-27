@@ -155,7 +155,7 @@ function getEnTranslation(id) {
         case 75:
             return "Congratulations!"
         case 76:
-            return "You have faced every challenge and riddle all arround the campus and have mastered the mall. Without a doubt you can call yourself a true geniues"
+            return "You have faced every challenge and riddle all arround the campus and have mastered them all. Without a doubt you can call yourself a true geniues"
         case 77:
             return "Such ambition does not go without a price. You can type your name or your teamname into the following field in order to claim your reward!"
         case 78:
