@@ -1,5 +1,10 @@
 // set game progress to start if new
 if(localStorage.getItem("progress") == null) {
+<<<<<<< HEAD
+=======
+    localStorage.setItem("progress", "0");
+    localStorage.setItem("skipCounter", "0");
+>>>>>>> 3dbfddb3566c66cd69c477b3c303e78c398845f3
     activateWelcomeMessage();
     deactivateCongratulations();
     applyProgress(localStorage.getItem("progress"));
@@ -99,4 +104,17 @@ function getPrice(username) {
 
 function getUserName() {
     return document.getElementById("username").value;
+}
+
+function reset() {
+    if(confirm(translateWithoutScriptHack(79))) {
+        localStorage.clear();
+        location.reload();
+    }
+}
+
+function skip() {
+    localStorage.setItem("skipCounter", parseInt(localStorage.getItem("skipCounter")) + 1);
+    applyProgress(parseInt(localStorage.getItem("progress")) + 1);
+    localStorage.setItem("progress", parseInt(localStorage.getItem("progress")) + 1)
 }

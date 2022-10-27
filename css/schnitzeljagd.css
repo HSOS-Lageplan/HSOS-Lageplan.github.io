@@ -37,6 +37,7 @@
 
 #question-window #questions {
     margin-top: 70px;
+    margin-bottom: 60px;
 }
 
 #question-window #questions .question-answer {
@@ -67,6 +68,14 @@
 #question-window #questions .question-answer .fa-check.visible {
     margin-left: 5px;
     display: inline;
+}
+
+#question-window #skip-reset {
+    position: fixed;
+    bottom: 0;
+    width: 390px;
+    padding: 20px 0;
+    background-color: white;
 }
 
 #welcome-message, #congratulations-message{

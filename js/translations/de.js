@@ -63,7 +63,7 @@ function getDeTranslation(id) {
         case 30:
             return "Gebäude und Technik";
         case 31:
-            return "Personal";
+            return "Personalabteilung";
         case 32:
             return "International Faculty Office";
         case 33:
@@ -132,11 +132,8 @@ function getDeTranslation(id) {
             return "All diese Rätsel haben hungrig gemacht, oder nicht? Wo kriegt man hier in der Nähe denn wohl was zu essen... Zähle dort alle Schließfächer und teile die Anzahl durch 6."
         case 65:
             return "Bibliothek";
-        case 66:
-            return "Essen";
         case 67:
             return "Fragen";
-
         case 68:
             return "Willkommen, Abenteurer!";
         case 69:
@@ -151,7 +148,6 @@ function getDeTranslation(id) {
             return "Viel Spaß!"
         case 74:
             return "LOS GEHT'S!"
-
         case 75:
             return "Herzlichen Glückwunsch!";
         case 76:
@@ -160,6 +156,26 @@ function getDeTranslation(id) {
             return "Natürlich bleibt ein solcher Ehrgeiz nicht unbelohnt. Gebe in das folgende Feld deinen Abenteurer-Namen oder den Namen deines Teams eine und erhalte deinen Preis!";
         case 78:
             return "Fertig!"
+        case 79:
+            return "Sind Sie sicher, dass wie all Ihren Fortschritt zurück setzen wollen?"
+        case 80:
+            return "Frage überspringen"
+        case 81:
+            return "Antworten zurücksetzen"
+        case 100:
+            return "Dekanat IuI";
+        case 101:
+            return "VDE";
+        case 102:
+            return "Servicedesk";
+        case 103:
+            return "Center for International Students";
+        case 104:
+            return "Center for International Mobility";
+        case 105:
+            return "Poststelle";
+        case 106:
+            return "Personalrat";
         default:
             break;
     }

@@ -44,7 +44,7 @@
         <div id="question-window">
             <span id="header">
                 <span onclick="toggleSidebar()"><i class="fa fa-remove" id="iconInQuestionWindow"></i></span>
-                <h2>Schnitzeljagd</h2>
+                <h2><script>translate(44)</script></h2>
             </span>
             <div id="questions">
                 <span class="question-answer">
@@ -172,6 +172,11 @@
                     <input class="answer" type="text" id="question-15" name="question-15" onkeyup="checkAnswer(15)"><span class="fa fa-check"></span>
                 </span>
             </div>
+
+            <span id="skip-reset">
+                <span id="skip" class="button" onclick="skip()"><script>translate(80)</script></span>
+                <span id="reset" class="button" onclick="reset()"><script>translate(81)</script></span>
+            </span>
         </div>
 
         <div id="welcome-message">
