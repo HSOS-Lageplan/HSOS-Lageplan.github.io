@@ -99,7 +99,9 @@ function getPrice(username) {
   deactivateCongratulations();
   var x = document.getElementById("price");
   x.style.display = "block";
-  document.getElementById("usernamePrice").innerText = username;
+  if (username != null){
+    document.getElementById("usernamePrice").innerText = username;
+  }
 }
 
 function getUserName() {
