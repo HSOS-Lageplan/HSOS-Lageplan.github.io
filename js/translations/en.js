@@ -162,12 +162,8 @@ function getEnTranslation(id) {
             return "Skip Question"
         case 81:
             return "Reset"
-        case 100:
-            return "deanship IuI";
         case 101:
             return "VDE";
-        case 102:
-            return "ServiceDesk";
         case 103:
             return "Center for International Students";
         case 104:
@@ -178,8 +174,6 @@ function getEnTranslation(id) {
             return "staff council";
         case 107:
             return "room of silence";
-        case 108:
-            return "PrinDi";
         case 109:
             return "Administration";
         case 110:
