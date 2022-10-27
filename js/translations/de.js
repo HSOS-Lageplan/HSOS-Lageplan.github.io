@@ -136,6 +136,30 @@ function getDeTranslation(id) {
             return "Essen";
         case 67:
             return "Fragen";
+
+        case 68:
+            return "Willkommen, Abenteurer!";
+        case 69:
+            return "Bist du bereit, auf die große Westerberg-Schnitzeljagd zu gehen?";
+        case 70:
+            return "Glaubst du, du hast das Zeug dazu, alle Rätsel zu lösen?";
+        case 71:
+            return "So geht's:"
+        case 72:
+            return "Alle Gebäude, deren Rätsel du noch nicht gelöst hast, erscheinen rot. Knackst du ihren Code, färben sie sich grün. Die Fragen findest du, indem du den Button antippst. Meistens musst du zur Lösung einen Code/ ein Wort/ eine Zahl eingeben. Ist deine Antwort korrekt, geht es automatisch zum nächsten Rätsel!"
+        case 73:
+            return "Viel Spaß!"
+        case 74:
+            return "LOS GEHT'S!"
+
+        case 75:
+            return "Herzlichen Glückwunsch!";
+        case 76:
+            return "Du hast dich allen kniffligen Herausforderungen rund um den Campus gestellt und diese mit Bravour gemeistert. Ohne Zweifel kannst du dich jetzt als wahres Genie bezeichnen.";
+        case 77:
+            return "Natürlich bleibt ein solcher Ehrgeiz nicht unbelohnt. Gebe in das folgende Feld deinen Abenteurer-Namen oder den Namen deines Teams eine und erhalte deinen Preis!";
+        case 78:
+            return "Fertig!"
         default:
             break;
     }
