@@ -14,8 +14,6 @@ if(localStorage.getItem("progress") == null) {
     localStorage.setItem("skipCounter", "0");
     activateWelcomeMessage();
     deactivateCongratulations();
-
-
     deactivateBuildings();
     applyProgress(localStorage.getItem("progress"));
 }
@@ -110,7 +108,10 @@ function getPrice(username) {
   deactivateCongratulations();
   var x = document.getElementById("price");
   x.style.display = "block";
-  document.getElementById("usernamePrice").innerText = username;
+  if (username != null){
+    document.getElementById("usernamePrice").innerText = username;
+  }
+  document.getElementById("skipCounter").innerText = parseInt(localStorage.getItem("skipCounter"));
 }
 
 function getUserName() {
@@ -120,6 +121,10 @@ function getUserName() {
 function reset() {
     if(confirm(translateWithoutScriptHack(79))) {
         localStorage.clear();
+        var a = document.getElementsByClassName("answer");
+        for(i = 0; i < a.length; i++) {
+            a[i].value = "";    
+        }
         location.reload();
     }
 }

@@ -21,7 +21,7 @@ function getDeTranslation(id) {
         case 9:
             return "Allgemein";
         case 10:
-            return "Seminarräume und Labore";  
+            return "Seminarräume und Labore";
         case 11:
             return "Verschiedene Projekte";
         case 12:
@@ -95,7 +95,7 @@ function getDeTranslation(id) {
         case 46:
             return "Was bin ich? Ich habe viele Blätter und bin doch kein Baum. Wenn du mich aufmachst, gibt es Wörter und Bilder zu schaun."
         case 47:
-            return "Wo bin ich wohl zu finden? Gehe in das richtige Gebäude und betritt den Raum mit den Schließfächern. Drehe dich nach rechts und betrachte die rechte Wand. Welche Nummer hat das 3. Schließfach von unten, 5. von links?"
+            return "Wo bin ich wohl zu finden? Gehe in das richtige Gebäude und betritt den Raum mit den Schließfächern. Drehe dich nach rechts und betrachte die rechte Wand. Welche Nummer hat das 3. Schließfach von unten, 5. von rechts?"
         case 48:
             return "Ganz in der Nähe sind drei Gebäude, die durch eine Brücke verbunden sind. Sie sind einander so verbunden, dass Du alle drei Rätsel lösen musst, damit sie dir den nächsten Hinweis verraten. Hänge die Lösungen der Reihenfolge entsprechend hintereinander, um den Code zu erhalten."
         case 49:
@@ -105,7 +105,7 @@ function getDeTranslation(id) {
         case 51:
             return "Wie viele große Rolltore lassen sich hier zählen?"
         case 52:
-            return "Gehst du um das SO-Gebäude herum, kannst du auf der anderen Seite der Straße ein hellblaues Haus sehen. Folge der Sedanstraße in diese Richtung, bis du an ein einsames Hochschul-Gebäude gelangst. Dort wirst du von Worten auf Holz begrüßt. Welches Wort muss hier ergänzt werden: '...und langsam häufen sich auf dem Feld die _____ '" 
+            return "Gehst du um das SO-Gebäude herum, kannst du auf der anderen Seite der Straße ein hellblaues Haus sehen. Folge der Sedanstraße in diese Richtung, bis du an ein einsames Hochschul-Gebäude gelangst. Dort wirst du von Worten auf Holz begrüßt. Welches Wort muss hier ergänzt werden: '...und langsam häufen sich auf dem Feld die _____ '"
         case 53:
             return "So weit draußen wollen wir nicht bleiben. Mache dich auf den Weg zurück. Das Abenteuer führt dich zu dem Gebäude, das man SB nennt. Erreiche das oberste Stockwerk über die Haupttreppe oder den Fahrstuhl. Gehe nun nach links. Welche Nummer hat der 7. Raum auf der rechten Seite?"
         case 54:
@@ -143,7 +143,7 @@ function getDeTranslation(id) {
         case 71:
             return "So geht's:"
         case 72:
-            return "Alle Gebäude, deren Rätsel du noch nicht gelöst hast, erscheinen rot. Knackst du ihren Code, färben sie sich grün. Die Fragen findest du, indem du den Button antippst. Meistens musst du zur Lösung einen Code/ ein Wort/ eine Zahl eingeben. Ist deine Antwort korrekt, geht es automatisch zum nächsten Rätsel!"
+            return "Alle Gebäude, deren Rätsel du noch nicht gelöst hast, erscheinen blau. Knackst du ihren Code, färben sie sich grün. Die Fragen findest du, indem du den Button antippst. Meistens musst du zur Lösung einen Code/ ein Wort/ eine Zahl eingeben. Ist deine Antwort korrekt, geht es automatisch zum nächsten Rätsel!"
         case 73:
             return "Viel Spaß!"
         case 74:
