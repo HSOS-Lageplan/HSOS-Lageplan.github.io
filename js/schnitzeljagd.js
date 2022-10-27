@@ -119,6 +119,10 @@ function getUserName() {
 function reset() {
     if(confirm(translateWithoutScriptHack(79))) {
         localStorage.clear();
+        var a = document.getElementsByClassName("answer");
+        for(i = 0; i < a.length; i++) {
+            a[i].value = "";    
+        }
         location.reload();
     }
 }
