@@ -133,7 +133,7 @@ function getEnTranslation(id) {
         case 65:
             return "Library";
         case 67:
-            return "Questions";
+            return "Scavenger Hunt";
         case 68:
             return "Welcome Adventurer!";
         case 69:

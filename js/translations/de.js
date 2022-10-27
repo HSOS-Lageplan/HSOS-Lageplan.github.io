@@ -133,7 +133,7 @@ function getDeTranslation(id) {
         case 65:
             return "Bibliothek";
         case 67:
-            return "Fragen";
+            return "Schnitzeljagd";
         case 68:
             return "Willkommen, Abenteurer!";
         case 69:
