@@ -101,7 +101,7 @@ function getEnTranslation(id) {
         case 49:
             return "You will find a door on the opposite site of the mens restroom. What is the name of this room?"
         case 50:
-            return "There is a room which you can enter from three sides. One side is completly made from glas. From its ceiling hang a number of gray plates. How many are there?"
+            return "There is a room which you can enter from three sides. One side is completly made from glas. From its ceiling hang a number of gray plates. How many ceiling lamps are there?"
         case 51:
             return "How many roller doors can you find here?"
         case 52:
@@ -123,9 +123,9 @@ function getEnTranslation(id) {
         case 60:
             return "If you stand in front of the AA building you will find a basketball hoop. Throw some hoops if you want. If you now go towards the building you are facing while looking at the hoop, you can look down at the garage. Which number does the garage have?"
         case 61:
-            return "You did well so far! You will receive a tip for the next riddle: Search near the SE, SF and SG buildings. Where can you find the linked image? Which building are you standing in?"
+            return "You did well so far! You will receive a tip for the next riddle: Search near the SE, SF and SG buildings. Where can you find the linked image? What is the house number of the building, you're standing by?"
         case 62:
-            return "To the east lies another building which you haven't found yet. Go to the western staircase and look up. There you will find the next codeword."
+            return "To the east lies another building which you haven't found yet. Go to the western staircase and look up. There you will find the next codeword. Attention! It is written in very small letters!"
         case 63:
             return "We turn our back towards the girafe and will now find the frog. In its front yard there are three friends sitting in the gras. What are they made out of?"
         case 64:

@@ -15,6 +15,8 @@ if(localStorage.getItem("progress") == null) {
     deactivateCongratulations();
     deactivateBuildings();
     applyProgress(localStorage.getItem("progress"));
+} else if (localStorage.getItem("progress") == 16){
+    activateCongratulations();
 }
 else {
     applyProgress(localStorage.getItem("progress"));
@@ -123,7 +125,7 @@ function reset() {
         localStorage.clear();
         var a = document.getElementsByClassName("answer");
         for(i = 0; i < a.length; i++) {
-            a[i].value = "";    
+            a[i].value = "";
         }
         location.reload();
     }
