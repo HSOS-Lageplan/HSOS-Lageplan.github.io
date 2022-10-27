@@ -108,6 +108,7 @@ function reset() {
 }
 
 function skip() {
+    localStorage.setItem("skipCounter", parseInt(localStorage.getItem("skipCounter")) + 1);
     applyProgress(parseInt(localStorage.getItem("progress")) + 1);
     localStorage.setItem("progress", parseInt(localStorage.getItem("progress")) + 1)
 }
