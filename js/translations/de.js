@@ -162,12 +162,8 @@ function getDeTranslation(id) {
             return "Frage lösen"
         case 81:
             return "Zurücksetzen"
-        case 100:
-            return "Dekanat IuI";
         case 101:
             return "VDE";
-        case 102:
-            return "ServiceDesk";
         case 103:
             return "Center for International Students";
         case 104:
@@ -178,12 +174,10 @@ function getDeTranslation(id) {
             return "Personalrat";
         case 107:
             return "Raum der Stille";
-        case 108:
-            return "PrinDi";
         case 109:
             return "Verwaltung";
         case 110:
-            return "Du hast nur";
+            return "hat die Westerberg-Schnitzeljagd erfolfreich abgeschlossen und dabei ";
         case 111:
             return "mal eine Frage übersprungen!";
         case 112:
