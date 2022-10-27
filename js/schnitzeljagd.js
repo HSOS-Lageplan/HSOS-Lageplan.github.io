@@ -101,7 +101,7 @@ function getUserName() {
 }
 
 function reset() {
-    if(confirm("u sure?")) {
+    if(confirm(translateWithoutScriptHack(79))) {
         localStorage.clear();
         location.reload();
     }

@@ -158,6 +158,12 @@ function getEnTranslation(id) {
             return "Such ambition does not go without a price. You can type your name or your teamname into the following field in order to claim your reward!"
         case 78:
             return "Done!"
+        case 79:
+            return "Are you sure that you want to reset all your progress?"
+        case 80:
+            return "Frage überspringen"
+        case 81:
+            return "Antworten zurücksetzen"
         default:
             break;
     }
