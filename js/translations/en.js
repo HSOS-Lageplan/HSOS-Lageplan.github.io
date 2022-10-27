@@ -63,7 +63,7 @@ function getEnTranslation(id) {
         case 30:
             return "buildings and technology";
         case 31:
-            return "human resource";
+            return "human resources";
         case 32:
             return "international faculty office";
         case 33:
@@ -93,7 +93,7 @@ function getEnTranslation(id) {
         case 45:
             return "If you turn your back to the cafeteria you will see a little house in between the bushes. There you will find a workshop for bicycles. What is the name of the building?"
         case 46:
-            return "What am I? "
+            return "I have no voice and yet I speak to you, I tell of all things in the world that people do. I have leaves, but I am not a tree, I have pages, but I am not a bride or royalty. What am I?"
         case 47:
             return "Where can you find me? Go to the fitting building and enter the lockerroom. Turn to the right and look at the wall. Which number does the fifth locker from the left and third from the bottom have? "
         case 48:
@@ -109,9 +109,9 @@ function getEnTranslation(id) {
         case 53:
             return "We do not want to stray any further from the path. Head back until you find the SB building and enter it. Go to the upper floor of the building. Turn left and find the seventh room on the right side. Which number does it have?"
         case 54:
-            return ""
+            return "" //Das muss so
         case 55:
-            return "Leave the building and enter middle of the lawn. Here you can answer the next riddle which will tell you where to go next: Does not matter if day or night im always on duty. Do not have legs but have to walk. Got neither hands but still have to "
+            return "Leave the building and enter middle of the lawn. Here you can answer the next riddle which will tell you where to go next: Without fists I strike, without fingers I point, without legs I run, what am I? "
         case 56:
             return "Enter the building and go to the bottom floor. Somewhere here is a room with this symbol on its door. Which kind of room is it?"
         case 57:
@@ -132,9 +132,50 @@ function getEnTranslation(id) {
             return "All of there riddles have made you hungry, didn't they? Where do you think could you grab something to eat? Before you do that count the ammount of lockers and divide the number by 6."
         case 65:
             return "Library";
-        case 66:
-            return "food";
-
+        case 67:
+            return "Questions";
+        case 68:
+            return "Welcome Adventurer!";
+        case 69:
+            return "Are you ready to embark on the great journey of the great Westerberg Scavenger Hunt?";
+        case 70:
+            return "Do you think you got what it takes to complete all riddles?";
+        case 71:
+            return "This is how you play:"
+        case 72:
+            return "Every building which is tinted red has uncompleted riddles. If you crack their code they appear green. You can find the questions by clicking on the according button. Most of the time you have got to enter a word, number or code in order to solve the riddle. The next question will apeear automaticly after your answer ist right."
+        case 73:
+            return "Have fun!"
+        case 74:
+            return "Let's GO!"
+        case 75:
+            return "Congratulations!"
+        case 76:
+            return "You have faced every challenge and riddle all arround the campus and have mastered them all. Without a doubt you can call yourself a true geniues"
+        case 77:
+            return "Such ambition does not go without a price. You can type your name or your teamname into the following field in order to claim your reward!"
+        case 78:
+            return "Done!"
+        case 79:
+            return "Are you sure that you want to reset all your progress?"
+        case 80:
+            return "Frage überspringen"
+        case 81:
+            return "Antworten zurücksetzen"
+        case 100:
+            return "deanship IuI";
+        case 101:
+            return "VDE";
+        case 102:
+            return "Servicedesk";
+        case 103:
+            return "Center for International Students";
+        case 104:
+            return "Center for International Mobility";
+        case 105:
+            return "post office";
+        case 106:
+            return "staff council";
         default:
             break;
     }

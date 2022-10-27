@@ -42,6 +42,7 @@ html, body {
     width: calc(100% - 25px);
     display: none;
     padding: 7px;
+    pointer-events: all;
 }
 
 #input-wrapper a span{
@@ -79,9 +80,14 @@ html, body {
 }
 
 #button-wrapper {
+    width: 100%;
     position: absolute;
     margin-top: 10px;
     pointer-events: all;
+}
+
+#button-wrapper #toggle-language .fi {
+    margin-right: 5px;
 }
 
 .button {
@@ -120,4 +126,9 @@ img.leaflet-image-layer.leaflet-zoom-animated.leaflet-interactive{
     padding-bottom: 0;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+#toggle-sidebar{
+    float:right;
+    margin-right: 10px;
 }
