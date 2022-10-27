@@ -182,6 +182,10 @@ function getEnTranslation(id) {
             return "PrinDi";
         case 109:
             return "Administration";
+        case 110:
+            return "You only skipped";
+        case 111:
+            return "questions!";
         default:
             break;
     }

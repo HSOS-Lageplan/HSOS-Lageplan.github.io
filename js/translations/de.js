@@ -182,6 +182,10 @@ function getDeTranslation(id) {
             return "PrinDi";
         case 109:
             return  "Verwaltung";
+        case 110:
+            return "Du hast nur";
+        case 111:
+            return "mal eine Frage übersprungen!";
         default:
             break;
     }
