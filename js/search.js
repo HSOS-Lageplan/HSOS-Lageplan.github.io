@@ -23,8 +23,11 @@ function filterFunction() {
 function lostFocus() {
     div = document.getElementById("input-wrapper");
     a = div.getElementsByTagName("a");
-    var count = 0;
     for (i = 0; i < a.length; i++) {
         a[i].style.display = "none";
     }
 }
+
+document.querySelector("#map").addEventListener("click", lostFocus);
+document.querySelector("#toggle-view-button").addEventListener("click", lostFocus);
+document.querySelector("#toggle-language").addEventListener("click", lostFocus);
