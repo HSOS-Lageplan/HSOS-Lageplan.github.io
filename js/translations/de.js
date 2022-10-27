@@ -97,7 +97,7 @@ function getDeTranslation(id) {
         case 47:
             return "Wo bin ich wohl zu finden? Gehe in das richtige Gebäude und betritt den Raum mit den Schließfächern. Drehe dich nach rechts und betrachte die rechte Wand. Welche Nummer hat das 3. Schließfach von unten, 5. von rechts?"
         case 48:
-            return "Ganz in der Nähe sind drei Gebäude, die durch eine Brücke verbunden sind. Sie sind einander so verbunden, dass Du alle drei Rätsel lösen musst, damit sie dir den nächsten Hinweis verraten. Hänge die Lösungen der Reihenfolge entsprechend hintereinander, um den Code zu erhalten."
+            return "Ganz in der Nähe sind drei Gebäude, die durch eine 'Brücke' verbunden sind. Sie sind einander so verbunden, dass Du alle drei Rätsel lösen musst, damit sie dir den nächsten Hinweis verraten. Hänge die Lösungen der Reihenfolge entsprechend hintereinander, um den Code zu erhalten."
         case 49:
             return "Gegenüber der Herrentoilette befindet sich eine Tür. Wie ist dieser Raum bezeichnet?"
         case 50:

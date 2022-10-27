@@ -93,29 +93,29 @@ function getEnTranslation(id) {
         case 45:
             return "If you turn your back to the cafeteria you will see a little house in between the bushes. There you will find a workshop for bicycles. What is the name of the building?"
         case 46:
-            return "I have no voice and yet I speak to you, I tell of all things in the world that people do. I have leaves, but I am not a tree, I have pages, but I am not a bride or royalty. What am I?"
+            return "I have no voice and yet I speak, I tell of all things in the world that people do. I have leaves, but I am not a tree, I have pages, but I am not a bride or royalty. What am I?"
         case 47:
             return "Where can you find me? Go to the fitting building and enter the lockerroom. Turn to the right and look at the wall. Which number does the fifth locker from the right and third from the bottom have? "
         case 48:
-            return "Nearby you will find three buildings connected by a bridge. In order to complete the next riddle you will have to complete the next 3 riddles and connect the three answers in the correct order. Then you will have the next clue."
+            return "Nearby you will find three buildings connected by a 'bridge'. In order to complete the next riddle you will have to complete the next 3 riddles and connect the three answers in the correct order. Then you will have the next clue."
         case 49:
             return "You will find a door on the opposite site of the mens restroom. What is the name of this room?"
         case 50:
-            return "There is a room which you can enter from three sides. One side is completly made from glas. From its ceiling hang a number of gray plates. How many ceiling lamps are there?"
+            return "There is a room which you can enter from three sides. One side is completly made out of glas. From its ceiling hang a number of gray plates. How many ceiling lamps are there among these plates?"
         case 51:
             return "How many roller doors can you find here?"
         case 52:
-            return "If you go arround the SO building you will find a bright blue house on the other site of the street. If you follow this path towards a lonelny College building you will be greeted by a piece of wood with words written on it. Complete the sentence: '...und langsam häufen sich auf dem Feld die _____ '"
+            return "If you go arround the SO building you will find a bright blue house on the other site of the street. If you follow this path along the Sedanstraße towards a lonely College building you will be greeted by a piece of wood with words written on it. Complete the sentence: '...und langsam häufen sich auf dem Feld die _____ '"
         case 53:
             return "We do not want to stray any further from the path. Head back until you find the SB building and enter it. Go to the upper floor of the building. Turn left and find the seventh room on the right side. Which number does it have?"
         case 54:
             return "" //Das muss so
         case 55:
-            return "Leave the building and enter middle of the lawn. Here you can answer the next riddle which will tell you where to go next: Without fists I strike, without fingers I point, without legs I run, what am I? "
+            return "Leave the building and enter the middle of the lawn. Here you can answer the next riddle which will tell you where to go next: Without fists I strike, without fingers I point, without legs I run, what am I? "
         case 56:
-            return "Enter the building and go to the bottom floor. Somewhere here is a room with this symbol on its door. Which kind of room is it?"
+            return "Enter the building and go to the bottom floor. Somewhere here is a room with this symbol on its door. What kind of room is it? Enter its name!"
         case 57:
-            return "Leave the building towards the blue doors. They belong to the building you will want to visit next. Find an entry and search for a mailbox belonging to the 'Hauspost'. Which number does this mailbox have?"
+            return "Leave the building towards the blue doors/ gate. They belong to the building you will want to visit next. Find an entry and search for a mailbox belonging to the 'Hauspost'. Which number does this mailbox have?"
         case 58:
             return "In the building with an auditorium Willhelm Mueller goes out of the room named after him. He decides he wants to visit the closest mens restroom. Standing infront of the door he decides to take the staircase to the right of him. He reaches the second floor, passes the glass door and takes the path to the left. After another glass door he finds a blue circle with an arrow on the wall. What's written inside the circle?"
         case 59:
@@ -127,9 +127,9 @@ function getEnTranslation(id) {
         case 62:
             return "To the east lies another building which you haven't found yet. Go to the western staircase and look up. There you will find the next codeword. Attention! It is written in very small letters!"
         case 63:
-            return "We turn our back towards the girafe and will now find the frog. In its front yard there are three friends sitting in the gras. What are they made out of?"
+            return "We turn our back towards the girafe and will now find the frog. In its inner yard there are three friends sitting besides the gras. What are they made out of?"
         case 64:
-            return "All of there riddles have made you hungry, didn't they? Where do you think could you grab something to eat? Before you do that count the ammount of lockers and divide the number by 6."
+            return "All of there riddles have made you hungry, didn't they? Where do you think could you grab something to eat? Before you do that count the ammount of lockers inside this building and divide the number by 6."
         case 65:
             return "Library";
         case 67:
@@ -143,7 +143,7 @@ function getEnTranslation(id) {
         case 71:
             return "This is how you play:"
         case 72:
-            return "Every building which is tinted blue has uncompleted riddles. If you crack their code they appear green. You can find the questions by clicking on the according button. Most of the time you have got to enter a word, number or code in order to solve the riddle. The next question will apeear automaticly after your answer ist right."
+            return "Every building which is tinted blue has uncompleted riddles. If you crack their code they appear green. You can find the questions by clicking on the according button. Most of the time you have got to enter a word, number or code in order to solve the riddle. The next question will appear automaticly after your answer is right."
         case 73:
             return "Have fun!"
         case 74:
