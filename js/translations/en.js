@@ -134,7 +134,6 @@ function getEnTranslation(id) {
             return "Library";
         case 67:
             return "Questions";
-
         case 68:
             return "Welcome Adventurer!";
         case 69:
@@ -149,7 +148,6 @@ function getEnTranslation(id) {
             return "Have fun!"
         case 74:
             return "Let's GO!"
-
         case 75:
             return "Congratulations!"
         case 76:
