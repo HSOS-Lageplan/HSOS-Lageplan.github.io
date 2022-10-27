@@ -143,6 +143,7 @@ function deactivateBuildings(){
     BC.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
     SN.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
     SR.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
+    SH.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
     SJ.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
     SG.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
     SK.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
