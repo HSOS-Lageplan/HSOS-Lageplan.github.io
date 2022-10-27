@@ -44,7 +44,7 @@
         <div id="question-window">
             <span id="header">
                 <span onclick="toggleSidebar()"><i class="fa fa-remove" id="iconInQuestionWindow"></i></span>
-                <h2>Schnitzeljagd</h2>
+                <h2><script>translate(44)</script></h2>
             </span>
             <div id="questions">
                 <span class="question-answer">
@@ -172,40 +172,43 @@
                     <input class="answer" type="text" id="question-15" name="question-15" onkeyup="checkAnswer(15)">
                 </span>
             </div>
+
+            <span id="skip-reset">
+                <span id="skip" class="button" onclick="skip()"><script>translate(80)</script></span>
+                <span id="reset" class="button" onclick="reset()"><script>translate(81)</script></span>
+            </span>
         </div>
 
         <div id="welcome-message">
-            <h1>Willkommen, Abenteurer!</h1>
+            <h1><script>translate(68)</script></h1>
             <p>
-                Bist du bereit, auf die große Westerberg-Schnitzeljagd zu gehen?
+                <script>translate(69)</script>
             </p>
             <p>
-                Glaubst du, du hast das Zeug dazu, alle Rätsel zu lösen?
+                <script>translate(70)</script>
             </p>
             <p>
-                So geht's:
+                <script>translate(71)</script>
             </p>
             <p>
-                Alle Gebäude, deren Rätsel du noch nicht gelöst hast, erscheinen rot. Knackst du ihren Code, färben sie sich grün. Die Fragen findest du, indem du den Button antippst. Meistens musst du zur Lösung einen Code/ ein Wort/ eine Zahl eingeben. Ist deine Antwort korrekt, geht es automatisch zum nächsten Rätsel!
+                <script>translate(72)</script>
             </p>
             <p>
-                Viel Spaß!
+                <script>translate(73)</script>
             </p>
-            <span id="lezzgo" class="button" onclick="deactivateWelcomeMessage()">LOS GEHT'S!</span>
+            <span id="lezzgo" class="button" onclick="deactivateWelcomeMessage()"><script>translate(74)</script></span>
         </div>
 
         <div id="congratulations-message">
-            <h1>Herzlichen Glückwunsch!</h1>
+            <h1><script>translate(75)</script></h1>
             <p>
-              Du hast dich allen kniffligen Herausforderungen rund um den Campus gestellt und diese mit Bravour gemeistert.
-              Ohne Zweifel kannst du dich jetzt als wahres Genie bezeichnen.
+                <script>translate(76)</script>
             </p>
             <p>
-              Natürlich bleibt ein solcher Ehrgeiz nicht unbelohnt. Gebe in das folgende Feld deinen Abenteurer-Namen oder den Namen deines Teams eine
-              und erhalte deinen Preis!
+                <script>translate(77)</script>
             </p>
             <input class="" type="text" id="username" name="username">
-            <span id="getPrice" class="button" onclick="getPrice(getUserName())">Fertig!</span>
+            <span id="getPrice" class="button" onclick="getPrice(getUserName())"><script>translate(78)</script></span>
         </div>
 
         <script src="./js/map.js"></script>

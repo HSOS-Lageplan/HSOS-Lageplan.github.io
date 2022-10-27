@@ -132,10 +132,36 @@ function getEnTranslation(id) {
             return "All of there riddles have made you hungry, didn't they? Where do you think could you grab something to eat? Before you do that count the ammount of lockers and divide the number by 6."
         case 65:
             return "Library";
-        case 66:
-            return "food";
         case 67:
             return "Questions";
+        case 68:
+            return "Welcome Adventurer!";
+        case 69:
+            return "Are you ready to embark on the great journey of the great Westerberg Scavenger Hunt?";
+        case 70:
+            return "Do you think you got what it takes to complete all riddles?";
+        case 71:
+            return "This is how you play:"
+        case 72:
+            return "Every building which is tinted red has uncompleted riddles. If you crack their code they appear green. You can find the questions by clicking on the according button. Most of the time you have got to enter a word, number or code in order to solve the riddle. The next question will apeear automaticly after your answer ist right."
+        case 73:
+            return "Have fun!"
+        case 74:
+            return "Let's GO!"
+        case 75:
+            return "Congratulations!"
+        case 76:
+            return "You have faced every challenge and riddle all arround the campus and have mastered them all. Without a doubt you can call yourself a true geniues"
+        case 77:
+            return "Such ambition does not go without a price. You can type your name or your teamname into the following field in order to claim your reward!"
+        case 78:
+            return "Done!"
+        case 79:
+            return "Are you sure that you want to reset all your progress?"
+        case 80:
+            return "Frage überspringen"
+        case 81:
+            return "Antworten zurücksetzen"
         case 100:
             return "deanship IuI";
         case 101:
