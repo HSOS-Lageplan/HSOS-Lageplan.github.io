@@ -2,10 +2,12 @@
 if(localStorage.getItem("progress") == null) {
     localStorage.setItem("progress", "0");
     activateWelcomeMessage();
+    deactivateCongratulations();
     applyProgress(localStorage.getItem("progress"));
 }
 else {
     applyProgress(localStorage.getItem("progress"));
+    deactivateCongratulations();
 }
 
 function toggleSidebar() {
@@ -33,7 +35,12 @@ function checkAnswer(id) {
             icon.className = icon.className + " visible";
             ele.readOnly = true;
             localStorage.setItem("progress", id + 1);
+            if(localStorage.getItem("progress") < 16){
             applyProgress(localStorage.getItem("progress"));
+            }
+            if((id + 1) == 16){
+              activateCongratulations();
+            }
         }
     }
 }
@@ -46,7 +53,9 @@ function applyProgress(progress) {
     }
 
     for (let i = 0; i <= progress; i++) {
+      if(i < 16){
         qa[i].className = qa[i].className + " active";
+      }
     }
 
     var a = document.getElementsByClassName("answer");
@@ -70,4 +79,23 @@ function activateWelcomeMessage() {
 function deactivateWelcomeMessage() {
     var ele = document.getElementById("welcome-message");
     ele.className = "";
+}
+
+function activateCongratulations() {
+    toggleSidebar();
+    document.getElementById("congratulations-message").className = "active";
+}
+
+function deactivateCongratulations() {
+    document.getElementById("congratulations-message").className = "";
+}
+
+function getPrice(username) {
+  deactivateCongratulations();
+    //hier gibt es den Preis
+    console.log(username);
+}
+
+function getUserName() {
+    return document.getElementById("username").value;
 }
