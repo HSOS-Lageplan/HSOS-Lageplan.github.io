@@ -183,7 +183,7 @@ function getDeTranslation(id) {
         case 109:
             return "Verwaltung";
         case 110:
-            return "Du hast nur";
+            return "hat die Westerberg-Schnitzeljagd erfolfreich abgeschlossen und dabei ";
         case 111:
             return "mal eine Frage übersprungen!";
         case 112:

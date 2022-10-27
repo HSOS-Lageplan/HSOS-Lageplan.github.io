@@ -183,7 +183,7 @@ function getEnTranslation(id) {
         case 109:
             return "Administration";
         case 110:
-            return "You only skipped";
+            return "mastered the Westerberg Scavenger Hunt and skipped ";
         case 111:
             return "questions!";
         case 112:
