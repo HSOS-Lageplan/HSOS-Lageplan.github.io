@@ -1,7 +1,7 @@
 function getDeTranslation(id) {
     switch (id) {
         case 0:
-            return "<span class='fi fi-gb'></span>GB";
+            return "<span class='fi fi-gb'></span>EN";
         case 1:
             return "Lageplan";
         case 2:
