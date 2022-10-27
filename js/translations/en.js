@@ -109,7 +109,7 @@ function getEnTranslation(id) {
         case 53:
             return "We do not want to stray any further from the path. Head back until you find the SB building and enter it. Go to the upper floor of the building. Turn left and find the seventh room on the right side. Which number does it have?"
         case 54:
-            return ""
+            return "" //Das muss so
         case 55:
             return "Leave the building and enter middle of the lawn. Here you can answer the next riddle which will tell you where to go next: Does not matter if day or night im always on duty. Do not have legs but have to walk. Got neither hands but still have to "
         case 56:

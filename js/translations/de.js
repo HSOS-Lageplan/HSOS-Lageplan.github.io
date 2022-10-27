@@ -109,7 +109,7 @@ function getDeTranslation(id) {
         case 53:
             return "So weit draußen wollen wir nicht bleiben. Mache dich auf den Weg zurück. Das Abenteuer führt dich zu dem Gebäude, das man SB nennt. Erreiche das oberste Stockwerk über die Haupttreppe oder den Fahrstuhl. Gehe nun nach links. Welche Nummer hat der 7. Raum auf der rechten Seite?"
         case 54:
-            return ""
+            return "" //Das muss so
         case 55:
             return "Verlasse das Gebäude und gehe bis zur Mitte der Rasenfläche. Von dort kannst du das folgende Rätsel lösen und weißt somit, in welches Gebäude du als nächstes gehen musst: 'Muss Tag und Nacht auf Wache stehen, hat keine Füße und muss doch gehen, hat keine Hände und muss doch schlagen.'"
         case 56:
