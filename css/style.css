@@ -132,3 +132,7 @@ img.leaflet-image-layer.leaflet-zoom-animated.leaflet-interactive{
     float:right;
     margin-right: 10px;
 }
+
+th{
+    text-align: left;
+}

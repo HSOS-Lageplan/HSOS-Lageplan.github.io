@@ -10,7 +10,7 @@ function createPopUp(name){
             
             
                     
-                    "<h3 class='popUpHeaderConfiguration' class='popUpHeaderConfiguration' class='popUpHeaderConfiguration'> " + translateWithoutScriptHack(4) + " IuI </h3>" +
+                    "<h3 class='popUpHeaderConfiguration' class='popUpHeaderConfiguration' class='popUpHeaderConfiguration'> " + translateWithoutScriptHack(9) + "</h3>" +
                     
                     "<ul class='popUpListConfiguration'>" +
                     "<li>" + translateWithoutScriptHack(27) + "</li>"+
@@ -20,6 +20,14 @@ function createPopUp(name){
                     "<li>" + translateWithoutScriptHack(32) + "</li>"+
                     "<li>" + translateWithoutScriptHack(33) + "</li>"+
                     "<li>" + translateWithoutScriptHack(31) + "</li>"+
+                    "</ul>" +
+
+                    "<h3 class='popUpHeaderConfiguration' class='popUpHeaderConfiguration' class='popUpHeaderConfiguration'> " + translateWithoutScriptHack(4) + " IuI </h3>" +
+                    
+                    "<ul class='popUpListConfiguration'>" +
+                    "<li>" + translateWithoutScriptHack(12) + "</li>"+
+                    "<li>" + translateWithoutScriptHack(100) + "</li>"+
+                    "<li>" + translateWithoutScriptHack(101) + "</li>"+
                     "</ul>" 
 
                    
@@ -42,12 +50,21 @@ function createPopUp(name){
             "</table>" +
 
             "<hr></hr>" +
-            "<h3 class='popUpHeaderConfiguration'> " + translateWithoutScriptHack(4) + " IuI </h3>" +
+            "<h3 class='popUpHeaderConfiguration'> " + translateWithoutScriptHack(9) + "</h3>" +
                     
             "<ul class='popUpListConfiguration'>" +
             "<li>" + translateWithoutScriptHack(25) + "</li>"+
             "<li>" + translateWithoutScriptHack(26) + "</li>"+
-            "</ul>" 
+            "</ul>" +
+            "<h3 class='popUpHeaderConfiguration'> " + translateWithoutScriptHack(4) + " IuI </h3>" +
+                    
+            "<ul class='popUpListConfiguration'>" +
+            "<li>" + translateWithoutScriptHack(102) + "</li>"+
+            "<li>" + translateWithoutScriptHack(103) + "</li>"+
+            "<li>" + translateWithoutScriptHack(104) + "</li>"+
+            "<li>" + translateWithoutScriptHack(105) + "</li>"+
+            "<li>" + translateWithoutScriptHack(106) + "</li>"+
+            "</ul>"
             ;
             
         break;
@@ -160,7 +177,7 @@ function createPopUp(name){
 
                     "<tr>" +
                 
-                    "<th> <i class='fa fa-cutlery'></i> </th>" +
+                    "<th> <i class='fa fa-book'></i> </th>" +
                     "<th> <div class='textNebenIconPlatzierung'>" + translateWithoutScriptHack(14) + "</div> </th>" +
                    
                     "</tr>" + 

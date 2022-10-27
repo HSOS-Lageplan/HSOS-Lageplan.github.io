@@ -63,7 +63,7 @@ function getEnTranslation(id) {
         case 30:
             return "buildings and technology";
         case 31:
-            return "human resource";
+            return "human resources";
         case 32:
             return "international faculty office";
         case 33:
@@ -162,6 +162,20 @@ function getEnTranslation(id) {
             return "Frage überspringen"
         case 81:
             return "Antworten zurücksetzen"
+        case 100:
+            return "deanship IuI";
+        case 101:
+            return "VDE";
+        case 102:
+            return "Servicedesk";
+        case 103:
+            return "Center for International Students";
+        case 104:
+            return "Center for International Mobility";
+        case 105:
+            return "post office";
+        case 106:
+            return "staff council";
         default:
             break;
     }

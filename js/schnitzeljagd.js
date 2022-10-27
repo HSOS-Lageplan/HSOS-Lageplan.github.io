@@ -1,13 +1,28 @@
-// set game progress to start if new
+var inputs = document.getElementsByClassName("answer");
+
+for (let i = 0; i < inputs.length; i++) {
+    inputs[i].addEventListener("keypress", function(event) {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            inputs[i].className = "answer incorrect";
+        }
+    });
+}
+
 if(localStorage.getItem("progress") == null) {
     localStorage.setItem("progress", "0");
+    localStorage.setItem("skipCounter", "0");
     activateWelcomeMessage();
     deactivateCongratulations();
+
+
+    deactivateBuildings();
     applyProgress(localStorage.getItem("progress"));
 }
 else {
     applyProgress(localStorage.getItem("progress"));
     deactivateCongratulations();
+    deactivateBuildings();
 }
 
 function toggleSidebar() {
@@ -31,7 +46,7 @@ function checkAnswer(id) {
 
     for (let i = 0; i < answers.length; i++) {
         if(answers[i].toUpperCase() === ele.value.toUpperCase()) {
-            ele.className = ele.className + " correct";
+            ele.className = "answer correct";
             icon.className = icon.className + " visible";
             ele.readOnly = true;
             localStorage.setItem("progress", id + 1);
@@ -77,6 +92,7 @@ function activateWelcomeMessage() {
 }
 
 function deactivateWelcomeMessage() {
+    localStorage.setItem("progress", "0");
     var ele = document.getElementById("welcome-message");
     ele.className = "";
 }
@@ -92,8 +108,9 @@ function deactivateCongratulations() {
 
 function getPrice(username) {
   deactivateCongratulations();
-    //hier gibt es den Preis
-    console.log(username);
+  var x = document.getElementById("price");
+  x.style.display = "block";
+  document.getElementById("usernamePrice").innerText = username;
 }
 
 function getUserName() {
@@ -111,4 +128,17 @@ function skip() {
     localStorage.setItem("skipCounter", parseInt(localStorage.getItem("skipCounter")) + 1);
     applyProgress(parseInt(localStorage.getItem("progress")) + 1);
     localStorage.setItem("progress", parseInt(localStorage.getItem("progress")) + 1)
+}
+
+function deactivateBuildings(){
+    BA.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
+    BB.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
+    BC.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
+    SN.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
+    SR.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
+    SJ.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
+    SG.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
+    SK.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
+    SC.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
+    AF.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
 }
