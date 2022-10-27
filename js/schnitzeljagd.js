@@ -99,3 +99,15 @@ function getPrice(username) {
 function getUserName() {
     return document.getElementById("username").value;
 }
+
+function reset() {
+    if(confirm("u sure?")) {
+        localStorage.clear();
+        location.reload();
+    }
+}
+
+function skip() {
+    applyProgress(parseInt(localStorage.getItem("progress")) + 1);
+    localStorage.setItem("progress", parseInt(localStorage.getItem("progress")) + 1)
+}

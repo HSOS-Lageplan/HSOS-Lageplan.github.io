@@ -84,6 +84,10 @@ html, body {
     pointer-events: all;
 }
 
+#button-wrapper #toggle-language .fi {
+    margin-right: 5px;
+}
+
 .button {
     background-color: white;
     border: 2px solid rgba(0,0,0,0.2);
