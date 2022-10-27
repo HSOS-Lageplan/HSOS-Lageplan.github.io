@@ -57,11 +57,11 @@
     background-color: green;
 }
 
-#welcome-message {
+#welcome-message, #congratulations-message{
     display: none;
 }
 
-#welcome-message.active {
+#welcome-message.active, #congratulations-message.active{
     display: block;
     background-color: white;
     border: solid black 3px;

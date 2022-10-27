@@ -193,7 +193,9 @@
                     <hr>
                     <div class="question">
                         All diese Rätsel haben hungrig gemacht, oder nicht? Wo kriegt man hier in der Nähe denn wohl was zu essen...
+                        Zähle dort alle Schließfächer und teile die Anzahl durch 6.
                     </div>
+                    <input class="answer" type="text" id="question-15" name="question-15" onkeyup="checkAnswer(15)">
                 </span>
             </div>
         </div>
@@ -217,6 +219,21 @@
             </p>
             <span id="lezzgo" class="button" onclick="deactivateWelcomeMessage()">LOS GEHT'S BRRA SKRT</span>
         </div>
+
+        <div id="congratulations-message">
+            <h1>Herzlichen Glückwunsch!</h1>
+            <p>
+              Du hast dich allen kniffligen Herausforderungen rund um den Campus gestellt und diese mit Bravour gemeistert.
+              Ohne Zweifel kannst du dich jetzt als wahres Genie bezeichnen.
+            </p>
+            <p>
+              Natürlich bleibt ein solcher Ehrgeiz nicht unbelohnt. Gebe in das folgende Feld deinen Abenteurer-Namen oder den Namen deines Teams eine
+              und erhalte deinen Preis!
+            </p>
+            <input class="" type="text" id="username" name="username">
+            <span id="getPrice" class="button" onclick="getPrice(getUserName())">Fertig!</span>
+        </div>
+
         <script src="./js/map.js"></script>
         <script src="./js/popUp.js"></script>
         <script src="./js/buildings.js"></script>
