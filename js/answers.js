@@ -12,7 +12,7 @@ function getAnswers(id) {
             answers = ["35368", "35.368", "35,368"]
             break;
         case 3:
-            answers = ["HAR315"]
+            answers = ["HAR85"]
             break;
         case 4:
             answers = ["Toten"]
@@ -39,7 +39,7 @@ function getAnswers(id) {
             answers = ["AD 0039", "AD0039", "0039", "39"]
             break;
         case 12:
-            answers = ["SG"]
+            answers = ["43"]
             break;
         case 13:
             answers = ["Giraffe"]
