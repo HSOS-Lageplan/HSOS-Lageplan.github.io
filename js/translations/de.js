@@ -159,9 +159,9 @@ function getDeTranslation(id) {
         case 79:
             return "Sind Sie sicher, dass wie all Ihren Fortschritt zurück setzen wollen?"
         case 80:
-            return "Frage überspringen"
+            return "Frage lösen"
         case 81:
-            return "Antworten zurücksetzen"
+            return "Zurücksetzen"
         case 100:
             return "Dekanat IuI";
         case 101:
