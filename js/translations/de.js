@@ -117,7 +117,7 @@ function getDeTranslation(id) {
         case 57:
             return "Verlasse das Gebäude in Richtung der blauen Türen. Sie gehören dem Gebäude, das du als nächstes aufsuchen möchtest. Finde einen Eingang und suche nach dem Postfach für Hauspost. Welche Nummer hat es?"
         case 58:
-            return "In dem Gebäude mit Aula, geht Wilhelm Müller aus dem nach ihm benannten Hörsaal. Er hat vor die nächste Toilette aufzusuchen. Als er vor der Tür zur Herrentoilette steht, überlegt er es sich jedoch anders und nimmt die Treppe rechts von ihm. Er geht durch eine Glastür und biegt nach links ab. Dann geht er durch eine weitere Glastür und bleibt stehen. An der Wand ist ein blauer Kreis mit einem Pfeil. Was steht darin?"
+            return "In dem Gebäude mit Aula, geht Wilhelm Müller aus dem nach ihm benannten Hörsaal. Er hat vor die nächste Toilette aufzusuchen. Als er vor der Tür zur Herrentoilette steht, überlegt er es sich jedoch anders und nimmt die Treppe rechts von ihm. Er geht ganz nach oben, dann durch eine Glastür und biegt nach links ab. Dann geht er durch eine weitere Glastür und bleibt stehen. An der Wand ist ein blauer Kreis mit einem Pfeil. Was steht darin?"
         case 59:
             return "Als nächstes gehe in das Gebäude, das von oben aussieht wie ein Dinosaurier, welcher Richtung Norden blickt. Suche den 3D-Scanner-Raum im ersten Stockwerk. Welche Quersumme ergibt sich aus der Raumnummer?"
         case 60:
