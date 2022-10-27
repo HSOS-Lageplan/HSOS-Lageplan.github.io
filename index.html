@@ -37,7 +37,7 @@
     <div id="map"></div>
     <div id="input-wrapper">
       <!-- name = variablenname -->
-      <input type="text" id="search" name="search" placeholder="" onkeyup="filterFunction()"><script>document.getElementById("search").placeholder = translateWithoutScriptHack(3)</script>
+      <input type="text" id="search" name="search" onkeyup="filterFunction()" onfocusout="lostFocus()"><script>document.getElementById("search").placeholder = translateWithoutScriptHack(3)</script>
       <a data-name="AA" id="AA">AA</a><script>document.getElementById("AA").dataset.searchkeywords = "AA " + translateWithoutScriptHack(28)</script>
       <a data-name="AB" data-searchKeywords="AB">AB</a>
       <a data-name="AC" data-searchKeywords="AC">AC</a>
