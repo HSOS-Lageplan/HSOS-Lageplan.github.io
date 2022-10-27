@@ -21,13 +21,16 @@ function toggleSidebar() {
 
 function checkAnswer(id) {
     var ele = document.getElementsByClassName("answer");
+    var icon = document.getElementsByClassName("fa-check");
     ele = ele[id];
+    icon = icon[id];
 
     var answers = getAnswers(id);
 
     for (let i = 0; i < answers.length; i++) {
         if(answers[i].toUpperCase() === ele.value.toUpperCase()) {
             ele.className = ele.className + " correct";
+            icon.className = icon.className + " visible";
             ele.readOnly = true;
             localStorage.setItem("progress", id + 1);
             applyProgress(localStorage.getItem("progress"));
@@ -47,9 +50,11 @@ function applyProgress(progress) {
     }
 
     var a = document.getElementsByClassName("answer");
+    var icon = document.getElementsByClassName("fa-check");
 
     for (let i = 0; i < progress; i++) {
         a[i].className = a[i].className + " correct";
+        icon[i].className = icon[i].className + " visible";
         a[i].readOnly = true;
         a[i].value = getAnswers(i)[0]; // muss noch für übersetzungen funktionieren!!!
 

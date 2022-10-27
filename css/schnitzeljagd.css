@@ -1,4 +1,5 @@
 #question-window {
+    display: none;
     position: absolute;
     background-color: white;
     z-index: 5;
@@ -7,13 +8,10 @@
     width: 400px;
     padding: 0 20px;
     overflow-y: auto;
-    margin-right: -500px;
-    transition: margin-right 1s;
 }
 
 #question-window.active {
-    margin-right: 0;
-    transition: margin-right 1s;
+    display: block;
 }
 
 @media only screen and (max-width: 500px) {
@@ -54,7 +52,16 @@
 }
 
 #question-window #questions .question-answer .answer.correct {
-    background-color: green;
+    background-color: lightgreen;
+}
+
+#question-window #questions .question-answer .fa-check {
+    display: none;
+}
+
+#question-window #questions .question-answer .fa-check.visible {
+    margin-left: 5px;
+    display: inline;
 }
 
 #welcome-message {
