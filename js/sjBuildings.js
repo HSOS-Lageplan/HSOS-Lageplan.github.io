@@ -62,3 +62,14 @@ function setColor(building, done) {
         building.setStyle({fillColor: '#3388ff', color: '#3388ff'});
     }
 }
+
+
+var imageUrlStart = 'res/icons/start.png';
+var corner1 = L.latLng(52.28450,8.02310),
+corner2 = L.latLng(52.28415,8.02370),
+latLngBoundsStart = L.latLngBounds(corner1, corner2);
+var imageOverlayStart = L.imageOverlay(imageUrlStart, [latLngBoundsStart], {
+    zIndex: 10000,
+    opacity: 1,
+    interactive: true
+}).addTo(map);

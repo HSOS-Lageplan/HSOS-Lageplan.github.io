@@ -31,7 +31,7 @@ html, body {
     border-radius: 10px;
     width: calc(100% - 24px);
     padding: 5px;
-    border: 2px solid rgba(0,0,0,0.2);
+    border: 2px solid rgb(51, 136, 255);
     outline: 0;
     pointer-events: all;
 }
@@ -60,8 +60,8 @@ html, body {
 }
 
 .popup-picture {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 
 @media only screen and (min-width: 500px) {
