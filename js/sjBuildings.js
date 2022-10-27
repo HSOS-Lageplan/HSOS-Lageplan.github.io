@@ -47,6 +47,8 @@ function setBuildingColor(id, done) {
         case 14:
             setColor(SL, done);
             break;
+        case 15:
+            setColor(Mensa, done);
         default:
             break;
     }
