@@ -143,7 +143,7 @@ function getEnTranslation(id) {
         case 71:
             return "This is how you play:"
         case 72:
-            return "Every building which is tinted blue has uncompleted riddles. If you crack their code they appear green. You can find the questions by clicking on the according button. Most of the time you have got to enter a word, number or code in order to solve the riddle. The next question will apeear automaticly after your answer ist right."
+            return "Every building which is tinted blue has uncompleted riddles. If you crack their code they appear green. You can find the questions by clicking on the according button. Most of the time you have got to enter a word, number or code in order to solve the riddle. The next question will appear automaticly after your answer is right."
         case 73:
             return "Have fun!"
         case 74:
@@ -162,12 +162,8 @@ function getEnTranslation(id) {
             return "Skip Question"
         case 81:
             return "Reset"
-        case 100:
-            return "deanship IuI";
         case 101:
             return "VDE";
-        case 102:
-            return "ServiceDesk";
         case 103:
             return "Center for International Students";
         case 104:
@@ -178,8 +174,6 @@ function getEnTranslation(id) {
             return "staff council";
         case 107:
             return "room of silence";
-        case 108:
-            return "PrinDi";
         case 109:
             return "Administration";
         case 110:

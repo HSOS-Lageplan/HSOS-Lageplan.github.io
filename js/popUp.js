@@ -24,7 +24,7 @@ function createPopUp(name){
 
                     "<h3 class='popUpHeaderConfiguration' class='popUpHeaderConfiguration' class='popUpHeaderConfiguration'> " + translateWithoutScriptHack(9) + "</h3>" +
                     "<ul class='popUpListConfiguration'>" +
-                    "<li>" + translateWithoutScriptHack(108) + "</li>"+
+                    "<li>" + "PrinDi" + "</li>"+
                     "</ul>" +
 
 
@@ -32,7 +32,7 @@ function createPopUp(name){
                     
                     "<ul class='popUpListConfiguration'>" +
                     "<li>" + translateWithoutScriptHack(12) + "</li>"+
-                    "<li>" + translateWithoutScriptHack(100) + "</li>"+
+                    "<li>" + translateWithoutScriptHack(28) + " IuI" + "</li>"+
                     "<li>" + translateWithoutScriptHack(101) + "</li>"+
                     "</ul>" 
 
@@ -61,7 +61,7 @@ function createPopUp(name){
             "<ul class='popUpListConfiguration'>" +
             "<li>" + translateWithoutScriptHack(25) + "</li>"+
             "<li>" + translateWithoutScriptHack(26) + "</li>"+
-            "<li>" + translateWithoutScriptHack(102) + "</li>"+
+            "<li>" + "ServiceDesk" + "</li>"+
             "</ul>" +
             "<h3 class='popUpHeaderConfiguration'> " + translateWithoutScriptHack(4) + " IuI </h3>" +
                     
