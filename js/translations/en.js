@@ -186,6 +186,8 @@ function getEnTranslation(id) {
             return "You only skipped";
         case 111:
             return "questions!";
+        case 112:
+            return "certificate";
         default:
             break;
     }
