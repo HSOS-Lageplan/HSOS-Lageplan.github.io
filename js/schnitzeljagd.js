@@ -10,7 +10,6 @@ for (let i = 0; i < inputs.length; i++) {
 }
 
 if(localStorage.getItem("progress") == null) {
-    localStorage.setItem("progress", "0");
     localStorage.setItem("skipCounter", "0");
     activateWelcomeMessage();
     deactivateCongratulations();
@@ -133,6 +132,9 @@ function skip() {
     localStorage.setItem("skipCounter", parseInt(localStorage.getItem("skipCounter")) + 1);
     applyProgress(parseInt(localStorage.getItem("progress")) + 1);
     localStorage.setItem("progress", parseInt(localStorage.getItem("progress")) + 1)
+    if(localStorage.getItem("progress") == 16) {
+        activateCongratulations();
+    }
 }
 
 function deactivateBuildings(){
@@ -141,9 +143,16 @@ function deactivateBuildings(){
     BC.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
     SN.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
     SR.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
+    SH.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
     SJ.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
     SG.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
     SK.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
     SC.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
     AF.setStyle({fillColor: '#d4d4d4', color: '#aaaaaa'});
 }
+
+document.querySelector("#map").addEventListener("click", function() {
+    if(document.getElementById("question-window").className == "active") {
+        toggleSidebar();
+    }
+});
