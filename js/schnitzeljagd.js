@@ -10,7 +10,6 @@ for (let i = 0; i < inputs.length; i++) {
 }
 
 if(localStorage.getItem("progress") == null) {
-    localStorage.setItem("progress", "0");
     localStorage.setItem("skipCounter", "0");
     activateWelcomeMessage();
     deactivateCongratulations();
