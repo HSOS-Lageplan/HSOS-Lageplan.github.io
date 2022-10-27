@@ -105,7 +105,7 @@ function getEnTranslation(id) {
         case 51:
             return "How many roller doors can you find here?"
         case 52:
-            return "If you go arround the SO building you will find a bright blue house on the other site of the street. If you follow this path towards a lonelny College building you will be greeted by a piece of wood with words written on it. Complete the sentence: '...und langsam häufen sich auf dem Feld die _____ '"
+            return "If you go arround the SO building you will find a bright blue house on the other site of the street. If you follow this path along the Sedanstraße towards a lonely College building you will be greeted by a piece of wood with words written on it. Complete the sentence: '...und langsam häufen sich auf dem Feld die _____ '"
         case 53:
             return "We do not want to stray any further from the path. Head back until you find the SB building and enter it. Go to the upper floor of the building. Turn left and find the seventh room on the right side. Which number does it have?"
         case 54:
