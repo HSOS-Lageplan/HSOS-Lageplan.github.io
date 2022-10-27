@@ -1,10 +1,7 @@
 // set game progress to start if new
 if(localStorage.getItem("progress") == null) {
-<<<<<<< HEAD
-=======
     localStorage.setItem("progress", "0");
     localStorage.setItem("skipCounter", "0");
->>>>>>> 3dbfddb3566c66cd69c477b3c303e78c398845f3
     activateWelcomeMessage();
     deactivateCongratulations();
     applyProgress(localStorage.getItem("progress"));
