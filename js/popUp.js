@@ -177,7 +177,7 @@ function createPopUp(name){
 
                     "<tr>" +
                 
-                    "<th> <i class='fa fa-cutlery'></i> </th>" +
+                    "<th> <i class='fa fa-book'></i> </th>" +
                     "<th> <div class='textNebenIconPlatzierung'>" + translateWithoutScriptHack(14) + "</div> </th>" +
                    
                     "</tr>" + 
