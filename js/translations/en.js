@@ -132,8 +132,6 @@ function getEnTranslation(id) {
             return "All of there riddles have made you hungry, didn't they? Where do you think could you grab something to eat? Before you do that count the ammount of lockers and divide the number by 6."
         case 65:
             return "Library";
-        case 66:
-            return "food";
         case 67:
             return "Questions";
 

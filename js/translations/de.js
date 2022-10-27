@@ -132,8 +132,6 @@ function getDeTranslation(id) {
             return "All diese Rätsel haben hungrig gemacht, oder nicht? Wo kriegt man hier in der Nähe denn wohl was zu essen... Zähle dort alle Schließfächer und teile die Anzahl durch 6."
         case 65:
             return "Bibliothek";
-        case 66:
-            return "Essen";
         case 67:
             return "Fragen";
 
