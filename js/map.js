@@ -6,7 +6,7 @@ const Views = {
 var located = false;
 
 // set view to campus
-var map = L.map('map').setView([52.28443766233468, 8.023298309527929], 17);
+var map = L.map('map').setView([52.28452, 8.02166], 16);
 var view = view = Views.Gps; //start with gps when no location found set to campus
 
 // set view to gps location if found
@@ -38,7 +38,7 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r
 
 function toggleView() {
     if (view == Views.Gps) {
-        map.setView([52.28443766233468, 8.023298309527929], 17);
+        map.setView([52.28452, 8.02166], 16);
         view = Views.Campus;
         document.getElementById("toggle-view-button").innerText = "GPS";
     }
