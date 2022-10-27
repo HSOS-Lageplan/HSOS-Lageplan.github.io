@@ -134,6 +134,8 @@ function getDeTranslation(id) {
             return "Bibliothek";
         case 66:
             return "Essen";
+        case 67:
+            return "Fragen";
         default:
             break;
     }

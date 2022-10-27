@@ -134,7 +134,8 @@ function getEnTranslation(id) {
             return "Library";
         case 66:
             return "food";
-
+        case 67:
+            return "Questions";
         default:
             break;
     }
