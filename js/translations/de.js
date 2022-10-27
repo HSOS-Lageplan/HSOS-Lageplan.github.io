@@ -108,6 +108,8 @@ function getDeTranslation(id) {
             return "Gehst du um das SO-Gebäude herum, kannst du auf der anderen Seite der Straße ein hellblaues Haus sehen. Folge der Sedanstraße in diese Richtung, bis du an ein einsames Hochschul-Gebäude gelangst. Dort wirst du von Worten auf Holz begrüßt. Welches Wort muss hier ergänzt werden: '...und langsam häufen sich auf dem Feld die _____ '" 
         case 53:
             return "So weit draußen wollen wir nicht bleiben. Mache dich auf den Weg zurück. Das Abenteuer führt dich zu dem Gebäude, das man SB nennt. Erreiche das oberste Stockwerk über die Haupttreppe oder den Fahrstuhl. Gehe nun nach links. Welche Nummer hat der 7. Raum auf der rechten Seite?"
+        case 54:
+            return ""
         case 55:
             return "Verlasse das Gebäude und gehe bis zur Mitte der Rasenfläche. Von dort kannst du das folgende Rätsel lösen und weißt somit, in welches Gebäude du als nächstes gehen musst: 'Muss Tag und Nacht auf Wache stehen, hat keine Füße und muss doch gehen, hat keine Hände und muss doch schlagen.'"
         case 56:
@@ -117,7 +119,7 @@ function getDeTranslation(id) {
         case 58:
             return "In dem Gebäude mit Aula, geht Wilhelm Müller aus dem nach ihm benannten Hörsaal. Er hat vor die nächste Toilette aufzusuchen. Als er vor der Tür zur Herrentoilette steht, überlegt er es sich jedoch anders und nimmt die Treppe rechts von ihm. Er geht durch eine Glastür und biegt nach links ab. Dann geht er durch eine weitere Glastür und bleibt stehen. An der Wand ist ein blauer Kreis mit einem Pfeil. Was steht darin?"
         case 59:
-            return "Als nächstes gehe in das Gebäude, das von oben aussieht wie ein kackender Dinosaurier, welcher Richtung Norden blickt. Suche den 3D-Scanner-Raum im ersten Stockwerk. Welche Quersumme ergibt sich aus der Raumnummer?"
+            return "Als nächstes gehe in das Gebäude, das von oben aussieht wie ein Dinosaurier, welcher Richtung Norden blickt. Suche den 3D-Scanner-Raum im ersten Stockwerk. Welche Quersumme ergibt sich aus der Raumnummer?"
         case 60:
             return "Vor dem AA-Gebäude steht ein Basketballkorb. Werfe ein paar Körbe, wenn du magst. Gehe dann zu dem Gebäude, das in Blickrichtung des Korbes liegt. Welche Raumnummer hat die Garage, auf die du hinunterblicken kannst?"
         case 61:
