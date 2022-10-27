@@ -129,7 +129,7 @@ function getEnTranslation(id) {
         case 63:
             return "We turn our back towards the girafe and will now find the frog. In its front yard there are three friends sitting in the gras. What are they made out of?"
         case 64:
-            return "All of there riddles have made you hungry, didn't they? Where do you think could you grab something to eat?"
+            return "All of there riddles have made you hungry, didn't they? Where do you think could you grab something to eat? Before you do that count the ammount of lockers and divide the number by 6."
         case 65:
             return "Library";
         case 66:
