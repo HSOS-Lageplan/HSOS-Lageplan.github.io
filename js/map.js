@@ -39,6 +39,7 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r
 function toggleView() {
     if (view == Views.Gps) {
         map.setView([52.28452, 8.02166], 16);
+        map.stopLocate();
         view = Views.Campus;
         document.getElementById("toggle-view-button").innerText = "GPS";
     }
