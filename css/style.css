@@ -80,6 +80,7 @@ html, body {
 }
 
 #button-wrapper {
+    width: 100%;
     position: absolute;
     margin-top: 10px;
     pointer-events: all;
@@ -125,4 +126,9 @@ img.leaflet-image-layer.leaflet-zoom-animated.leaflet-interactive{
     padding-bottom: 0;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+#toggle-sidebar{
+    float:right;
+    margin-right: 10px;
 }
