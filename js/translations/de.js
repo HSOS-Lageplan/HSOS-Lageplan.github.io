@@ -91,9 +91,9 @@ function getDeTranslation(id) {
         case 44:
             return "Schnitzeljagd"
         case 45:
-            return "Kehrst Du der Mensa den Rücken zu, findest du ein kleines Gebäude, zwischen Hecken versteckt. Dort zu finden ist eine kleine Werkstatt für Zweiräder. Wie heißt sie?"
+            return "Kehrst Du der Mensa den Rücken zu, findest Du ein kleines Gebäude, zwischen Hecken versteckt. Dort zu finden ist eine kleine Werkstatt für Zweiräder. Wie heißt sie?"
         case 46:
-            return "Was bin ich? Ich habe viele Blätter und bin doch kein Baum. Wenn du mich aufmachst, gibt es Wörter und Bilder zu schaun."
+            return "Was bin ich? Ich habe viele Blätter und bin doch kein Baum. Wenn du mich aufmachst, gibt es Wörter und Bilder zu schau'n."
         case 47:
             return "Wo bin ich wohl zu finden? Gehe in das richtige Gebäude und betritt den Raum mit den Schließfächern. Drehe dich nach rechts und betrachte die rechte Wand. Welche Nummer hat das 3. Schließfach von unten, 5. von rechts?"
         case 48:
@@ -181,7 +181,13 @@ function getDeTranslation(id) {
         case 108:
             return "PrinDi";
         case 109:
-            return  "Verwaltung";
+            return "Verwaltung";
+        case 110:
+            return "Du hast nur";
+        case 111:
+            return "mal eine Frage übersprungen!";
+        case 112:
+            return "Urkunde";
         default:
             break;
     }

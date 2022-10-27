@@ -19,11 +19,11 @@ function getEnTranslation(id) {
         case 8:
             return "media lab";
         case 9:
-            return "Universal";
+            return "General";
         case 10:
             return "seminar rooms and laboratories";
         case 11:
-            return "several projects";
+            return "projects";
         case 12:
             return "lecture halls and seminar rooms";
         case 13:
@@ -37,7 +37,7 @@ function getEnTranslation(id) {
         case 17:
             return "validation machine";
         case 18:
-            return "card charger";
+            return "revaluator";
         case 19:
             return "IT training center";
         case 20:
@@ -45,7 +45,7 @@ function getEnTranslation(id) {
         case 21:
             return "Student Council";
         case 22:
-            return "day care center";
+            return "day care";
         case 23:
             return "laboratories and lecture halls";
         case 24:
@@ -83,9 +83,9 @@ function getEnTranslation(id) {
         case 40:
             return "process management";
         case 41:
-            return "law";
+            return "legals";
         case 42:
-            return "study and teaching";
+            return "studying and teaching";
         case 43:
             return "registrar's office";
         case 44:
@@ -182,6 +182,12 @@ function getEnTranslation(id) {
             return "PrinDi";
         case 109:
             return "Administration";
+        case 110:
+            return "You only skipped";
+        case 111:
+            return "questions!";
+        case 112:
+            return "certificate";
         default:
             break;
     }
