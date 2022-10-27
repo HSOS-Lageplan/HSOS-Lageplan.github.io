@@ -19,3 +19,12 @@ function filterFunction() {
     if(count > 0) input.className = "active";
     else input.className = "";
 }
+
+function lostFocus() {
+    div = document.getElementById("input-wrapper");
+    a = div.getElementsByTagName("a");
+    var count = 0;
+    for (i = 0; i < a.length; i++) {
+        a[i].style.display = "none";
+    }
+}
