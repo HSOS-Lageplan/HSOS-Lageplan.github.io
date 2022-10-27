@@ -16,7 +16,7 @@ if(localStorage.getItem("progress") == null) {
     deactivateBuildings();
     applyProgress(localStorage.getItem("progress"));
 } else if (localStorage.getItem("progress") == 16){
-    activateCongratulations();
+    document.getElementById("congratulations-message").className = "active";
 }
 else {
     applyProgress(localStorage.getItem("progress"));
