@@ -20,6 +20,11 @@
     #question-window.active {
         width: 80%;
     }
+    
+    #welcome-message.active{
+        height: 70%;
+        width: 75%;
+    }
 }
 
 #question-window #header {
