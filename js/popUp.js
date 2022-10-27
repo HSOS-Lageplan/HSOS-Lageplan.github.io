@@ -10,7 +10,7 @@ function createPopUp(name){
             
             
                     
-                    "<h3 class='popUpHeaderConfiguration' class='popUpHeaderConfiguration' class='popUpHeaderConfiguration'> " + translateWithoutScriptHack(9) + "</h3>" +
+                    "<h3 class='popUpHeaderConfiguration' class='popUpHeaderConfiguration' class='popUpHeaderConfiguration'> " + translateWithoutScriptHack(109) + "</h3>" +
                     
                     "<ul class='popUpListConfiguration'>" +
                     "<li>" + translateWithoutScriptHack(27) + "</li>"+
@@ -21,6 +21,12 @@ function createPopUp(name){
                     "<li>" + translateWithoutScriptHack(33) + "</li>"+
                     "<li>" + translateWithoutScriptHack(31) + "</li>"+
                     "</ul>" +
+
+                    "<h3 class='popUpHeaderConfiguration' class='popUpHeaderConfiguration' class='popUpHeaderConfiguration'> " + translateWithoutScriptHack(9) + "</h3>" +
+                    "<ul class='popUpListConfiguration'>" +
+                    "<li>" + translateWithoutScriptHack(108) + "</li>"+
+                    "</ul>" +
+
 
                     "<h3 class='popUpHeaderConfiguration' class='popUpHeaderConfiguration' class='popUpHeaderConfiguration'> " + translateWithoutScriptHack(4) + " IuI </h3>" +
                     
@@ -55,11 +61,12 @@ function createPopUp(name){
             "<ul class='popUpListConfiguration'>" +
             "<li>" + translateWithoutScriptHack(25) + "</li>"+
             "<li>" + translateWithoutScriptHack(26) + "</li>"+
+            "<li>" + translateWithoutScriptHack(102) + "</li>"+
             "</ul>" +
             "<h3 class='popUpHeaderConfiguration'> " + translateWithoutScriptHack(4) + " IuI </h3>" +
                     
             "<ul class='popUpListConfiguration'>" +
-            "<li>" + translateWithoutScriptHack(102) + "</li>"+
+            
             "<li>" + translateWithoutScriptHack(103) + "</li>"+
             "<li>" + translateWithoutScriptHack(104) + "</li>"+
             "<li>" + translateWithoutScriptHack(105) + "</li>"+
@@ -74,11 +81,17 @@ function createPopUp(name){
             result = "<h1>" + translateWithoutScriptHack(5) + " AC</h1>" + 
             "<img src='res/images/AC.jpg' class='popup-picture'>" +
                     
-            "<h3 class='popUpHeaderConfiguration'> " + translateWithoutScriptHack(4) + " IuI </h3>" +
+            "<h3 class='popUpHeaderConfiguration'> " + translateWithoutScriptHack(9) + "</h3>" +
                     
             "<ul class='popUpListConfiguration'>" +
-            "<li>" + translateWithoutScriptHack(23) + "</li>"+
-            "</ul>" 
+            "<li>" + translateWithoutScriptHack(107) + "</li>"+
+            "</ul>" +
+            
+            "<h3 class='popUpHeaderConfiguration'> " + translateWithoutScriptHack(4) + " IuI</h3>" +
+                    
+            "<ul class='popUpListConfiguration'>" +
+            "<li>" + translateWithoutScriptHack(12) + "</li>"+
+            "</ul>"
             ;
             
             break;
@@ -104,10 +117,15 @@ function createPopUp(name){
             "<img src='res/images/AE.jpg' class='popup-picture'>" +
            
 
-            "<h3 class='popUpHeaderConfiguration'> " + translateWithoutScriptHack(4) + " IuI </h3>" +
+            "<h3 class='popUpHeaderConfiguration'> " + translateWithoutScriptHack(9) + " </h3>" +
                     
             "<ul class='popUpListConfiguration'>" +
             "<li>AStA</li>"+
+            "</ul>" +
+
+            "<h3 class='popUpHeaderConfiguration'> " + translateWithoutScriptHack(4) + " IuI </h3>" +
+                    
+            "<ul class='popUpListConfiguration'>" +
             "<li>" + translateWithoutScriptHack(21) + " IuI</li>"+
             "</ul>" 
             ;
@@ -119,7 +137,7 @@ function createPopUp(name){
                     "<img src='res/images/AF.jpg' class='popup-picture'>" +
            
 
-            "<h3 class='popUpHeaderConfiguration'> " + translateWithoutScriptHack(4) + " IuI </h3>" +
+            "<h3 class='popUpHeaderConfiguration'> " + translateWithoutScriptHack(109) + "</h3>" +
                     
             "<ul class='popUpListConfiguration'>" +
             "<li>" + translateWithoutScriptHack(34) + "</li>"+
@@ -186,6 +204,13 @@ function createPopUp(name){
                 
                     "<th> <i class='fa fa-credit-card-alt'></i> </th>" +
                     "<th> <div class='textNebenIconPlatzierung'>" + translateWithoutScriptHack(17)+ "</div> </th>" +
+                   
+                    "</tr>" + 
+
+                    "<tr>" +
+                
+                    "<th> <i class='fa fa-money'></i> </th>" +
+                    "<th> <div class='textNebenIconPlatzierung'>" + translateWithoutScriptHack(18) + "</div> </th>" +
                    
                     "</tr>" + 
                 
