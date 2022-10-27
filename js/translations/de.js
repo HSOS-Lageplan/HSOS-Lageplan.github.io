@@ -63,7 +63,7 @@ function getDeTranslation(id) {
         case 30:
             return "Gebäude und Technik";
         case 31:
-            return "Personal";
+            return "Personalabteilung";
         case 32:
             return "International Faculty Office";
         case 33:
@@ -136,6 +136,20 @@ function getDeTranslation(id) {
             return "Essen";
         case 67:
             return "Fragen";
+        case 100:
+            return "Dekanat IuI";
+        case 101:
+            return "VDE";
+        case 102:
+            return "Servicedesk";
+        case 103:
+            return "Center for International Students";
+        case 104:
+            return "Center for International Mobility";
+        case 105:
+            return "Poststelle";
+        case 106:
+            return "Personalrat";
         default:
             break;
     }
