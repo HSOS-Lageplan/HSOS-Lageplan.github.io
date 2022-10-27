@@ -24,6 +24,7 @@ html, body {
     margin-left: 54px;
     margin-top: 10px;
     width: calc(100% - 54px);
+    pointer-events: none;
 }
 
 #input-wrapper #search {
@@ -32,6 +33,7 @@ html, body {
     padding: 5px;
     border: 2px solid rgba(0,0,0,0.2);
     outline: 0;
+    pointer-events: all;
 }
 
 #input-wrapper a {
@@ -43,7 +45,7 @@ html, body {
 }
 
 #input-wrapper a span{
-    float:right;
+    float: right;
     margin-left: 8px;
 }
 
@@ -79,6 +81,7 @@ html, body {
 #button-wrapper {
     position: absolute;
     margin-top: 10px;
+    pointer-events: all;
 }
 
 .button {
