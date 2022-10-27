@@ -37,21 +37,19 @@
     <div id="map"></div>
     <div id="input-wrapper">
       <!-- name = variablenname -->
-      <input type="text" id="search" name="search" onkeyup="filterFunction()" onfocusout="lostFocus()"><script>document.getElementById("search").placeholder = translateWithoutScriptHack(3)</script>
-      <a data-name="AA" id="AA">AA</a><script>document.getElementById("AA").dataset.searchkeywords = "AA " + translateWithoutScriptHack(28)</script>
+      <input type="text" id="search" name="search" placeholder="" onkeyup="filterFunction()"><script>document.getElementById("search").placeholder = translateWithoutScriptHack(3)</script>
+      <a data-name="AA" data-searchKeywords="AB Dekanat">AA</a>
       <a data-name="AB" data-searchKeywords="AB">AB</a>
       <a data-name="AC" data-searchKeywords="AC">AC</a>
       <a data-name="AD" data-searchKeywords="AD">AD</a>
       <a data-name="AE" data-searchKeywords="AE">AE</a>
-      <a data-name="AF" id="AF">AF</a><script>document.getElementById("AF").dataset.searchkeywords = "AF Sekretariat " + translateWithoutScriptHack(43)</script>
+      <a data-name="AF" data-searchKeywords="AF">AF</a>
       <a data-name="BA" data-searchKeywords="BA">BA</a>
       <a data-name="BB" data-searchKeywords="BB">BB</a>
       <a data-name="BC" data-searchKeywords="BC">BC</a>
-      <a data-name="BIB" id="BIB"><script>translate(65);</script></a><script>document.getElementById("BIB").dataset.searchkeywords = translateWithoutScriptHack(65)</script>
+      <a data-name="BIB" data-searchKeywords="BIB Bibliothek library Aufwerter card-charger"><script>translate(65);</script></a>
       <a data-name="MA" data-searchKeywords="MA">MA</a>
-      <a data-name="Mensa" id="Mensa"><script>translate(15);</script><span class='fa fa-cutlery'></span>&nbsp;<span class='fa fa-money'></span></a>
-      <script>document.getElementById("Mensa").dataset.searchkeywords = translateWithoutScriptHack(15) + " " + translateWithoutScriptHack(18) + " " + translateWithoutScriptHack(16) +
-      " " + translateWithoutScriptHack(66) + " " + translateWithoutScriptHack(17)</script>
+      <a data-name="Mensa" data-searchKeywords="Mensa canteen cafeteria essen food"><script>translate(15);</script><span class='fa fa-cutlery'></span>&nbsp;<span class='fa fa-money'></span></a>
       <a data-name="SB" data-searchKeywords="SB">SB</a>
       <a data-name="SC" data-searchKeywords="SC">SC</a>
       <a data-name="SD" data-searchKeywords="SD">SD</a>

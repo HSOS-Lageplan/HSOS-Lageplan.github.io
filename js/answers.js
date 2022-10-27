@@ -39,7 +39,7 @@ function getAnswers(id) {
             answers = ["AD 0039", "AD0039", "0039", "39"]
             break;
         case 12:
-            answers = ["SG"] //Hier wäre die Möglichkeit für Standort-Abfrage
+            answers = ["SG"]
             break;
         case 13:
             answers = ["Giraffe"]
@@ -47,7 +47,9 @@ function getAnswers(id) {
         case 14:
             answers = ["Stein", "Felsen", "Stone", "Boulder"]
             break;
-            answers = ["Mensa"] //Das Finale ist noch nicht fertig          
+        case 15:
+            answers = ["11"]
+            break;
         default:
             break;
     }

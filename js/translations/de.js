@@ -129,7 +129,7 @@ function getDeTranslation(id) {
         case 63:
             return "Von der Giraffe geht es nun zum Frosch! Sie dir den Innenhof im Frosch an. Dort sitzen drei Freunde beisammen, fern von allen Pflanzen. Aus welchem Material sind sie?"
         case 64:
-            return "All diese Rätsel haben hungrig gemacht, oder nicht? Wo kriegt man hier in der Nähe denn wohl was zu essen..."
+            return "All diese Rätsel haben hungrig gemacht, oder nicht? Wo kriegt man hier in der Nähe denn wohl was zu essen... Zähle dort alle Schließfächer und teile die Anzahl durch 6."
         case 65:
             return "Bibliothek";
         case 66:
