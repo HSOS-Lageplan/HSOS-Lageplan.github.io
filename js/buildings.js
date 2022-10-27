@@ -438,37 +438,37 @@ var vSP = SP.getCenter();
 var vSQ = SQ.getCenter();
 var vSR = SR.getCenter();
 
-var latLngBoundsAA = L.latLngBounds([vAA.lat - 0.000055, vAA.lng - 0.0001], [vAA.lat + 0.000055, vAA.lng + 0.0001]);
-var latLngBoundsAB = L.latLngBounds([vAB.lat - 0.000055, vAB.lng - 0.0001], [vAB.lat + 0.000055, vAB.lng + 0.0001]);
-var latLngBoundsAC = L.latLngBounds([vAC.lat - 0.000055, vAC.lng - 0.0001], [vAC.lat + 0.000055, vAC.lng + 0.0001]);
-var latLngBoundsAD = L.latLngBounds([vAD.lat - 0.000055, vAD.lng - 0.0001], [vAD.lat + 0.000055, vAD.lng + 0.0001]);
+var latLngBoundsAA = L.latLngBounds([vAA.lat - 0.0001, vAA.lng - 0.0002], [vAA.lat + 0.0001, vAA.lng + 0.0002]);
+var latLngBoundsAB = L.latLngBounds([vAB.lat - 0.0001, vAB.lng - 0.0002], [vAB.lat + 0.0001, vAB.lng + 0.0002]);
+var latLngBoundsAC = L.latLngBounds([vAC.lat - 0.0001, vAC.lng - 0.0002], [vAC.lat + 0.0001, vAC.lng + 0.0002]);
+var latLngBoundsAD = L.latLngBounds([vAD.lat - 0.0001, vAD.lng - 0.0002], [vAD.lat + 0.0001, vAD.lng + 0.0002]);
 var latLngBoundsAE = L.latLngBounds([vAE.lat - 0.000055, vAE.lng - 0.0001], [vAE.lat + 0.000055, vAE.lng + 0.0001]);
-var latLngBoundsAF = L.latLngBounds([vAF.lat - 0.000055, vAF.lng - 0.0001], [vAF.lat + 0.000055, vAF.lng + 0.0001]);
+var latLngBoundsAF = L.latLngBounds([vAF.lat - 0.0001, vAF.lng - 0.0002], [vAF.lat + 0.0001, vAF.lng + 0.0002]);
 
 var latLngBoundsBA = L.latLngBounds([vBA.lat - 0.000055, vBA.lng - 0.0001], [vBA.lat + 0.000055, vBA.lng + 0.0001]);
 var latLngBoundsBB = L.latLngBounds([vBB.lat - 0.000055, vBB.lng - 0.0001], [vBB.lat + 0.000055, vBB.lng + 0.0001]);
 var latLngBoundsBC = L.latLngBounds([vBC.lat - 0.000055, vBC.lng - 0.0001], [vBC.lat + 0.000055, vBC.lng + 0.0001]);
-var latLngBoundsBIB = L.latLngBounds([vBIB.lat - 0.000055, vBIB.lng - 0.0001], [vBIB.lat + 0.000055, vBIB.lng + 0.0001]);
+var latLngBoundsBIB = L.latLngBounds([vBIB.lat - 0.0001, vBIB.lng - 0.0002], [vBIB.lat + 0.0001, vBIB.lng + 0.0002]);
 
-var latLngBoundsMA = L.latLngBounds([vMA.lat - 0.000055, vMA.lng - 0.0001], [vMA.lat + 0.000055, vMA.lng + 0.0001]);
-var latLngBoundsMensa = L.latLngBounds([vMensa.lat - 0.000055, vMensa.lng - 0.0001], [vMensa.lat + 0.000055, vMensa.lng + 0.0001]);
+var latLngBoundsMA = L.latLngBounds([vMA.lat - 0.0001, vMA.lng - 0.0002], [vMA.lat + 0.0001, vMA.lng + 0.0002]);
+var latLngBoundsMensa = L.latLngBounds([vMensa.lat - 0.00013, vMensa.lng - 0.00025], [vMensa.lat + 0.00013, vMensa.lng + 0.00025]);
 
-var latLngBoundsSB = L.latLngBounds([vSB.lat - 0.000055, vSB.lng - 0.0001], [vSB.lat + 0.000055, vSB.lng + 0.0001]);
-var latLngBoundsSC = L.latLngBounds([vSC.lat - 0.000055, vSC.lng - 0.0001], [vSC.lat + 0.000055, vSC.lng + 0.0001]);
-var latLngBoundsSD = L.latLngBounds([vSD.lat - 0.000055, vSD.lng - 0.0001], [vSD.lat + 0.000055, vSD.lng + 0.0001]);
-var latLngBoundsSE = L.latLngBounds([vSE.lat - 0.000055, vSE.lng - 0.0001], [vSE.lat + 0.000055, vSE.lng + 0.0001]);
-var latLngBoundsSF = L.latLngBounds([vSF.lat - 0.000055, vSF.lng - 0.0001], [vSF.lat + 0.000055, vSF.lng + 0.0001]);
+var latLngBoundsSB = L.latLngBounds([vSB.lat - 0.0001, vSB.lng - 0.0002], [vSB.lat + 0.0001, vSB.lng + 0.0002]);
+var latLngBoundsSC = L.latLngBounds([vSC.lat - 0.00008, vSC.lng - 0.00015], [vSC.lat + 0.00008, vSC.lng + 0.00015]);
+var latLngBoundsSD = L.latLngBounds([vSD.lat - 0.0001, vSD.lng - 0.00015], [vSD.lat + 0.0001, vSD.lng + 0.0002]);
+var latLngBoundsSE = L.latLngBounds([vSE.lat - 0.0001, vSE.lng - 0.0002], [vSE.lat + 0.0001, vSE.lng + 0.0002]);
+var latLngBoundsSF = L.latLngBounds([vSF.lat - 0.00008, vSF.lng - 0.00015], [vSF.lat + 0.00008, vSF.lng + 0.00015]);
 var latLngBoundsSG = L.latLngBounds([vSG.lat - 0.000055, vSG.lng - 0.0001], [vSG.lat + 0.000055, vSG.lng + 0.0001]);
-var latLngBoundsSH = L.latLngBounds([vSH.lat - 0.000055, vSH.lng - 0.0001], [vSH.lat + 0.000055, vSH.lng + 0.0001]);
-var latLngBoundsSI = L.latLngBounds([vSI.lat - 0.000055, vSI.lng - 0.0001], [vSI.lat + 0.000055, vSI.lng + 0.0001]);
+var latLngBoundsSH = L.latLngBounds([vSH.lat - 0.00008, vSH.lng - 0.00015], [vSH.lat + 0.00008, vSH.lng + 0.00015]);
+var latLngBoundsSI = L.latLngBounds([vSI.lat - 0.0001, vSI.lng - 0.0002], [vSI.lat + 0.0001, vSI.lng + 0.0002]);
 var latLngBoundsSJ = L.latLngBounds([vSJ.lat - 0.000055, vSJ.lng - 0.0001], [vSJ.lat + 0.000055, vSJ.lng + 0.0001]);
-var latLngBoundsSK = L.latLngBounds([vSK.lat - 0.000055, vSK.lng - 0.0001], [vSK.lat + 0.000055, vSK.lng + 0.0001]);
-var latLngBoundsSL = L.latLngBounds([vSL.lat - 0.000055, vSL.lng - 0.0001], [vSL.lat + 0.000055, vSL.lng + 0.0001]);
-var latLngBoundsSN = L.latLngBounds([vSN.lat - 0.000055, vSN.lng - 0.0001], [vSN.lat + 0.000055, vSN.lng + 0.0001]);
-var latLngBoundsSO = L.latLngBounds([vSO.lat - 0.000055, vSO.lng - 0.0001], [vSO.lat + 0.000055, vSO.lng + 0.0001]);
-var latLngBoundsSP = L.latLngBounds([vSP.lat - 0.000055, vSP.lng - 0.0001], [vSP.lat + 0.000055, vSP.lng + 0.0001]);
-var latLngBoundsSQ = L.latLngBounds([vSQ.lat - 0.000055, vSQ.lng - 0.0001], [vSQ.lat + 0.000055, vSQ.lng + 0.0001]);
-var latLngBoundsSR = L.latLngBounds([vSR.lat - 0.000055, vSR.lng - 0.0001], [vSR.lat + 0.000055, vSR.lng + 0.0001]);
+var latLngBoundsSK = L.latLngBounds([vSK.lat - 0.00008, vSK.lng - 0.00015], [vSK.lat + 0.00008, vSK.lng + 0.00015]);
+var latLngBoundsSL = L.latLngBounds([vSL.lat - 0.0001, vSL.lng - 0.0002], [vSL.lat + 0.0001, vSL.lng + 0.0002]);
+var latLngBoundsSN = L.latLngBounds([vSN.lat - 0.0001, vSN.lng - 0.0002], [vSN.lat + 0.0001, vSN.lng + 0.0002]);
+var latLngBoundsSO = L.latLngBounds([vSO.lat - 0.0001, vSO.lng - 0.0002], [vSO.lat + 0.0001, vSO.lng + 0.0002]);
+var latLngBoundsSP = L.latLngBounds([vSP.lat - 0.0001, vSP.lng - 0.0002], [vSP.lat + 0.0001, vSP.lng + 0.0002]);
+var latLngBoundsSQ = L.latLngBounds([vSQ.lat - 0.0001, vSQ.lng - 0.0002], [vSQ.lat + 0.0001, vSQ.lng + 0.0002]);
+var latLngBoundsSR = L.latLngBounds([vSR.lat - 0.00008, vSR.lng - 0.00015], [vSR.lat + 0.00008, vSR.lng + 0.00015]);
 
 var imageOverlayAA = L.imageOverlay(imageUrlAA, latLngBoundsAA, {
     zIndex: 10000,
