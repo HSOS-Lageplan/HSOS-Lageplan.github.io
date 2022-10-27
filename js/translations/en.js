@@ -21,7 +21,7 @@ function getEnTranslation(id) {
         case 9:
             return "universal";
         case 10:
-            return "seminar rooms and laboratories";  
+            return "seminar rooms and laboratories";
         case 11:
             return "several projects";
         case 12:
@@ -88,14 +88,14 @@ function getEnTranslation(id) {
             return "study and teaching";
         case 43:
             return "registrar's office";
-        case 44:            
+        case 44:
             return "Scavenger Hunt";
         case 45:
             return "If you turn your back to the cafeteria you will see a little house in between the bushes. There you will find a workshop for bicycles. What is the name of the building?"
         case 46:
             return "I have no voice and yet I speak to you, I tell of all things in the world that people do. I have leaves, but I am not a tree, I have pages, but I am not a bride or royalty. What am I?"
         case 47:
-            return "Where can you find me? Go to the fitting building and enter the lockerroom. Turn to the right and look at the wall. Which number does the fifth locker from the left and third from the bottom have? "
+            return "Where can you find me? Go to the fitting building and enter the lockerroom. Turn to the right and look at the wall. Which number does the fifth locker from the right and third from the bottom have? "
         case 48:
             return "Nearby you will find three buildings connected by a bridge. In order to complete the next riddle you will have to complete the next 3 riddles and connect the three answers in the correct order. Then you will have the next clue."
         case 49:
@@ -179,4 +179,4 @@ function getEnTranslation(id) {
         default:
             break;
     }
-}   
+}

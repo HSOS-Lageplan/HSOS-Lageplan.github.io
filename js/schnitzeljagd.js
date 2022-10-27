@@ -109,7 +109,7 @@ function getPrice(username) {
   if (username != null){
     document.getElementById("usernamePrice").innerText = username;
   }
-  document.getElementsById("skipCounter").innerText = localStorage.getItem("skipCounter");
+  document.getElementById("skipCounter").innerText = parseInt(localStorage.getItem("skipCounter"));
 }
 
 function getUserName() {
