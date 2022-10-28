@@ -157,7 +157,7 @@ function getDeTranslation(id) {
         case 78:
             return "Fertig!"
         case 79:
-            return "Sind Sie sicher, dass wie all Ihren Fortschritt zurück setzen wollen?"
+            return "Sind Sie sicher, dass Sie all Ihren Fortschritt zurück setzen wollen?"
         case 80:
             return "Frage lösen"
         case 81:
@@ -177,7 +177,7 @@ function getDeTranslation(id) {
         case 109:
             return "Verwaltung";
         case 110:
-            return "hat die Westerberg-Schnitzeljagd erfolfreich abgeschlossen und dabei ";
+            return "hat die Westerberg-Schnitzeljagd erfolgreich abgeschlossen und dabei ";
         case 111:
             return "mal eine Frage übersprungen!";
         case 112:
