@@ -134,6 +134,7 @@ function getPrice(username) {
   deactivateCongratulations();
   var x = document.getElementById("price");
   x.style.display = "block";
+  x.style.backgroundImage = "url('./res/schnitzeljagd/paper.jpg')";
   if (username != null){
     document.getElementById("usernamePrice").innerText = username;
   }
