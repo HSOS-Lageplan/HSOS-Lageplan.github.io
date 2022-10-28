@@ -374,6 +374,14 @@ var SR = L.polygon([
     [52.2854033,8.0209491]
 ]).addTo(map).bindPopup(createPopUp(SR)).setStyle({fillOpacity: 0.7});
 
+var UA = L.polygon([ //genauere coords hinzufügen sobald verfügbar in open street maps
+    [52.28900985361729, 8.016195903940247],
+    [52.28849960841965, 8.01602156034941],
+    [52.28839624613646, 8.016869138421784],
+    [52.28892618037035, 8.017013977712633]
+]).addTo(map).bindPopup(createPopUp(UA)).setStyle({fillOpacity: 0.7});
+
+//UA Gebäude Icon hinzufügen
 var imageUrlAA = 'res/icons/AA.png';
 var imageUrlAB = 'res/icons/AB.png';
 var imageUrlAC = 'res/icons/AC.png';
