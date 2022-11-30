@@ -1,5 +1,5 @@
 Interaktiver Lageplan des Campus Westerberg der Hochschule Osnabrück als WebApp
-mit zusätzlicher Schnitzeljadg
+mit zusätzlicher Schnitzeljagd
 
 https://hsos-lageplan.github.io/
 
