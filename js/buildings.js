@@ -374,14 +374,13 @@ var SR = L.polygon([
     [52.2854033,8.0209491]
 ]).addTo(map).bindPopup(createPopUp(SR)).setStyle({fillOpacity: 0.7});
 
-var UA = L.polygon([ //genauere coords hinzufügen sobald verfügbar in open street maps
+var UA = L.polygon([ //TODO: genauere coords hinzufügen sobald verfügbar in open street maps
     [52.28900985361729, 8.016195903940247],
     [52.28849960841965, 8.01602156034941],
     [52.28839624613646, 8.016869138421784],
     [52.28892618037035, 8.017013977712633]
 ]).addTo(map).bindPopup(createPopUp(UA)).setStyle({fillOpacity: 0.7});
 
-//UA Gebäude Icon hinzufügen
 var imageUrlAA = 'res/icons/AA.png';
 var imageUrlAB = 'res/icons/AB.png';
 var imageUrlAC = 'res/icons/AC.png';
@@ -413,6 +412,8 @@ var imageUrlSO = 'res/icons/SO.png';
 var imageUrlSP = 'res/icons/SP.png';
 var imageUrlSQ = 'res/icons/SQ.png';
 var imageUrlSR = 'res/icons/SR.png';
+
+var imageUrlUA = 'res/icons/UA.png';
 
 var vAA = AA.getCenter();
 var vAB = AB.getCenter();
@@ -446,6 +447,8 @@ var vSP = SP.getCenter();
 var vSQ = SQ.getCenter();
 var vSR = SR.getCenter();
 
+var vUA = UA.getCenter();
+
 var latLngBoundsAA = L.latLngBounds([vAA.lat - 0.0001, vAA.lng - 0.0002], [vAA.lat + 0.0001, vAA.lng + 0.0002]);
 var latLngBoundsAB = L.latLngBounds([vAB.lat - 0.0001, vAB.lng - 0.0002], [vAB.lat + 0.0001, vAB.lng + 0.0002]);
 var latLngBoundsAC = L.latLngBounds([vAC.lat - 0.0001, vAC.lng - 0.0002], [vAC.lat + 0.0001, vAC.lng + 0.0002]);
@@ -477,6 +480,8 @@ var latLngBoundsSO = L.latLngBounds([vSO.lat - 0.0001, vSO.lng - 0.0002], [vSO.l
 var latLngBoundsSP = L.latLngBounds([vSP.lat - 0.0001, vSP.lng - 0.0002], [vSP.lat + 0.0001, vSP.lng + 0.0002]);
 var latLngBoundsSQ = L.latLngBounds([vSQ.lat - 0.0001, vSQ.lng - 0.0002], [vSQ.lat + 0.0001, vSQ.lng + 0.0002]);
 var latLngBoundsSR = L.latLngBounds([vSR.lat - 0.00008, vSR.lng - 0.00015], [vSR.lat + 0.00008, vSR.lng + 0.00015]);
+
+var latLngBoundsUA = L.latLngBounds([vUA.lat - 0.00008, vUA.lng - 0.00015], [vUA.lat + 0.00008, vUA.lng + 0.00015]);
 
 var imageOverlayAA = L.imageOverlay(imageUrlAA, latLngBoundsAA, {
     zIndex: 10000,
@@ -617,6 +622,12 @@ var imageOverlaySQ = L.imageOverlay(imageUrlSQ, latLngBoundsSQ, {
     interactive: true
 }).addTo(map);
 var imageOverlaySR = L.imageOverlay(imageUrlSR, latLngBoundsSR, {
+    zIndex: 10000,
+    opacity: 1,
+    interactive: true
+}).addTo(map);
+
+var imageOverlayUA = L.imageOverlay(imageUrlUA, latLngBoundsUA, {
     zIndex: 10000,
     opacity: 1,
     interactive: true

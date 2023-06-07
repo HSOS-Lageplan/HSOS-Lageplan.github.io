@@ -413,8 +413,9 @@ function createPopUp(name){
             
         break;
 
-        case UA: //Bild hinzufügen
+        case UA:
             result = "<h1>" + translateWithoutScriptHack(5) + " UA</h1>" + 
+                    "<img src='res/images/UA.jpg' class='popup-picture'>"+
                     "<h3 class='popUpHeaderConfiguration'>" + translateWithoutScriptHack(4) + " IuI</h3>";
             
         break;
